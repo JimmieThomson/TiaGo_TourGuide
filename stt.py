@@ -6,7 +6,7 @@ import os
             
 def speech_recognize_continuous():
     """performs continuous speech recognition with input from an audio file"""
-    speech_config = speechsdk.SpeechConfig(subscription='5d10d6bf9d3f4c1088657244c8c9a1e4', region='eastus')  
+    speech_config = speechsdk.SpeechConfig(subscription=os.environ.get('AZURE_API_KEY'), region=os.environ.get('AZURE_REGION'))
     speech_config.speech_recognition_language="en-US"
     # Set the desired device index (replace with your actual device index)
     device_index = 1
