@@ -1,0 +1,108 @@
+catkin_create_pkg depth_image_to_laserscan rospy sensor_msgs std_msgs
+
+touch src/depth_image_to_laserscan_node.py
+chmod +x src/depth_image_to_laserscan_node.py
+
+
+#!/usr/bin/env python
+
+import rospy
+import numpy as np
+import cv2
+from sensor_msgs.msg import Image, LaserScan
+from cv_bridge import CvBridge, CvBridgeError
+
+class DepthImageToLaserScan:
+    def __init__(self):
+        self.bridge = CvBridge()
+        self.depth_image_topic = rospy.get_param('~depth_image_topic', '/camera/depth/image_raw')
+        self.laser_scan_topic = rospy.get_param('~laser_scan_topic', '/scan')
+        self.output_frame_id = rospy.get_param('~output_frame_id', 'camera_depth_frame')
+        self.range_min = rospy.get_param('~range_min', 0.5)
+        self.range_max = rospy.get_param('~range_max', 10.0)
+        self.scan_height = rospy.get_param('~scan_height', 10)
+        
+        self.depth_sub = rospy.Subscriber(self.depth_image_topic, Image, self.depth_image_callback)
+        self.scan_pub = rospy.Publisher(self.laser_scan_topic, LaserScan, queue_size=10)
+
+    def depth_image_callback(self, data):
+        try:
+            cv_image = self.bridge.imgmsg_to_cv2(data, desired_encoding='passthrough')
+        except CvBridgeError as e:
+            rospy.logerr(e)
+            return
+
+        height, width = cv_image.shape
+        center_row = height // 2
+
+        if self.scan_height % 2 == 0:
+            row_start = center_row - self.scan_height // 2
+            row_end = center_row + self.scan_height // 2
+        else:
+            row_start = center_row - self.scan_height // 2
+            row_end = center_row + self.scan_height // 2 + 1
+
+        depth_slice = cv_image[row_start:row_end, :]
+        depth_array = np.mean(depth_slice, axis=0)
+
+        scan = LaserScan()
+        scan.header.stamp = rospy.Time.now()
+        scan.header.frame_id = self.output_frame_id
+        scan.angle_min = -np.pi / 2
+        scan.angle_max = np.pi / 2
+        scan.angle_increment = np.pi / width
+        scan.time_increment = 0.0
+        scan.scan_time = 0.033
+        scan.range_min = self.range_min
+        scan.range_max = self.range_max
+        scan.ranges = [depth if self.range_min < depth < self.range_max else float('inf') for depth in depth_array]
+
+        self.scan_pub.publish(scan)
+
+if __name__ == '__main__':
+    rospy.init_node('depth_image_to_laserscan_node', anonymous=True)
+    depth_image_to_laserscan = DepthImageToLaserScan()
+    try:
+        rospy.spin()
+    except KeyboardInterrupt:
+        rospy.loginfo("Shutting down depth_image_to_laserscan_node")
+
+
+
+install(PROGRAMS
+  src/depth_image_to_laserscan_node.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+
+
+<exec_depend>rospy</exec_depend>
+<exec_depend>sensor_msgs</exec_depend>
+<exec_depend>cv_bridge</exec_depend>
+<exec_depend>image_geometry</exec_depend>
+
+
+
+<launch>
+  <node pkg="depth_image_to_laserscan" type="depth_image_to_laserscan_node.py" name="depth_image_to_laserscan_node" output="screen">
+    <param name="depth_image_topic" value="/camera/depth/image_raw" />
+    <param name="laser_scan_topic" value="/scan" />
+    <param name="output_frame_id" value="camera_depth_frame" />
+    <param name="range_min" value="0.5" />
+    <param name="range_max" value="10.0" />
+    <param name="scan_height" value="10" />
+  </node>
+</launch>
+
+
+
+
+
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+
+
+
+
+roslaunch depth_image_to_laserscan depth_image_to_laserscan.launch
