@@ -1,99 +1,18 @@
-import rospy
 import numpy as np
 import cv2
-from sensor_msgs.msg import Image
-from cv_bridge import CvBridge, CvBridgeError
-from sklearn.cluster import DBSCAN
-
-class LegDetector:
-    def __init__(self):
-        self.bridge = CvBridge()
-        self.depth_image_topic = rospy.get_param('~depth_image_topic', '/camera/depth/image_raw')
-        self.range_min = rospy.get_param('~range_min', 0.5)
-        self.range_max = rospy.get_param('~range_max', 2.0)
-        self.scan_height = rospy.get_param('~scan_height', 10)
-        
-        self.depth_sub = rospy.Subscriber(self.depth_image_topic, Image, self.depth_image_callback)
-
-    def preprocess_depth_image(self, cv_image):
-        binary_depth = np.where((cv_image > self.range_min) & (cv_image < self.range_max), 1.0, 0.0)
-        kernel = np.ones((5, 5), np.uint8)
-        binary_depth = cv2.morphologyEx(binary_depth, cv2.MORPH_CLOSE, kernel)
-        return binary_depth
-
-    def find_contours(self, binary_depth):
-        contours, _ = cv2.findContours(binary_depth.astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        return contours
-
-    def classify_objects(self, contours):
-        classified_objects = []
-        for contour in contours:
-            # Calculate bounding box
-            x, y, w, h = cv2.boundingRect(contour)
-            
-            # Calculate aspect ratio and area
-            aspect_ratio = float(w) / h
-            area = cv2.contourArea(contour)
-            
-            # Assume chair and table legs have specific aspect ratios and areas
-            if 0.1 < aspect_ratio < 0.5 and area > 500:
-                classified_objects.append(('leg', x, y, w, h))
-        
-        return classified_objects
-
-    def visualize_objects(self, cv_image, classified_objects):
-        for obj in classified_objects:
-            if obj[0] == 'leg':
-                x, y, w, h = obj[1], obj[2], obj[3], obj[4]
-                cv_image = cv2.rectangle(cv_image, (x, y), (x+w, y+h), (255, 0, 0), 2)
-        
-        cv2.imshow('Detected Legs', cv_image)
-        cv2.waitKey(1)
-
-    def depth_image_callback(self, data):
-        try:
-            cv_image = self.bridge.imgmsg_to_cv2(data, desired_encoding='passthrough')
-        except CvBridgeError as e:
-            rospy.logerr(e)
-            return
-
-        height, width = cv_image.shape
-        center_row = height // 2
-
-        if self.scan_height % 2 == 0:
-            row_start = center_row - self.scan_height // 2
-            row_end = center_row + self.scan_height // 2
-        else:
-            row_start = center_row - self.scan_height // 2
-            row_end = center_row + self.scan_height // 2 + 1
-
-        depth_slice = cv_image[row_start:row_end, :]
-        depth_array = np.mean(depth_slice, axis=0)
-
-        binary_depth = self.preprocess_depth_image(depth_array)
-        contours = self.find_contours(binary_depth)
-        classified_objects = self.classify_objects(contours)
-
-        self.visualize_objects(cv_image, classified_objects)
-
-if __name__ == '__main__':
-    rospy.init_node('leg_detector', anonymous=True)
-    leg_detector = LegDetector()
-    try:
-        rospy.spin()
-    except KeyboardInterrupt:
-        cv2.destroyAllWindows()
-        rospy.loginfo("Shutting down leg detector node.")
-
-
-
-
-
-<launch>
-  <node pkg="your_package_name" type="leg_detector.py" name="leg_detector" output="screen">
-    <param name="depth_image_topic" value="/camera/depth/image_raw" />
-    <param name="range_min" value="0.5" />
-    <param name="range_max" value="2.0" />
-    <param name="scan_height" value="10" />
-  </node>
-</launch>
+cap = cv2.VideoCapture(0)
+cap.set(3,640) # set Width
+cap.set(4,480) # set Height
+while(True):
+    ret, frame = cap.read()
+    frame = cv2.flip(frame, -1) # Flip camera vertically
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
+    cv2.imshow('frame', frame)
+    cv2.imshow('gray', gray)
+    
+    k = cv2.waitKey(30) & 0xff
+    if k == 27: # press 'ESC' to quit
+        break
+cap.release()
+cv2.destroyAllWindows()
