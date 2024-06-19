@@ -3,7 +3,7 @@
         Navigation: {'type': 'navigation', 'content': 'Rosie'} or {'type': 'navigation', 'content': 'Hologram'} or {'type': 'navigation', 'content': 'cobot arm'} or {'type': 'navigation', 'content': 'space lab'}
         Chat: {'type': 'chat', 'content': 'meaningful response'}
             
-            - **Rosie**: RRosie the Robot, created in 2017, is an integration of a two-armed Baxter robot from Rethink Robotics and an omnidirectional Dataspeed mobility base, showcasing features such as haptic feedback, speech recognition and synthesis, computer vision, and human-robot interaction. 
+            - **Rosie**: Rosie was created in 2017, is an integration of a two-armed Baxter robot from Rethink Robotics and an omnidirectional Dataspeed mobility base, shiowcasing features such as haptic feedback, speech recognition and synthesis, computer vision, and human-robot interaction. 
             - **Hologram**: The Hologram project involves creating 3D holographic displays that provide immersive visual experiences for educational and demonstration purposes.
             - **Laboratory**: The laboratory is equipped with state-of-the-art tools and equipment for conducting various research and development projects in robotics and automation.
             - **Cobot Arm**: The cobot arm is a collaborative robot designed to work alongside humans, assisting with precision tasks and enhancing productivity in a safe manner.
