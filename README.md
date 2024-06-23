@@ -16,3 +16,9 @@ To run the chat agent node: rosrun stt stt_ros
 The api keys are revoked so user need to update the script with the new key.
 
 our workspace on Tiago located at /home/pal/par_2024/ros_ws
+
+We have map on Tiago, this is how we activate it: rosservice call /pal_map_manager/change_map "input: 'vxlab'"
+Path to VX-lab map on Tiago: "/home/pal/.pal/tiago_maps/configurations/vxlab"
+
+
+Command to run Rviz: rosrun rviz rviz -d /root/tiago_public_ws/src/omni_base_navigation/omni_base_2dnav/config/rviz/advanced_navigation.rviz
