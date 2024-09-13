@@ -1,3 +1,48 @@
+<h1 align="center" id="title">TiaGo_TourGuide</h1>
+
+<p align="center"><img src="https://socialify.git.ci/JimmieThomson/TiaGo_TourGuide/image?language=1&amp;name=1&amp;theme=Dark" alt="project-image"></p>
+
+<p id="description">Tiago Tour Guide is a Project based on the VXLab at RMIT University Melbourne. This is the source code provided with both "TiaGo" group and the "Tour Guide" group. Everything to building and creating the source material will be held here as well as the start up guides for the VXLab.</p>
+
+<p align="center"><img src="https://img.shields.io/badge/ubunutu_version-20.04.5-orange" alt="shields"><img src="https://img.shields.io/badge/gitTea-gitea.cdirmit.co-green" alt="shields"><img src="https://img.shields.io/github/contributors/JimmieThomson/TiaGo_TourGuide" alt="shields"><img src="https://img.shields.io/github/commit-activity/w/JimmieThomson/TiaGo_TourGuide" alt="shields"></p>
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Source the tiago public workspace to begin navigation stack</p>
+
+```
+source ./root/tiago_public_ws/devel/setup.sh
+```
+
+<p>2. Start the par_a3 package</p>
+
+```
+rosrun par_a3 move_amcl
+```
+
+<p>3. Source the tts inside Tiago</p>
+
+```
+source ./par_2024/ros_ws/devel../setup.sh
+```
+
+<p>4. Start the tts</p>
+
+```
+rosrun stt stt_ros
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   ROS 1
+*   Ubunutu 20.04.5
+
+<h2>⬅️ Previous README.md</h2>
+
 local_costmap_plugins_omni.yaml: We added the pointcloud to laser as ObstacleLayer
 - name: pointcloud_layer
 type: 'costmap_2d::ObstacleLayer'
