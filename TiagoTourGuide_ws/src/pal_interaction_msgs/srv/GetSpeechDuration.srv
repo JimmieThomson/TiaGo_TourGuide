@@ -1,0 +1,9 @@
+# Same logic as Tts.action goal
+# If text is specified with section and key, it will be used for computing the duration
+# otherwise rawtext will be used  (even if empty)
+I18nText text
+TtsText rawtext
+---
+bool ok
+string[] words
+duration[] word_durations
