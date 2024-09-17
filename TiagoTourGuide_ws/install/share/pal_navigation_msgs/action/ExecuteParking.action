@@ -1,0 +1,10 @@
+#goal definition
+string source_frame
+string target_frame
+bool backwards
+float64 max_lin_vel
+float64 max_rot_vel
+---
+#result definition
+---
+#feedback

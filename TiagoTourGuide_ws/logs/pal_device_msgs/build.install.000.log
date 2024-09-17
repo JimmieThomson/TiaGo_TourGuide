@@ -1,0 +1,330 @@
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedEffectViaTopicParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_TimedBlinkEffect
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedFlowParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedPreProgrammedParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_DoTimedLedEffectActionResult
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedEffectParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_ShutdownAndWakeUpRobot
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_CancelEffect
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_DoTimedLedEffectFeedback
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_DoTimedLedEffectResult
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_DoTimedLedEffectActionFeedback
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_DoTimedLedEffectGoal
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_DoTimedLedEffectActionGoal
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_Bumper
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_DoTimedLedEffectAction
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedFixedColorParams
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_BatteryState
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedGroup
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedRainbowParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_TimedColourEffect
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedDataArrayParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedFadeParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_TimedFadeEffect
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedBlinkParams
+[  0%] Built target _pal_device_msgs_generate_messages_check_deps_LedProgressParams
+[ 21%] Built target pal_device_msgs_generate_messages_py
+[ 21%] Built target std_msgs_generate_messages_cpp
+[ 21%] Built target actionlib_msgs_generate_messages_cpp
+[ 41%] Built target pal_device_msgs_generate_messages_cpp
+[ 41%] Built target std_msgs_generate_messages_lisp
+[ 41%] Built target actionlib_msgs_generate_messages_lisp
+[ 60%] Built target pal_device_msgs_generate_messages_lisp
+[ 60%] Built target actionlib_msgs_generate_messages_eus
+[ 60%] Built target std_msgs_generate_messages_eus
+[ 80%] Built target pal_device_msgs_generate_messages_eus
+[ 80%] Built target std_msgs_generate_messages_nodejs
+[ 80%] Built target actionlib_msgs_generate_messages_nodejs
+[100%] Built target pal_device_msgs_generate_messages_nodejs
+[100%] Built target pal_device_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/BatteryState.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/Bumper.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedGroup.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedEffectParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedFixedColorParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedRainbowParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedFadeParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedBlinkParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedProgressParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedFlowParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedDataArrayParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedEffectViaTopicParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/LedPreProgrammedParams.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/srv/CancelEffect.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/srv/TimedBlinkEffect.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/srv/TimedColourEffect.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/srv/TimedFadeEffect.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/action/DoTimedLedEffect.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/cmake/pal_device_msgs-msg-paths.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/DoTimedLedEffectAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedFixedColorParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/CancelEffectResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedFadeEffect.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedFadeParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedGroup.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedDataArrayParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedColourEffectRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedEffectViaTopicParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedColourEffectResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/DoTimedLedEffectActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedPreProgrammedParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/DoTimedLedEffectResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/BatteryState.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/ShutdownAndWakeUpRobotResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/DoTimedLedEffectActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedBlinkEffectRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedColourEffect.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedEffectParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedRainbowParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/DoTimedLedEffectActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedFlowParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedFadeEffectResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedProgressParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedBlinkEffectResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/LedBlinkParams.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/ShutdownAndWakeUpRobotRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/CancelEffectRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedFadeEffectRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/ShutdownAndWakeUpRobot.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/CancelEffect.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/DoTimedLedEffectGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/TimedBlinkEffect.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/DoTimedLedEffectFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_device_msgs/Bumper.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/manifest.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedEffectParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedFixedColorParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/BatteryState.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedFadeParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedPreProgrammedParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedGroup.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/Bumper.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedRainbowParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/DoTimedLedEffectFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedProgressParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedBlinkParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/DoTimedLedEffectActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedDataArrayParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/DoTimedLedEffectActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/DoTimedLedEffectResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/DoTimedLedEffectAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedEffectViaTopicParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/DoTimedLedEffectGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/msg/LedFlowParams.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/srv/TimedFadeEffect.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/srv/TimedColourEffect.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/srv/TimedBlinkEffect.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/srv/ShutdownAndWakeUpRobot.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_device_msgs/srv/CancelEffect.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedEffectParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedFixedColorParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/DoTimedLedEffectActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/DoTimedLedEffectFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_Bumper.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedFadeParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/DoTimedLedEffectGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedFadeParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_BatteryState.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedDataArrayParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedRainbowParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedProgressParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedPreProgrammedParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedPreProgrammedParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_DoTimedLedEffectGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/DoTimedLedEffectResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedFlowParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/DoTimedLedEffectActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedGroup.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_DoTimedLedEffectFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedDataArrayParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/BatteryState.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedEffectParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedProgressParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedBlinkParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedBlinkParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedEffectViaTopicParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedGroup.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/Bumper.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/DoTimedLedEffectAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedFixedColorParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_DoTimedLedEffectActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_DoTimedLedEffectActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedFlowParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_DoTimedLedEffectAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/LedRainbowParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_LedEffectViaTopicParams.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_DoTimedLedEffectActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/_package_DoTimedLedEffectResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/msg/pal_device_msgs-msg.asd
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/_package_CancelEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/_package_TimedBlinkEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/_package_ShutdownAndWakeUpRobot.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/_package.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/CancelEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/_package_TimedFadeEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/TimedColourEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/TimedFadeEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/ShutdownAndWakeUpRobot.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/TimedBlinkEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/_package_TimedColourEffect.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_device_msgs/srv/pal_device_msgs-srv.asd
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/_index.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/DoTimedLedEffectFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/Bumper.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedRainbowParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/DoTimedLedEffectAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedPreProgrammedParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedFadeParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedDataArrayParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedFlowParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/_index.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedEffectViaTopicParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/DoTimedLedEffectGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedEffectParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/DoTimedLedEffectResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedBlinkParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/DoTimedLedEffectActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/DoTimedLedEffectActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/BatteryState.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedGroup.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedFixedColorParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/msg/LedProgressParams.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/srv/CancelEffect.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/srv/TimedFadeEffect.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/srv/ShutdownAndWakeUpRobot.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/srv/TimedColourEffect.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/srv/_index.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_device_msgs/srv/TimedBlinkEffect.js
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/__init__.py'...
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_BatteryState.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_Bumper.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedBlinkParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedDataArrayParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedEffectParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedEffectViaTopicParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedFadeParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedFixedColorParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedFlowParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedGroup.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedPreProgrammedParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedProgressParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/_LedRainbowParams.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/msg/__init__.py'...
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/srv'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/srv/_CancelEffect.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/srv/_ShutdownAndWakeUpRobot.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/srv/_TimedBlinkEffect.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/srv/_TimedColourEffect.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/srv/_TimedFadeEffect.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_device_msgs/lib/python3/dist-packages/pal_device_msgs/srv/__init__.py'...
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/__pycache__
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/__init__.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedEffectParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedFlowParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedEffectViaTopicParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedRainbowParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedFadeParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedPreProgrammedParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_Bumper.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedBlinkParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedFixedColorParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedFadeParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_DoTimedLedEffectFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_DoTimedLedEffectActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_DoTimedLedEffectGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedEffectParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_DoTimedLedEffectResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedDataArrayParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedBlinkParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedProgressParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_Bumper.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedGroup.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_DoTimedLedEffectActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_DoTimedLedEffectAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_BatteryState.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_DoTimedLedEffectActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedEffectViaTopicParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedPreProgrammedParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedFlowParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedRainbowParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__pycache__/_LedFixedColorParams.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/__init__.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_BatteryState.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedDataArrayParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedGroup.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_LedProgressParams.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/msg/_DoTimedLedEffectFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/_TimedFadeEffect.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/_TimedBlinkEffect.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/_CancelEffect.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/_ShutdownAndWakeUpRobot.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__pycache__
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__pycache__/_ShutdownAndWakeUpRobot.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__pycache__/_TimedFadeEffect.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__pycache__/_TimedColourEffect.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__pycache__/_TimedBlinkEffect.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__pycache__/_CancelEffect.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/__init__.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_device_msgs/srv/_TimedColourEffect.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/pal_device_msgs.pc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/cmake/pal_device_msgs-msg-extras.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/cmake/pal_device_msgsConfig.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/cmake/pal_device_msgsConfig-version.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_device_msgs/package.xml

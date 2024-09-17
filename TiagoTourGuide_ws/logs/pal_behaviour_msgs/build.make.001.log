@@ -1,0 +1,32 @@
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_PresentationGoal
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourArgument
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_PresentationFeedback
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_PresentationResult
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionGoal
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_PresentationAction
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskFeedback
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskAction
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionFeedback
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionResult
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskGoal
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_PresentationActionGoal
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskResult
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_PresentationActionResult
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_PresentationActionFeedback
+[  0%] Built target _pal_behaviour_msgs_generate_messages_check_deps_BehaviourEvent
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[ 19%] Built target pal_behaviour_msgs_generate_messages_lisp
+[ 40%] Built target pal_behaviour_msgs_generate_messages_py
+[ 61%] Built target pal_behaviour_msgs_generate_messages_eus
+[ 80%] Built target pal_behaviour_msgs_generate_messages_cpp
+[100%] Built target pal_behaviour_msgs_generate_messages_nodejs
+[100%] Built target pal_behaviour_msgs_generate_messages

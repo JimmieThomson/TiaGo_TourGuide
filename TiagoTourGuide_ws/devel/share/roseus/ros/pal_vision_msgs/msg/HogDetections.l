@@ -1,0 +1,1 @@
+/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_vision_msgs/share/roseus/ros/pal_vision_msgs/msg/HogDetections.l

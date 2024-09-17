@@ -1,8 +1,1 @@
-prefix=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel
-
-Name: TiagoTourGuide
-Description: Description of TiagoTourGuide
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/lib/pkgconfig/TiagoTourGuide.pc

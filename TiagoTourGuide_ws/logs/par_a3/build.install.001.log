@@ -1,0 +1,21 @@
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/par_a3.pc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/par_a3/cmake/par_a3Config.cmake
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/par_a3/cmake/par_a3Config-version.cmake
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/par_a3/package.xml
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/par_a3/audio.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/par_a3/depth_to_laserscan.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/par_a3/move_amcl.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/par_a3/webcam_pub.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/par_a3/cv_sub.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/par_a3/head_controller.py

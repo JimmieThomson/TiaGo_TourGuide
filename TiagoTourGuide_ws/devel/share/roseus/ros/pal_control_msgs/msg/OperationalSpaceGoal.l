@@ -1,0 +1,1 @@
+/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_control_msgs/share/roseus/ros/pal_control_msgs/msg/OperationalSpaceGoal.l

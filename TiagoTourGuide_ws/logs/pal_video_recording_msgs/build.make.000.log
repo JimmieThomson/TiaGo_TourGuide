@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target _pal_video_recording_msgs_generate_messages_check_deps_StartRecording[0m
+[  0%] Built target _pal_video_recording_msgs_generate_messages_check_deps_StartRecording
+[35m[1mScanning dependencies of target _pal_video_recording_msgs_generate_messages_check_deps_StopRecording[0m
+[  0%] Built target _pal_video_recording_msgs_generate_messages_check_deps_StopRecording
+[35m[1mScanning dependencies of target pal_video_recording_msgs_generate_messages_nodejs[0m
+[  8%] [34m[1mGenerating Javascript code from pal_video_recording_msgs/StartRecording.srv[0m
+[ 16%] [34m[1mGenerating Javascript code from pal_video_recording_msgs/StopRecording.srv[0m
+[ 16%] Built target pal_video_recording_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target pal_video_recording_msgs_generate_messages_py[0m
+[ 25%] [34m[1mGenerating Python code from SRV pal_video_recording_msgs/StartRecording[0m
+[ 33%] [34m[1mGenerating Python code from SRV pal_video_recording_msgs/StopRecording[0m
+[ 41%] [34m[1mGenerating Python srv __init__.py for pal_video_recording_msgs[0m
+[ 41%] Built target pal_video_recording_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pal_video_recording_msgs_generate_messages_lisp[0m
+[ 50%] [34m[1mGenerating Lisp code from pal_video_recording_msgs/StartRecording.srv[0m
+[ 58%] [34m[1mGenerating Lisp code from pal_video_recording_msgs/StopRecording.srv[0m
+[ 58%] Built target pal_video_recording_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pal_video_recording_msgs_generate_messages_cpp[0m
+[ 66%] [34m[1mGenerating C++ code from pal_video_recording_msgs/StartRecording.srv[0m
+[ 75%] [34m[1mGenerating C++ code from pal_video_recording_msgs/StopRecording.srv[0m
+[ 75%] Built target pal_video_recording_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target pal_video_recording_msgs_generate_messages_eus[0m
+[ 83%] [34m[1mGenerating EusLisp code from pal_video_recording_msgs/StartRecording.srv[0m
+[ 91%] [34m[1mGenerating EusLisp code from pal_video_recording_msgs/StopRecording.srv[0m
+[100%] [34m[1mGenerating EusLisp manifest code for pal_video_recording_msgs[0m
+WARNING: Package name "TiagoTourGuide" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "TiagoTourGuide" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "TiagoTourGuide" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "TiagoTourGuide" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[100%] Built target pal_video_recording_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pal_video_recording_msgs_generate_messages[0m
+[100%] Built target pal_video_recording_msgs_generate_messages

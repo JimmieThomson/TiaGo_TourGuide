@@ -1,0 +1,7 @@
+# Request
+string ns
+---
+# Response
+pal_navigation_msgs/MapConfiguration map_config
+string map_name
+bool success

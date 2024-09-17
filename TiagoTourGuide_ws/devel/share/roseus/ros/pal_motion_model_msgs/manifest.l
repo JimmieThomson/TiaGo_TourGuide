@@ -1,0 +1,1 @@
+/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_motion_model_msgs/share/roseus/ros/pal_motion_model_msgs/manifest.l

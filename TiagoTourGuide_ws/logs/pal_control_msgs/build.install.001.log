@@ -1,0 +1,232 @@
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_MotionManagerActionGoal
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_CurrentLimit
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryFeedback
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionResult
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionGoal
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryAction
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_MotionManagerFeedback
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryResult
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_MotionManagerGoal
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_MotionManagerActionFeedback
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_ActuatorCurrentLimit
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionFeedback
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_MotionManagerActionResult
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryGoal
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryPoint
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_MotionManagerResult
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_OperationalSpaceGoal
+[  0%] Built target _pal_control_msgs_generate_messages_check_deps_MotionManagerAction
+[ 21%] Built target pal_control_msgs_generate_messages_py
+[ 21%] Built target actionlib_msgs_generate_messages_eus
+[ 21%] Built target geometry_msgs_generate_messages_eus
+[ 41%] Built target pal_control_msgs_generate_messages_eus
+[ 41%] Built target actionlib_msgs_generate_messages_cpp
+[ 41%] Built target geometry_msgs_generate_messages_cpp
+[ 61%] Built target pal_control_msgs_generate_messages_cpp
+[ 61%] Built target geometry_msgs_generate_messages_nodejs
+[ 61%] Built target actionlib_msgs_generate_messages_nodejs
+[ 80%] Built target pal_control_msgs_generate_messages_nodejs
+[ 80%] Built target geometry_msgs_generate_messages_lisp
+[ 80%] Built target actionlib_msgs_generate_messages_lisp
+[100%] Built target pal_control_msgs_generate_messages_lisp
+[100%] Built target pal_control_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/ActuatorCurrentLimit.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/OperationalSpaceGoal.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/action/MotionManager.action
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/action/RigidBodyTrajectory.action
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/MotionManagerAction.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/MotionManagerActionGoal.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/MotionManagerActionResult.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/MotionManagerGoal.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/MotionManagerResult.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/MotionManagerFeedback.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/srv/CurrentLimit.srv
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/cmake/pal_control_msgs-msg-paths.cmake
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/CurrentLimit.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryAction.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/MotionManagerFeedback.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryActionResult.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryFeedback.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/CurrentLimitResponse.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/MotionManagerActionResult.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/OperationalSpaceGoal.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryPoint.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/CurrentLimitRequest.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryResult.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryActionGoal.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/MotionManagerResult.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryActionFeedback.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/MotionManagerAction.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/ActuatorCurrentLimit.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/MotionManagerActionFeedback.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/RigidBodyTrajectoryGoal.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/MotionManagerGoal.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_control_msgs/MotionManagerActionGoal.h
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/manifest.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/ActuatorCurrentLimit.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/MotionManagerActionGoal.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/OperationalSpaceGoal.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/MotionManagerActionResult.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/MotionManagerActionFeedback.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/MotionManagerResult.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/MotionManagerGoal.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/MotionManagerAction.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryAction.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryPoint.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/MotionManagerFeedback.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryResult.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/msg/RigidBodyTrajectoryGoal.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/srv
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_control_msgs/srv/CurrentLimit.l
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_OperationalSpaceGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryActionResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryPoint.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/MotionManagerAction.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_MotionManagerActionGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryAction.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/MotionManagerActionGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/pal_control_msgs-msg.asd
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/OperationalSpaceGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_MotionManagerFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/MotionManagerResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryAction.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/ActuatorCurrentLimit.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/MotionManagerActionResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryActionGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/MotionManagerFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_MotionManagerActionResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryActionFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryPoint.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_MotionManagerActionFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/MotionManagerActionFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_RigidBodyTrajectoryResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_MotionManagerGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_MotionManagerResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_ActuatorCurrentLimit.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/MotionManagerGoal.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/msg/_package_MotionManagerAction.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/srv
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/srv/_package_CurrentLimit.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/srv/_package.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/srv/CurrentLimit.lisp
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_control_msgs/srv/pal_control_msgs-srv.asd
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/_index.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryResult.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryPoint.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/MotionManagerGoal.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/MotionManagerActionGoal.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryGoal.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/ActuatorCurrentLimit.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/MotionManagerActionResult.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/MotionManagerFeedback.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/_index.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/MotionManagerAction.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/MotionManagerResult.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/OperationalSpaceGoal.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryAction.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/msg/MotionManagerActionFeedback.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/srv
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/srv/_index.js
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_control_msgs/srv/CurrentLimit.js
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_control_msgs/lib/python3/dist-packages/pal_control_msgs'...
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_control_msgs/lib/python3/dist-packages/pal_control_msgs/msg'...
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_control_msgs/lib/python3/dist-packages/pal_control_msgs/srv'...
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/__pycache__
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/__pycache__/__init__.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/__init__.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryResult.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionGoal.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerFeedback.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryFeedback.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionFeedback.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryActionFeedback.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_MotionManagerFeedback.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_MotionManagerActionResult.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryAction.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryActionGoal.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_MotionManagerAction.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryResult.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryFeedback.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_MotionManagerResult.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/__init__.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_OperationalSpaceGoal.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_MotionManagerActionGoal.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryActionResult.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_MotionManagerActionFeedback.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_ActuatorCurrentLimit.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_MotionManagerGoal.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryPoint.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__pycache__/_RigidBodyTrajectoryGoal.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/__init__.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionResult.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerGoal.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerResult.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionFeedback.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_ActuatorCurrentLimit.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/srv
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/srv/_CurrentLimit.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/srv/__pycache__
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/srv/__pycache__/__init__.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/srv/__pycache__/_CurrentLimit.cpython-38.pyc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_control_msgs/srv/__init__.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/pal_control_msgs.pc
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/cmake/pal_control_msgs-msg-extras.cmake
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/cmake/pal_control_msgsConfig.cmake
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/cmake/pal_control_msgsConfig-version.cmake
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_control_msgs/package.xml

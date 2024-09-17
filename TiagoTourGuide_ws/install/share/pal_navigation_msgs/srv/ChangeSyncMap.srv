@@ -1,0 +1,8 @@
+# Interface for changing the current map
+# Request
+pal_navigation_msgs/MapConfiguration map_config
+string map_name
+string[] sources
+---
+# Response
+bool success

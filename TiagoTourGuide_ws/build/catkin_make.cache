@@ -1,2 +1,0 @@
-TiagoTourGuide:par_a3
--DCATKIN_DEVEL_PREFIX=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel -DCMAKE_INSTALL_PREFIX=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install -G Unix Makefiles

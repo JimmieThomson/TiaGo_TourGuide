@@ -1,0 +1,10 @@
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/par_a3/cmake/par_a3Config-version.cmake
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/par_a3/cmake/par_a3Config.cmake
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/par_a3.pc
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/par_a3/cmake.lock
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/par_a3/cv_sub.py
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/par_a3/head_controller.py
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/par_a3/webcam_pub.py
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/par_a3/depth_to_laserscan.py
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/par_a3/move_amcl.py
+Symlinking /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/par_a3/audio.py

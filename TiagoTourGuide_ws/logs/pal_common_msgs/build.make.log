@@ -1,0 +1,33 @@
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_EmptyGoal
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_EmptyFeedback
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_EmptyResult
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_DisableResult
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_DisableAction
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_EmptyAction
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_DisableFeedback
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_EmptyActionFeedback
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_JointCurrent
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_EmptyActionGoal
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_EmptyActionResult
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_GetString
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_DisableActionGoal
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_DisableActionFeedback
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_SetString
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_DisableActionResult
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _pal_common_msgs_generate_messages_check_deps_DisableGoal
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 19%] Built target pal_common_msgs_generate_messages_cpp
+[ 40%] Built target pal_common_msgs_generate_messages_py
+[ 61%] Built target pal_common_msgs_generate_messages_eus
+[ 80%] Built target pal_common_msgs_generate_messages_nodejs
+[100%] Built target pal_common_msgs_generate_messages_lisp
+[100%] Built target pal_common_msgs_generate_messages

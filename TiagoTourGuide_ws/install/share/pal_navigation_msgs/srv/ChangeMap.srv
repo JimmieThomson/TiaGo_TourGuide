@@ -1,0 +1,6 @@
+# Interface for changing the current map
+# Request
+nav_msgs/OccupancyGrid map
+---
+# Response
+bool success

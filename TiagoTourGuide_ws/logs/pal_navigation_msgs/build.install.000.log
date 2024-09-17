@@ -1,0 +1,984 @@
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToGoal
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToActionFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ExecuteParkingActionResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ChangeBuilding
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FollowWaypointsGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_EulerAngles
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualLocRecognize
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_SetSubMapFloor
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_SetPOI
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_SetMapConfiguration
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ExecuteParkingFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FollowWaypointsActionGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_DisableEmergency
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ExecuteParkingResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ExecuteParkingGoal
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToAction
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_SaveMap
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FollowWaypointsActionFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_MapConfiguration
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToActionResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualTrainingGoal
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_PolarReadingScan
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GetSubMap
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ServiceStatus
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_LaserImage
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ChangeMap
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ChangeSyncMap
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FinalApproachPose
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_Acknowledgment
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ListMaps
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GetMapConfiguration
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GetPOI
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_RegisterSync
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ExecuteParkingAction
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_SafetyZone
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyPriorityResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualTrainingAction
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GetNodes
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyTurboGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyTurboResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ExecuteParkingActionGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyPriorityActionResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_AvailableMaps
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToPOIActionResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FollowWaypointsActionResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToPOIActionFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToPOIGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToPOIResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_POIGroup
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_Highways
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToPOIFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToActionGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualTrainingActionResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_MissedWaypoint
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualTrainingActionFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualTrainingResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_NavigationStatus
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyTurboFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualLocDB
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_NiceMapTransformation
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_POI
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualTrainingFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToPOIAction
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_PolarReading
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToPOIActionGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_VisualTrainingActionGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_ExecuteParkingActionFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FollowWaypointsAction
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_TabletPOI
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_GoToFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FollowWaypointsResult
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_Emergency
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_FollowWaypointsFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyPriorityAction
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyPriorityActionGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_RenameMap
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_Waypoint
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyPriorityActionFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyPriorityGoal
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyPriorityFeedback
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_EulerAnglesStamped
+[  0%] Built target _pal_navigation_msgs_generate_messages_check_deps_JoyTurboAction
+[ 20%] Built target pal_navigation_msgs_generate_messages_eus
+[ 20%] Built target sensor_msgs_generate_messages_py
+[ 20%] Built target geometry_msgs_generate_messages_py
+[ 20%] Built target nav_msgs_generate_messages_py
+[ 20%] Built target actionlib_msgs_generate_messages_py
+[ 40%] Built target pal_navigation_msgs_generate_messages_py
+[ 40%] Built target sensor_msgs_generate_messages_nodejs
+[ 40%] Built target nav_msgs_generate_messages_nodejs
+[ 40%] Built target geometry_msgs_generate_messages_nodejs
+[ 40%] Built target actionlib_msgs_generate_messages_nodejs
+[ 60%] Built target pal_navigation_msgs_generate_messages_nodejs
+[ 60%] Built target nav_msgs_generate_messages_lisp
+[ 60%] Built target sensor_msgs_generate_messages_lisp
+[ 60%] Built target actionlib_msgs_generate_messages_lisp
+[ 60%] Built target geometry_msgs_generate_messages_lisp
+[ 79%] Built target pal_navigation_msgs_generate_messages_lisp
+[ 79%] Built target geometry_msgs_generate_messages_cpp
+[ 79%] Built target sensor_msgs_generate_messages_cpp
+[ 79%] Built target nav_msgs_generate_messages_cpp
+[ 79%] Built target actionlib_msgs_generate_messages_cpp
+[100%] Built target pal_navigation_msgs_generate_messages_cpp
+[100%] Built target pal_navigation_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/action/ExecuteParking.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/action/FollowWaypoints.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/action/JoyPriority.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/action/JoyTurbo.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/action/GoToPOI.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/action/GoTo.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/action/VisualTraining.action
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyPriorityAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyTurboAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyTurboResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToPOIAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToPOIResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/GoToFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualTrainingAction.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/AvailableMaps.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/Emergency.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/EulerAngles.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/EulerAnglesStamped.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/MapConfiguration.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/MissedWaypoint.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/NavigationStatus.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/NiceMapTransformation.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/POI.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/POIGroup.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/PolarReading.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/PolarReadingScan.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/ServiceStatus.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/TabletPOI.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/VisualLocDB.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/Highways.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/LaserImage.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/msg/Waypoint.msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/Acknowledgment.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/ChangeBuilding.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/ChangeMap.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/ChangeSyncMap.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/DisableEmergency.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/FinalApproachPose.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/ListMaps.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/GetMapConfiguration.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/GetNodes.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/GetPOI.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/GetSubMap.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/RegisterSync.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/SafetyZone.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/SaveMap.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/SetMapConfiguration.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/SetPOI.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/SetSubMapFloor.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/VisualLocRecognize.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/srv/RenameMap.srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/cmake/pal_navigation_msgs-msg-paths.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyPriorityFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyTurboResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyPriorityResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ServiceStatus.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyPriorityActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/NiceMapTransformation.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/RegisterSyncRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SafetyZone.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToPOIFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetPOI.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/TabletPOI.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyTurboActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SafetyZoneRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SaveMapRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeBuildingResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/MapConfiguration.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/RenameMap.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetSubMapResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/DisableEmergencyResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/PolarReadingScan.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FollowWaypointsActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SaveMap.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToPOIActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualTrainingActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetSubMapRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToPOIAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualTrainingActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/EulerAnglesStamped.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SafetyZoneResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/RenameMapResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/Acknowledgment.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/POI.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SaveMapResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeBuilding.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/AvailableMaps.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ListMapsResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/EulerAngles.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualTrainingResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetMapConfigurationRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyTurboFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeMap.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ExecuteParkingActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/Waypoint.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FollowWaypointsActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualTrainingAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/MissedWaypoint.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeBuildingRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/RegisterSyncResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FinalApproachPose.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ListMaps.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeSyncMap.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToPOIGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetSubMapFloor.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetPOIRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyPriorityGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/AcknowledgmentResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetNodesResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FollowWaypointsAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/PolarReading.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ExecuteParkingResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetPOIResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ListMapsRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/LaserImage.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetMapConfigurationResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetMapConfigurationRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/POIGroup.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FollowWaypointsResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetMapConfigurationResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FinalApproachPoseRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualTrainingGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetNodes.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ExecuteParkingFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualLocDB.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualLocRecognize.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ExecuteParkingAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetSubMapFloorResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualTrainingFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/DisableEmergency.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetMapConfiguration.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FollowWaypointsFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/RenameMapRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyPriorityActionResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetNodesRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToPOIResult.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/Highways.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyPriorityActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/NavigationStatus.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualLocRecognizeRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToPOIActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualTrainingActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyPriorityAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetSubMap.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyTurboActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/VisualLocRecognizeResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeMapResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/Emergency.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetSubMapFloorRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToPOIActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FollowWaypointsGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyTurboAction.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetPOIResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GoToGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeSyncMapResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/RegisterSync.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeMapRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyTurboActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/DisableEmergencyRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ChangeSyncMapRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/GetPOIRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/AcknowledgmentRequest.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ExecuteParkingGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetPOI.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/JoyTurboGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/ExecuteParkingActionGoal.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/FinalApproachPoseResponse.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_navigation_msgs/SetMapConfiguration.h
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/manifest.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/NavigationStatus.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/MissedWaypoint.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/PolarReading.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyTurboAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyTurboResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ExecuteParkingResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyTurboGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ExecuteParkingAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualTrainingAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyPriorityResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/PolarReadingScan.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/Emergency.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/TabletPOI.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyPriorityActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ExecuteParkingGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/FollowWaypointsAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualTrainingGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToPOIActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/LaserImage.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/Waypoint.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/AvailableMaps.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualTrainingResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToPOIFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/FollowWaypointsResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/EulerAnglesStamped.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ServiceStatus.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/Highways.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ExecuteParkingActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ExecuteParkingFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/POI.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyTurboActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualTrainingFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualLocDB.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/MapConfiguration.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyPriorityFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToPOIGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/NiceMapTransformation.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/EulerAngles.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyPriorityAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/FollowWaypointsFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToPOIAction.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/GoToPOIResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyPriorityGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/JoyTurboFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/VisualTrainingActionGoal.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/msg/POIGroup.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/SetMapConfiguration.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/VisualLocRecognize.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/DisableEmergency.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/RenameMap.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/RegisterSync.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/GetSubMap.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/SetSubMapFloor.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/Acknowledgment.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/GetMapConfiguration.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/FinalApproachPose.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/SafetyZone.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/ChangeMap.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/SaveMap.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/ListMaps.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/ChangeSyncMap.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/GetNodes.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/GetPOI.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/SetPOI.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_navigation_msgs/srv/ChangeBuilding.l
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_POI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualTrainingFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualTrainingResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ExecuteParkingAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyTurboAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualTrainingGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyTurboFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyTurboActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_MapConfiguration.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_PolarReading.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_TabletPOI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ExecuteParkingActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ExecuteParkingResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ExecuteParkingGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ExecuteParkingActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/Highways.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ServiceStatus.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToPOIAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/FollowWaypointsResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/pal_navigation_msgs-msg.asd
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_FollowWaypointsFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyPriorityActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_Highways.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_EulerAngles.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualTrainingActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualTrainingAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyTurboAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/LaserImage.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/EulerAngles.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyPriorityActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/NavigationStatus.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyTurboFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToPOIResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/AvailableMaps.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_FollowWaypointsActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToPOIGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToPOIAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyTurboActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyPriorityFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ExecuteParkingAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/PolarReadingScan.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_POIGroup.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_Waypoint.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/PolarReading.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyPriorityActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/Waypoint.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/FollowWaypointsFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_FollowWaypointsActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_MissedWaypoint.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ExecuteParkingFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/MapConfiguration.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_LaserImage.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualTrainingGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_EulerAnglesStamped.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_FollowWaypointsResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyPriorityAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_NiceMapTransformation.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualLocDB.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyPriorityGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyPriorityResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualTrainingActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyPriorityResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToPOIResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyTurboResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToPOIActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyPriorityActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToPOIFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyPriorityGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_AvailableMaps.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyTurboActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ExecuteParkingGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_FollowWaypointsActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualTrainingResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/POI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_Emergency.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ExecuteParkingActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/POIGroup.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToPOIFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/Emergency.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/EulerAnglesStamped.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyPriorityAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/MissedWaypoint.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyTurboGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToPOIGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualTrainingActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualLocDB.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyTurboActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyTurboGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ExecuteParkingActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ExecuteParkingResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/NiceMapTransformation.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_NavigationStatus.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/JoyPriorityFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToPOIActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_JoyTurboResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToPOIActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualTrainingAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ExecuteParkingFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/FollowWaypointsAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_FollowWaypointsAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToAction.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/TabletPOI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/GoToPOIActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_FollowWaypointsGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/VisualTrainingFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_PolarReadingScan.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_VisualTrainingActionGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_GoToGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/_package_ServiceStatus.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/SafetyZone.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_SetMapConfiguration.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_VisualLocRecognize.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_GetSubMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_ChangeMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/GetSubMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/RenameMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_ChangeSyncMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/SaveMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_GetNodes.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_ChangeBuilding.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_Acknowledgment.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_SafetyZone.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_SetPOI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/ChangeMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_DisableEmergency.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/VisualLocRecognize.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_RegisterSync.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/SetPOI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/ListMaps.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/GetMapConfiguration.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_FinalApproachPose.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/GetNodes.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/ChangeBuilding.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/ChangeSyncMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_ListMaps.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/GetPOI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_GetPOI.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/Acknowledgment.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/pal_navigation_msgs-srv.asd
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_SaveMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_SetSubMapFloor.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/SetMapConfiguration.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/RegisterSync.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/FinalApproachPose.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_RenameMap.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/_package_GetMapConfiguration.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/DisableEmergency.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_navigation_msgs/srv/SetSubMapFloor.lisp
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/_index.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/EulerAngles.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/NiceMapTransformation.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/PolarReadingScan.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/PolarReading.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/NavigationStatus.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualLocDB.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/Emergency.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ServiceStatus.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/LaserImage.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/_index.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/EulerAnglesStamped.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/TabletPOI.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/POIGroup.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/msg/AvailableMaps.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/GetSubMap.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeBuilding.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/SetSubMapFloor.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/Acknowledgment.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/DisableEmergency.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/GetNodes.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/RenameMap.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/_index.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/SaveMap.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/ListMaps.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/SafetyZone.js
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/__init__.py'...
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_AvailableMaps.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_Emergency.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_EulerAngles.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_EulerAnglesStamped.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_NavigationStatus.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_NiceMapTransformation.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_POIGroup.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReading.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_ServiceStatus.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_TabletPOI.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualLocDB.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingFeedback.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingGoal.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingResult.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/msg/__init__.py'...
+Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_Acknowledgment.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeBuilding.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_DisableEmergency.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetNodes.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetSubMap.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_ListMaps.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_RenameMap.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_SafetyZone.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_SaveMap.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetSubMapFloor.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py'...
+Compiling '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/lib/python3/dist-packages/pal_navigation_msgs/srv/__init__.py'...
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/__pycache__
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/__init__.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualLocDB.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_NavigationStatus.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_TabletPOI.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_EulerAnglesStamped.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_AvailableMaps.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_EulerAngles.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_Emergency.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ExecuteParkingActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_PolarReading.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ExecuteParkingAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_FollowWaypointsActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualTrainingActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_PolarReadingScan.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToPOIActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualTrainingFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyTurboGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ExecuteParkingActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_AvailableMaps.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToPOIAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_FollowWaypointsResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualTrainingActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyTurboActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_Highways.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualTrainingResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyPriorityActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_POI.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_FollowWaypointsActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_MapConfiguration.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_MissedWaypoint.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyPriorityAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_TabletPOI.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyPriorityFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ExecuteParkingActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyPriorityResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_FollowWaypointsGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ExecuteParkingResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_FollowWaypointsAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyTurboActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToPOIResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyTurboFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_EulerAngles.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_POIGroup.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_Waypoint.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToPOIFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToPOIGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyTurboAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ExecuteParkingGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyPriorityActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyTurboActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualLocDB.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_EulerAnglesStamped.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyTurboResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_NiceMapTransformation.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualTrainingActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ServiceStatus.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToPOIActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyPriorityGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_LaserImage.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_ExecuteParkingFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_FollowWaypointsFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToPOIActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_JoyPriorityActionFeedback.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_FollowWaypointsActionResult.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_NavigationStatus.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualTrainingAction.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_VisualTrainingGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_GoToActionGoal.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__pycache__/_Emergency.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ServiceStatus.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/__init__.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_NiceMapTransformation.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_POIGroup.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReading.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityFeedback.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetNodes.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetSubMap.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_Acknowledgment.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_SafetyZone.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_RenameMap.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_SaveMap.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_SetPOI.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_GetSubMap.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_SetSubMapFloor.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_SaveMap.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_RenameMap.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_ChangeSyncMap.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_ChangeMap.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_RegisterSync.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_SetMapConfiguration.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_Acknowledgment.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_GetMapConfiguration.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_ListMaps.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_DisableEmergency.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_FinalApproachPose.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_VisualLocRecognize.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_SafetyZone.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_GetPOI.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_ChangeBuilding.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__pycache__/_GetNodes.cpython-38.pyc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/__init__.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeBuilding.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetSubMapFloor.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_DisableEmergency.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_navigation_msgs/srv/_ListMaps.py
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/pal_navigation_msgs.pc
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/cmake/pal_navigation_msgs-msg-extras.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/cmake/pal_navigation_msgsConfig.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/cmake/pal_navigation_msgsConfig-version.cmake
+-- Installing: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_navigation_msgs/package.xml
