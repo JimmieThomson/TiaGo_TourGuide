@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_vision_msgs/lib/pkgconfig/pal_vision_msgs.pc

@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_common_msgs/lib/python3/dist-packages/pal_common_msgs/msg/_DisableActionResult.py

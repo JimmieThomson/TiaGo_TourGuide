@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_control_msgs/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg

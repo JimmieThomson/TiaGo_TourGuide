@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_navigation_msgs/share/roseus/ros/pal_navigation_msgs/srv/SetPOI.l

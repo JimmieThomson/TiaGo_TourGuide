@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_tablet_msgs/share/roseus/ros/pal_tablet_msgs/msg/RobotStatus.l

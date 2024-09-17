@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_simulation_msgs/lib/python3/dist-packages/pal_simulation_msgs/__init__.py

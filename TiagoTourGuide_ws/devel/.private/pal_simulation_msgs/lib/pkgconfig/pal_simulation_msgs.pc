@@ -1,8 +1,0 @@
-prefix=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_simulation_msgs
-
-Name: pal_simulation_msgs
-Description: Description of pal_simulation_msgs
-Version: 0.16.0
-Cflags: -I/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_simulation_msgs/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs message_generation

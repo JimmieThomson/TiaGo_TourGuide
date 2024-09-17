@@ -1,8 +1,0 @@
-prefix=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_common_msgs
-
-Name: pal_common_msgs
-Description: Description of pal_common_msgs
-Version: 0.16.0
-Cflags: -I/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_common_msgs/include
-Libs: -L${prefix}/lib 
-Requires: actionlib_msgs std_msgs message_runtime

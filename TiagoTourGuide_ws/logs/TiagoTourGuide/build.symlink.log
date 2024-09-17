@@ -1,3 +1,3 @@
-Linked: (/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/share/TiagoTourGuide/cmake/TiagoTourGuideConfig.cmake, /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/TiagoTourGuide/cmake/TiagoTourGuideConfig.cmake)
-Linked: (/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/share/TiagoTourGuide/cmake/TiagoTourGuideConfig-version.cmake, /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/TiagoTourGuide/cmake/TiagoTourGuideConfig-version.cmake)
-Linked: (/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/lib/pkgconfig/TiagoTourGuide.pc, /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/TiagoTourGuide.pc)
+Symlinking /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/TiagoTourGuide/cmake/TiagoTourGuideConfig.cmake
+Symlinking /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/TiagoTourGuide/cmake/TiagoTourGuideConfig-version.cmake
+Symlinking /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/TiagoTourGuide.pc

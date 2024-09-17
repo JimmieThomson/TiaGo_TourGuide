@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_video_recording_msgs/share/pal_video_recording_msgs/cmake/pal_video_recording_msgsConfig.cmake

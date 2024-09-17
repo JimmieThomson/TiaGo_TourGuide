@@ -67,14 +67,14 @@ set(par_a3_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(par_a3_SOURCE_PREFIX /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/src/par_a3)
-  set(par_a3_DEVEL_PREFIX /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/par_a3)
+  set(par_a3_SOURCE_PREFIX /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/src/par_a3)
+  set(par_a3_DEVEL_PREFIX /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/par_a3)
   set(par_a3_INSTALL_PREFIX "")
   set(par_a3_PREFIX ${par_a3_DEVEL_PREFIX})
 else()
   set(par_a3_SOURCE_PREFIX "")
   set(par_a3_DEVEL_PREFIX "")
-  set(par_a3_INSTALL_PREFIX /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install)
+  set(par_a3_INSTALL_PREFIX /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install)
   set(par_a3_PREFIX ${par_a3_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,9 +1,0 @@
-Header header
-
-# see PolynomialInterpolatorType
-int8    interpolation_type
-
-pal_control_msgs/RigidBodyTrajectoryPoint[]     trajectory
----
-string      message
----

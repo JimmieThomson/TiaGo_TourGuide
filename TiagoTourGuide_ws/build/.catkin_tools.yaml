@@ -1,6 +1,0 @@
-devel_space: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel
-install: true
-install_space: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install
-profile: default
-source_space: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/src
-workspace: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws

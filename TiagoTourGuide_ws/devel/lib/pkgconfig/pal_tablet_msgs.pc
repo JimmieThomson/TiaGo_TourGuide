@@ -1,1 +1,0 @@
-/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_tablet_msgs/lib/pkgconfig/pal_tablet_msgs.pc

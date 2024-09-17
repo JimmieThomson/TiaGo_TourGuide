@@ -1,8 +1,0 @@
-prefix=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_behaviour_msgs
-
-Name: pal_behaviour_msgs
-Description: Description of pal_behaviour_msgs
-Version: 0.16.0
-Cflags: -I/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_behaviour_msgs/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs actionlib_msgs

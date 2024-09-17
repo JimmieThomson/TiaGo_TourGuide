@@ -1,4 +1,4 @@
-prefix=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install
+prefix=/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install
 
 Name: TiagoTourGuide
 Description: Description of TiagoTourGuide
