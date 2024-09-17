@@ -1,0 +1,641 @@
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsActionGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundActionGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASREvent
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileActionGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsMark
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRSrvResponse
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_VoiceActivity
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_Input
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundLocalisationService
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_GetSpeechDuration
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_asrresult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileActionResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsText
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRLanguage
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TTSstate
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileAction
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_WebGuiEvent
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRLangModelMngmt
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRActivation
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioDeviceDescription
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundAction
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_DirectionOfArrival
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_EnablingSoundLocalisation
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_I18nText
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_InputArgument
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileActionFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_recognizerService
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayAction
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_audiosignal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundActionResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_actiontag
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundActionFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsAction
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayerState
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_asrupdate
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_I18nArgument
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRStatus
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRSrvRequest
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRService
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsGoal
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsActionFeedback
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_TtsActionResult
+[ 19%] Built target pal_interaction_msgs_generate_messages_cpp
+[ 19%] Built target actionlib_msgs_generate_messages_py
+[ 19%] Built target std_msgs_generate_messages_py
+[ 39%] Built target pal_interaction_msgs_generate_messages_py
+[ 39%] Built target actionlib_msgs_generate_messages_nodejs
+[ 39%] Built target std_msgs_generate_messages_nodejs
+[ 60%] Built target pal_interaction_msgs_generate_messages_nodejs
+[ 60%] Built target actionlib_msgs_generate_messages_lisp
+[ 60%] Built target std_msgs_generate_messages_lisp
+[ 79%] Built target pal_interaction_msgs_generate_messages_lisp
+[ 79%] Built target actionlib_msgs_generate_messages_eus
+[ 79%] Built target std_msgs_generate_messages_eus
+[100%] Built target pal_interaction_msgs_generate_messages_eus
+[100%] Built target pal_interaction_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/actiontag.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRActivation.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASREvent.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRLanguage.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/asrresult.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRSrvRequest.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRSrvResponse.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRStatus.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/asrupdate.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioDeviceDescription.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayerState.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/audiosignal.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/DirectionOfArrival.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/EnablingSoundLocalisation.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/I18nText.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/I18nArgument.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/Input.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/InputArgument.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TTSstate.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsText.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsMark.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/VoiceActivity.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/WebGuiEvent.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/action/ASRFile.action
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/action/AudioPlay.action
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/action/Sound.action
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/action/Tts.action
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRFileAction.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRFileGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRFileResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayAction.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/SoundAction.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/SoundActionGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/SoundActionResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/SoundGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/SoundResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/SoundFeedback.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsAction.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsActionGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsActionResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsGoal.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsResult.msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/TtsFeedback.msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/srv/ASRService.srv
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/srv/GetSpeechDuration.srv
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/srv/recognizerService.srv
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/srv/SoundLocalisationService.srv
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/cmake/pal_interaction_msgs-msg-paths.cmake
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASREvent.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/Input.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/actiontag.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRFileAction.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/recognizerServiceRequest.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/recognizerService.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundLocalisationServiceRequest.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioDeviceDescription.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsActionFeedback.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundActionFeedback.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundActionGoal.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsActionResult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/recognizerServiceResponse.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRLanguage.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRStatus.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundActionResult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/WebGuiEvent.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRFileFeedback.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRFileActionResult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/audiosignal.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundFeedback.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRServiceRequest.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/I18nArgument.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayActionFeedback.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayActionGoal.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayAction.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/GetSpeechDurationResponse.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayGoal.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/GetSpeechDuration.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundLocalisationService.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRFileGoal.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsActionGoal.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/EnablingSoundLocalisation.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsResult.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsGoal.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRServiceResponse.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsFeedback.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/InputArgument.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRActivation.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundResult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRService.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/VoiceActivity.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRFileActionFeedback.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayFeedback.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundGoal.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsMark.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsAction.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/asrresult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TTSstate.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRFileResult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRSrvResponse.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRFileActionGoal.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/I18nText.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayerState.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundAction.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/TtsText.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRLangModelMngmt.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/SoundLocalisationServiceResponse.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/ASRSrvRequest.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/DirectionOfArrival.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayActionResult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/asrupdate.h
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/AudioPlayResult.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_interaction_msgs/GetSpeechDurationRequest.h
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/manifest.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/SoundFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/SoundActionFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRFileGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/SoundResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRSrvResponse.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/EnablingSoundLocalisation.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/DirectionOfArrival.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioDeviceDescription.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayActionResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/I18nArgument.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/asrresult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRFileActionGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/I18nText.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsMark.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRFileResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/Input.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRSrvRequest.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRFileActionResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRFileFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsAction.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRLangModelMngmt.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRStatus.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/audiosignal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/SoundActionGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/WebGuiEvent.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/asrupdate.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TTSstate.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/SoundAction.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASREvent.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayerState.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/InputArgument.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRActivation.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/VoiceActivity.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsActionResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsText.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/SoundActionResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayAction.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRFileAction.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/SoundGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/ASRLanguage.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsActionGoal.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/TtsActionFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/actiontag.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayResult.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/msg/AudioPlayFeedback.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/srv
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/srv/ASRService.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/srv/GetSpeechDuration.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/srv/SoundLocalisationService.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_interaction_msgs/srv/recognizerService.l
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundAction.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRStatus.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRSrvResponse.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRLanguage.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_InputArgument.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/SoundGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundActionGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsText.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayActionFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TTSstate.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsActionGoal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/asrresult.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/Input.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayActionResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioDeviceDescription.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_I18nArgument.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/SoundFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_audiosignal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayerState.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRLangModelMngmt.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/I18nArgument.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayerState.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/audiosignal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_EnablingSoundLocalisation.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayResult.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/I18nText.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundResult.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvResponse.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayAction.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/pal_interaction_msgs-msg.asd
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/asrupdate.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/VoiceActivity.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayActionGoal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_actiontag.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsMark.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsText.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/actiontag.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsActionFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRLanguage.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/WebGuiEvent.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_asrresult.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRActivation.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/DirectionOfArrival.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRLangModelMngmt.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/SoundResult.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_I18nText.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASREvent.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileAction.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASREvent.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_WebGuiEvent.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_DirectionOfArrival.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileActionResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRSrvRequest.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRActivation.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TTSstate.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileActionFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_Input.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileActionGoal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioDeviceDescription.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundActionResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsAction.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_VoiceActivity.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/InputArgument.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsMark.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsActionResult.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/EnablingSoundLocalisation.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsGoal.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvRequest.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_asrupdate.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRStatus.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayFeedback.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioPlayGoal.lisp
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundActionFeedback.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/_package_GetSpeechDuration.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/_package.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/SoundLocalisationService.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/recognizerService.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/pal_interaction_msgs-srv.asd
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/_package_recognizerService.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/GetSpeechDuration.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/_package_SoundLocalisationService.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_interaction_msgs/srv/_package_ASRService.lisp
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/_index.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/I18nArgument.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionGoal.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayerState.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/actiontag.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/WebGuiEvent.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileGoal.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRActivation.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionGoal.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsFeedback.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioDeviceDescription.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/InputArgument.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRStatus.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/audiosignal.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsText.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsMark.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/_index.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/SoundFeedback.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/VoiceActivity.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileResult.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/asrresult.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileFeedback.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRSrvRequest.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayGoal.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayFeedback.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/DirectionOfArrival.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRLanguage.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRLangModelMngmt.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRSrvResponse.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/EnablingSoundLocalisation.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsResult.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/Input.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionResult.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TTSstate.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASREvent.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/SoundGoal.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/SoundResult.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/TtsGoal.js
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayResult.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/asrupdate.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/msg/I18nText.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/srv
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/srv/GetSpeechDuration.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/srv/_index.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/srv/SoundLocalisationService.js
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_interaction_msgs/srv/recognizerService.js
+Listing '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/__init__.py'...
+Listing '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRActivation.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASREvent.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRLangModelMngmt.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRLanguage.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvResponse.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRStatus.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioDeviceDescription.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayerState.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_DirectionOfArrival.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_EnablingSoundLocalisation.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_I18nArgument.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_I18nText.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_Input.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_InputArgument.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TTSstate.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsFeedback.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsMark.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsResult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsText.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_VoiceActivity.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_WebGuiEvent.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/__init__.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_actiontag.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_asrresult.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_asrupdate.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/msg/_audiosignal.py'...
+Listing '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/srv'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/srv/_SoundLocalisationService.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/srv/__init__.py'...
+Compiling '/home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/srv/_recognizerService.py'...
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/__pycache__
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/__pycache__/__init__.cpython-38.pyc
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/__init__.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRLanguage.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundGoal.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_audiosignal.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRActivation.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_Input.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_VoiceActivity.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_EnablingSoundLocalisation.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsFeedback.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileFeedback.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_InputArgument.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayFeedback.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioDeviceDescription.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_asrresult.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_I18nArgument.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionGoal.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsText.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_actiontag.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileResult.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundResult.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayResult.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayGoal.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundFeedback.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_I18nArgument.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRFileFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsMark.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayActionGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayAction.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRFileAction.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_SoundAction.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_SoundResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_asrresult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_SoundActionGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_WebGuiEvent.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsActionGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_Input.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsAction.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsActionResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRStatus.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsActionFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsText.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_DirectionOfArrival.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_EnablingSoundLocalisation.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioDeviceDescription.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_InputArgument.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRFileActionFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRFileGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_audiosignal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_SoundActionFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRLanguage.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_I18nText.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayActionResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASREvent.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TtsResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_VoiceActivity.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_TTSstate.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_SoundFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRActivation.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRLangModelMngmt.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_asrupdate.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRFileResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRSrvResponse.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRFileActionResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_SoundActionResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_actiontag.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayResult.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRFileActionGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayerState.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_AudioPlayActionFeedback.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_ASRSrvRequest.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__pycache__/_SoundGoal.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsResult.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_I18nText.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/__init__.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TTSstate.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_WebGuiEvent.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASREvent.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_asrupdate.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_DirectionOfArrival.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileGoal.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsMark.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionGoal.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvResponse.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRStatus.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRLangModelMngmt.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayerState.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/_SoundLocalisationService.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/__pycache__
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/__pycache__/_SoundLocalisationService.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/__pycache__/_ASRService.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/__pycache__/_GetSpeechDuration.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/__pycache__/_recognizerService.cpython-38.pyc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/__init__.py
+-- Up-to-date: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_interaction_msgs/srv/_recognizerService.py
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/pal_interaction_msgs.pc
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/cmake/pal_interaction_msgs-msg-extras.cmake
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/cmake/pal_interaction_msgsConfig.cmake
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/cmake/pal_interaction_msgsConfig-version.cmake
+-- Installing: /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/package.xml
