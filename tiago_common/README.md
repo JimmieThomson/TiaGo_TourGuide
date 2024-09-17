@@ -1,1 +1,0 @@
-The connent of this folder was created with the help from this website: https://roboticsbackend.com/ros-import-python-module-from-another-package/
