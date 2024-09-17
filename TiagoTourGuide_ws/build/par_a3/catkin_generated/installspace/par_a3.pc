@@ -1,0 +1,8 @@
+prefix=/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install
+
+Name: par_a3
+Description: Description of par_a3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

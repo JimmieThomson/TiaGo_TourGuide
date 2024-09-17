@@ -1,0 +1,11 @@
+depthimage_to_laserscan:
+ depth_image_topic: /xtion/depth/image
+ output_frame_id: xtion_rgb_optical_frame
+ output_topic: /camera_scan
+ range_min: 0.45
+ range_max: 10
+ scan_height: 480
+ scan_time: 0.033
+ angle_min: -1.5708
+ angle_max: 1.5708
+ use_sim_time: false
