@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>pal_face_detector_opencv</name>
+  <version>0.1.0</version>
+  <description>The pal_face_detector_opencv package offers a ROS wrapper of the Viola-Jones face detector in OpenCV
+               that subscribes to an image topic and publishes the detected faces in a pal_detection_msgs::FaceDetections message</description>
+
+  <maintainer email="jordi@pal-robotics.com">jordi pages</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>pal_detection_msgs</build_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>pal_detection_msgs</run_depend>
+
+</package>
