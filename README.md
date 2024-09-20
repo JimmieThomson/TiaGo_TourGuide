@@ -6,7 +6,7 @@
 
 <p align="center"><img src="https://img.shields.io/badge/ubunutu_version-20.04.5-orange" alt="shields"><img src="https://img.shields.io/badge/gitTea-gitea.cdirmit.co-green" alt="shields"><img src="https://img.shields.io/github/contributors/JimmieThomson/TiaGo_TourGuide" alt="shields"><img src="https://img.shields.io/github/commit-activity/w/JimmieThomson/TiaGo_TourGuide" alt="shields"></p>
 
-<h2>🛠️ Installation Steps:</h2>
+<h2>🛠️ Installation Steps (source):</h2>
 
 <p>1. Source the tiago public workspace to begin navigation stack</p>
 
@@ -31,7 +31,7 @@ source ./par_2024/ros_ws/devel../setup.sh
 ```
 rosrun stt stt_ros
 ```
-
+<h2>🛠️ Installation Steps (Docker):</h2>
   
   
 <h2>💻 Built with</h2>
