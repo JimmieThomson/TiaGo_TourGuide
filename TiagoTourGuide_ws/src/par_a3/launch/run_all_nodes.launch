@@ -47,4 +47,9 @@
       This node is too publish the laser scan to the 2d cost map
     -->
   <rosparam file="$(find par_a3)/params/minimal.yaml" command="load" ns="/costmap_node/costmap" />
+  <group ns="pointcloud_costmap">
+    <node pkg="costmap_2d" type="costmap_2d_node" name="costmap_node" output="screen">
+      <rosparam command="load" file="/TiagoTourGuide/config/costmap_params.yaml"/>
+    </node>
+  </group>
 </launch>

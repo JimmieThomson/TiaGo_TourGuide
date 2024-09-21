@@ -1,0 +1,10 @@
+plugins:
+  {name: "voxel_costmap_plugin", type: "costmap_2d::VoxelCostmapPlugin"}
+  {name: "point_cloud_layer", type: "costmap_2d::PointCloudLayer"}
+
+point_cloud_layer:
+  topic: /xtion/depth_registered/points
+  max_obstacle_height: 2.0
+  min_obstacle_height: 0.5
+  observation_sources: point_cloud
+  sensor_frame: xtion_depth_frame
