@@ -1,6 +1,8 @@
 plugins:
-  {name: "voxel_costmap_plugin", type: "costmap_2d::VoxelCostmapPlugin"}
-  {name: "point_cloud_layer", type: "costmap_2d::PointCloudLayer"}
+  - name: "voxel_costmap_plugin"
+    type: "costmap_2d::VoxelCostmapPlugin"
+  - name: "point_cloud_layer"
+    type: "costmap_2d::PointCloudLayer"
 
 point_cloud_layer:
   topic: /xtion/depth_registered/points
