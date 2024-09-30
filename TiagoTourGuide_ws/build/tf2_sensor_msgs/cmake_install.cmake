@@ -1,4 +1,4 @@
-# Install script for directory: /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs
+# Install script for directory: /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -140,11 +140,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_sensor_msgs" TYPE FILE FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_sensor_msgs" TYPE FILE FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tf2_sensor_msgs" TYPE DIRECTORY FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs/include/tf2_sensor_msgs/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tf2_sensor_msgs" TYPE DIRECTORY FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs/include/tf2_sensor_msgs/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: tf2-ros
+Version: 0.7.7
+Summary: This package contains the ROS bindings for the tf2 library, for both Python and C++.
+Home-page: http://www.ros.org/wiki/tf2_ros
+Author: Eitan Marder-Eppstein, Wim Meeussen
+Maintainer: Tully Foote
+Maintainer-email: tfoote@osrfoundation.org
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: rospy
+Requires: actionlib
+Requires: actionlib_msgs
+Requires: tf2_msgs
+Requires: tf2_py
+Requires: geometry_msgs

@@ -2,22 +2,22 @@
 -- Install configuration: ""
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
--- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
--- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
--- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
--- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
--- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
--- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
--- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/tf2_sensor_msgs.pc
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/tf2_sensor_msgs/package.xml
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/tf2_sensor_msgs
 -- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/tf2_sensor_msgs/tf2_sensor_msgs.h
-+ cd /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs
++ cd /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs
 + mkdir -p /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages
-+ /usr/bin/env PYTHONPATH=/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages:/TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs /usr/bin/python3 /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs/setup.py egg_info --egg-base /TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs build --build-base /TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs install --root=/ --install-layout=deb --prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install --install-scripts=/TiaGo_TourGuide/TiagoTourGuide_ws/install/bin
++ /usr/bin/env PYTHONPATH=/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages:/TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs/lib/python3/dist-packages:/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages:/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs /usr/bin/python3 /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs/setup.py egg_info --egg-base /TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs build --build-base /TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs install --root=/ --install-layout=deb --prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install --install-scripts=/TiaGo_TourGuide/TiagoTourGuide_ws/install/bin
 running egg_info
 creating /TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs/tf2_sensor_msgs.egg-info
 writing /TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs/tf2_sensor_msgs.egg-info/PKG-INFO

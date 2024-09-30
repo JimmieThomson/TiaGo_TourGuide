@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: tf2-geometry-msgs
+Version: 0.7.7
+Summary: tf2_geometry_msgs
+Home-page: http://www.ros.org/wiki/tf2_ros
+Author: Wim Meeussen
+Maintainer: Tully Foote
+Maintainer-email: tfoote@osrfoundation.org
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: rospy
+Requires: geometry_msgs
+Requires: tf2_ros
+Requires: orocos_kdl

@@ -41,6 +41,4 @@
         concurrency_level: 1
       </rosparam>
     </node>
-
-    <node pkg="par_a3" type="move_amcl.py" name="move_amcl" output="screen"></node>
 </launch>

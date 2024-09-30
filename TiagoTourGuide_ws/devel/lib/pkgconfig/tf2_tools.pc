@@ -1,0 +1,1 @@
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_tools/lib/pkgconfig/tf2_tools.pc

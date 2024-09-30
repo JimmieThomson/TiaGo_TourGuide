@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: tf2-py
+Version: 0.7.7
+Summary: The tf2_py package
+Home-page: http://ros.org/wiki/tf2_py
+Author: 
+Maintainer: Tully Foote
+Maintainer-email: tfoote@osrfoundation.org
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: rospy
+Requires: geometry_msgs
+Requires: tf2_msgs

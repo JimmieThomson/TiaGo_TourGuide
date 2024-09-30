@@ -397,7 +397,7 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
 //Path to a file.
-_path_name:FILEPATH=/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs/test/test_tf2_sensor_msgs.py
+_path_name:FILEPATH=/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs/test/test_tf2_sensor_msgs.py
 
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/opt/ros/noetic/share/actionlib/cmake
@@ -491,7 +491,7 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/libtf2.so
+lib:FILEPATH=/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/libtf2.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
@@ -536,22 +536,22 @@ sensor_msgs_DIR:PATH=/opt/ros/noetic/share/sensor_msgs/cmake
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2.
-tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
+tf2_DIR:PATH=/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/tf2/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
-tf2_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_msgs/cmake
+tf2_msgs_DIR:PATH=/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/tf2_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2_py.
-tf2_py_DIR:PATH=/opt/ros/noetic/share/tf2_py/cmake
+tf2_py_DIR:PATH=/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/tf2_py/cmake
 
 //The directory containing a CMake configuration file for tf2_ros.
-tf2_ros_DIR:PATH=/opt/ros/noetic/share/tf2_ros/cmake
+tf2_ros_DIR:PATH=/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/tf2_ros/cmake
 
 //Value Computed by CMake
 tf2_sensor_msgs_BINARY_DIR:STATIC=/TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs
 
 //Value Computed by CMake
-tf2_sensor_msgs_SOURCE_DIR:STATIC=/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs
+tf2_sensor_msgs_SOURCE_DIR:STATIC=/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -654,7 +654,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

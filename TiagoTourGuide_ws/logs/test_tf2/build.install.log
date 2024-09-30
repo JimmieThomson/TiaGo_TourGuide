@@ -1,0 +1,15 @@
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Up-to-date: /TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/test_tf2.pc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/test_tf2/cmake/test_tf2Config.cmake
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/test_tf2/cmake/test_tf2Config-version.cmake
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/test_tf2/package.xml

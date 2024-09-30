@@ -1,0 +1,1 @@
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_geometry_msgs/lib/python3/dist-packages/tf2_geometry_msgs/__init__.py

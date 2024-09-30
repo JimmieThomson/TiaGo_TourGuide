@@ -9,5 +9,5 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs:$CMAKE_PREFIX_PATH"
 export PWD='/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs'
-export ROSLISP_PACKAGE_DIRECTORIES='/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp'
+export ROSLISP_PACKAGE_DIRECTORIES="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs:$ROS_PACKAGE_PATH"

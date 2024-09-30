@@ -12,5 +12,5 @@ export LD_LIBRARY_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_se
 export PKG_CONFIG_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_sensor_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/TiaGo_TourGuide/TiagoTourGuide_ws/build/tf2_sensor_msgs'
 export PYTHONPATH="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_sensor_msgs/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_sensor_msgs/share/common-lisp'
-export ROS_PACKAGE_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs:$ROS_PACKAGE_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_sensor_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs:$ROS_PACKAGE_PATH"

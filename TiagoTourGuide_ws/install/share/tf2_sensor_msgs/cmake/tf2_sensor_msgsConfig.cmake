@@ -67,7 +67,7 @@ set(tf2_sensor_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf2_sensor_msgs_SOURCE_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2/tf2_sensor_msgs)
+  set(tf2_sensor_msgs_SOURCE_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/src/geometry2-noetic-devel/tf2_sensor_msgs)
   set(tf2_sensor_msgs_DEVEL_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_sensor_msgs)
   set(tf2_sensor_msgs_INSTALL_PREFIX "")
   set(tf2_sensor_msgs_PREFIX ${tf2_sensor_msgs_DEVEL_PREFIX})
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

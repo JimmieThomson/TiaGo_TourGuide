@@ -1,7 +1,0 @@
-Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/libpointcloud_to_laserscan.so
-Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/liblaserscan_to_pointcloud.so
-Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/pointcloud_to_laserscan.pc
-Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
-Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
-Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
-Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
