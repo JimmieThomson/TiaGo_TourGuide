@@ -1,0 +1,196 @@
+; Auto-generated. Do not edit!
+
+
+(cl:in-package pal_detection_msgs-msg)
+
+
+;//! \htmlinclude RecognizedActions.msg.html
+
+(cl:defclass <RecognizedActions> (roslisp-msg-protocol:ros-message)
+  ((header
+    :reader header
+    :initarg :header
+    :type std_msgs-msg:Header
+    :initform (cl:make-instance 'std_msgs-msg:Header))
+   (action_name
+    :reader action_name
+    :initarg :action_name
+    :type (cl:vector cl:string)
+   :initform (cl:make-array 0 :element-type 'cl:string :initial-element ""))
+   (u
+    :reader u
+    :initarg :u
+    :type (cl:vector cl:integer)
+   :initform (cl:make-array 0 :element-type 'cl:integer :initial-element 0))
+   (v
+    :reader v
+    :initarg :v
+    :type (cl:vector cl:integer)
+   :initform (cl:make-array 0 :element-type 'cl:integer :initial-element 0)))
+)
+
+(cl:defclass RecognizedActions (<RecognizedActions>)
+  ())
+
+(cl:defmethod cl:initialize-instance :after ((m <RecognizedActions>) cl:&rest args)
+  (cl:declare (cl:ignorable args))
+  (cl:unless (cl:typep m 'RecognizedActions)
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name pal_detection_msgs-msg:<RecognizedActions> is deprecated: use pal_detection_msgs-msg:RecognizedActions instead.")))
+
+(cl:ensure-generic-function 'header-val :lambda-list '(m))
+(cl:defmethod header-val ((m <RecognizedActions>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader pal_detection_msgs-msg:header-val is deprecated.  Use pal_detection_msgs-msg:header instead.")
+  (header m))
+
+(cl:ensure-generic-function 'action_name-val :lambda-list '(m))
+(cl:defmethod action_name-val ((m <RecognizedActions>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader pal_detection_msgs-msg:action_name-val is deprecated.  Use pal_detection_msgs-msg:action_name instead.")
+  (action_name m))
+
+(cl:ensure-generic-function 'u-val :lambda-list '(m))
+(cl:defmethod u-val ((m <RecognizedActions>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader pal_detection_msgs-msg:u-val is deprecated.  Use pal_detection_msgs-msg:u instead.")
+  (u m))
+
+(cl:ensure-generic-function 'v-val :lambda-list '(m))
+(cl:defmethod v-val ((m <RecognizedActions>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader pal_detection_msgs-msg:v-val is deprecated.  Use pal_detection_msgs-msg:v instead.")
+  (v m))
+(cl:defmethod roslisp-msg-protocol:serialize ((msg <RecognizedActions>) ostream)
+  "Serializes a message object of type '<RecognizedActions>"
+  (roslisp-msg-protocol:serialize (cl:slot-value msg 'header) ostream)
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'action_name))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let ((__ros_str_len (cl:length ele)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_str_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (c) (cl:write-byte (cl:char-code c) ostream)) ele))
+   (cl:slot-value msg 'action_name))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'u))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let* ((signed ele) (unsigned (cl:if (cl:< signed 0) (cl:+ signed 18446744073709551616) signed)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) unsigned) ostream)
+    ))
+   (cl:slot-value msg 'u))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'v))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let* ((signed ele) (unsigned (cl:if (cl:< signed 0) (cl:+ signed 18446744073709551616) signed)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) unsigned) ostream)
+    ))
+   (cl:slot-value msg 'v))
+)
+(cl:defmethod roslisp-msg-protocol:deserialize ((msg <RecognizedActions>) istream)
+  "Deserializes a message object of type '<RecognizedActions>"
+  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'header) istream)
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'action_name) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'action_name)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((__ros_str_len 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:aref vals i) (cl:make-string __ros_str_len))
+      (cl:dotimes (__ros_str_idx __ros_str_len msg)
+        (cl:setf (cl:char (cl:aref vals i) __ros_str_idx) (cl:code-char (cl:read-byte istream))))))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'u) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'u)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((unsigned 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:aref vals i) (cl:if (cl:< unsigned 9223372036854775808) unsigned (cl:- unsigned 18446744073709551616)))))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'v) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'v)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((unsigned 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:aref vals i) (cl:if (cl:< unsigned 9223372036854775808) unsigned (cl:- unsigned 18446744073709551616)))))))
+  msg
+)
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<RecognizedActions>)))
+  "Returns string type for a message object of type '<RecognizedActions>"
+  "pal_detection_msgs/RecognizedActions")
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'RecognizedActions)))
+  "Returns string type for a message object of type 'RecognizedActions"
+  "pal_detection_msgs/RecognizedActions")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<RecognizedActions>)))
+  "Returns md5sum for a message object of type '<RecognizedActions>"
+  "e6c6e85fc615700151c9f88b60277903")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'RecognizedActions)))
+  "Returns md5sum for a message object of type 'RecognizedActions"
+  "e6c6e85fc615700151c9f88b60277903")
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<RecognizedActions>)))
+  "Returns full string definition for message of type '<RecognizedActions>"
+  (cl:format cl:nil "Header header~%~%string[] action_name    # name of the recognized actions~%int64[] u                # (u, v) are the pixel coordinates where~%int64[] v                # the actions have been detected~%~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%string frame_id~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'RecognizedActions)))
+  "Returns full string definition for message of type 'RecognizedActions"
+  (cl:format cl:nil "Header header~%~%string[] action_name    # name of the recognized actions~%int64[] u                # (u, v) are the pixel coordinates where~%int64[] v                # the actions have been detected~%~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%string frame_id~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:serialization-length ((msg <RecognizedActions>))
+  (cl:+ 0
+     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'header))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'action_name) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 4 (cl:length ele))))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'u) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 8)))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'v) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 8)))
+))
+(cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <RecognizedActions>))
+  "Converts a ROS message object to a list"
+  (cl:list 'RecognizedActions
+    (cl:cons ':header (header msg))
+    (cl:cons ':action_name (action_name msg))
+    (cl:cons ':u (u msg))
+    (cl:cons ':v (v msg))
+))

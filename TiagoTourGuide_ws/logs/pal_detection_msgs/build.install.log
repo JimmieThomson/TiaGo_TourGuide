@@ -1,22 +1,20 @@
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_FaceDetections
+[  0%] Built target actionlib_msgs_generate_messages_cpp
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizedObject
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_AddTexturedObject
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsGoal
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Detection2d
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Detections2d
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Obstacle
-[  0%] Built target actionlib_msgs_generate_messages_cpp
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsAction
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizedActions
-[  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_PersonDetection
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_FaceThermalDetections
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Gesture
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_StopEnrollment
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_LegDetections
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Detection2d
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RotatedDetection2d
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_PersonDetections
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_FaceDetection
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_PersonDetection
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Obstacles
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_WaveDetection
@@ -32,334 +30,370 @@
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Recognizer
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_SetDatabase
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_StartEnrollment
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_FaceDetections
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Obstacle
 [ 19%] Built target pal_detection_msgs_generate_messages_cpp
-[ 19%] Built target actionlib_msgs_generate_messages_py
-[ 19%] Built target geometry_msgs_generate_messages_py
-[ 19%] Built target sensor_msgs_generate_messages_py
-[ 40%] Built target pal_detection_msgs_generate_messages_py
-[ 40%] Built target actionlib_msgs_generate_messages_nodejs
-[ 40%] Built target sensor_msgs_generate_messages_nodejs
-[ 40%] Built target geometry_msgs_generate_messages_nodejs
-[ 60%] Built target pal_detection_msgs_generate_messages_nodejs
-[ 60%] Built target actionlib_msgs_generate_messages_lisp
-[ 60%] Built target sensor_msgs_generate_messages_lisp
-[ 60%] Built target geometry_msgs_generate_messages_lisp
-[ 80%] Built target pal_detection_msgs_generate_messages_lisp
-[ 80%] Built target geometry_msgs_generate_messages_eus
-[ 80%] Built target actionlib_msgs_generate_messages_eus
-[ 80%] Built target sensor_msgs_generate_messages_eus
-[100%] Built target pal_detection_msgs_generate_messages_eus
+[ 19%] Built target geometry_msgs_generate_messages_eus
+[ 19%] Built target actionlib_msgs_generate_messages_eus
+[ 19%] Built target sensor_msgs_generate_messages_eus
+[ 39%] Built target pal_detection_msgs_generate_messages_eus
+[ 39%] Built target actionlib_msgs_generate_messages_lisp
+[ 39%] Built target geometry_msgs_generate_messages_lisp
+[ 39%] Built target sensor_msgs_generate_messages_lisp
+[ 59%] Built target pal_detection_msgs_generate_messages_lisp
+[ 59%] Built target actionlib_msgs_generate_messages_py
+[ 59%] Built target geometry_msgs_generate_messages_py
+[ 59%] Built target sensor_msgs_generate_messages_py
+[ 80%] Built target pal_detection_msgs_generate_messages_py
+[ 80%] Built target actionlib_msgs_generate_messages_nodejs
+[ 80%] Built target geometry_msgs_generate_messages_nodejs
+[ 80%] Built target sensor_msgs_generate_messages_nodejs
+[100%] Built target pal_detection_msgs_generate_messages_nodejs
 [100%] Built target pal_detection_msgs_generate_messages
 [36mInstall the project...[0m
 -- Install configuration: ""
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Detection2d.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Detections2d.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/FaceDetection.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/FaceDetections.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/FaceThermalDetections.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Gesture.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/LegDetections.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Obstacle.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Obstacles.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/PersonDetection.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/PersonDetections.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizedActions.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RotatedDetection2d.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/TexturedObjectDetection.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/WaveDetection.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizedObject.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizedObjectArray.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/action/RecognizeObjects.action
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/AddTexturedObject.srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/SelectTexturedObject.srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/Recognizer.srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/SetDatabase.srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/StartEnrollment.srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/StopEnrollment.srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/ChangeObjectRecognizerModel.srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgs-msg-paths.cmake
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SetDatabaseRequest.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Recognizer.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/TexturedObjectDetection.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SetDatabaseResponse.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceThermalDetections.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/ChangeObjectRecognizerModelRequest.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizedObject.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SelectTexturedObjectRequest.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/ChangeObjectRecognizerModel.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StartEnrollmentRequest.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/PersonDetections.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Gesture.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsActionFeedback.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Detections2d.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsActionGoal.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/LegDetections.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/WaveDetection.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsFeedback.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsResult.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizerRequest.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StopEnrollment.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/PersonDetection.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/AddTexturedObjectRequest.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Detection2d.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SelectTexturedObjectResponse.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/AddTexturedObject.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Obstacles.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsAction.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SetDatabase.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StopEnrollmentResponse.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetection.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/AddTexturedObjectResponse.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StopEnrollmentRequest.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsGoal.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizedActions.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetections.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Obstacle.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StartEnrollment.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsActionResult.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RotatedDetection2d.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SelectTexturedObject.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StartEnrollmentResponse.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/ChangeObjectRecognizerModelResponse.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizerResponse.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizedObjectArray.h
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/manifest.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/PersonDetections.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Detection2d.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/WaveDetection.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsFeedback.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizedActions.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/FaceThermalDetections.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsResult.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RotatedDetection2d.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsGoal.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/TexturedObjectDetection.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/PersonDetection.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Detections2d.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/LegDetections.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsActionResult.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/FaceDetections.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/FaceDetection.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsActionGoal.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Obstacle.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Gesture.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Obstacles.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsAction.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizedObjectArray.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizedObject.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/StartEnrollment.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/StopEnrollment.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/SelectTexturedObject.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/AddTexturedObject.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/Recognizer.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/ChangeObjectRecognizerModel.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/SetDatabase.l
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_FaceDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Obstacles.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_FaceThermalDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/PersonDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizedActions.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/TexturedObjectDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Gesture.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Detection2d.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/FaceDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RotatedDetection2d.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Detection2d.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizedObject.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/FaceDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsAction.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsResult.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsGoal.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Obstacle.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_FaceDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizedObjectArray.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsActionResult.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/pal_detection_msgs-msg.asd
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizedObject.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/PersonDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizedObjectArray.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/WaveDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsFeedback.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsResult.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Gesture.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Detections2d.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_PersonDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsActionGoal.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsActionResult.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsActionGoal.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_WaveDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Obstacle.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsFeedback.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/FaceThermalDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Obstacles.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_TexturedObjectDetection.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/LegDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_LegDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizedActions.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Detections2d.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsActionFeedback.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsAction.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RotatedDetection2d.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_PersonDetections.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsGoal.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/Recognizer.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_StartEnrollment.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_AddTexturedObject.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/pal_detection_msgs-srv.asd
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/StopEnrollment.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_StopEnrollment.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/SelectTexturedObject.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_ChangeObjectRecognizerModel.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/AddTexturedObject.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_Recognizer.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/SetDatabase.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/ChangeObjectRecognizerModel.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/StartEnrollment.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_SetDatabase.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_SelectTexturedObject.lisp
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/_index.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizedObjectArray.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsFeedback.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/WaveDetection.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Obstacle.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Detections2d.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/FaceThermalDetections.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Gesture.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizedObject.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsAction.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RotatedDetection2d.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/_index.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsActionResult.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/LegDetections.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsGoal.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizedActions.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsResult.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsActionGoal.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/PersonDetection.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/TexturedObjectDetection.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Detection2d.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/FaceDetection.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/FaceDetections.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Obstacles.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/PersonDetections.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/StartEnrollment.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/StopEnrollment.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/SetDatabase.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/SelectTexturedObject.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/AddTexturedObject.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/_index.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/ChangeObjectRecognizerModel.js
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/Recognizer.js
-Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs'...
-Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg'...
-Listing '/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv'...
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/__pycache__
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/__pycache__/__init__.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/__init__.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Gesture.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Detection2d.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RotatedDetection2d.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedObject.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceDetection.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsGoal.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedObjectArray.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsResult.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_WaveDetection.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Detections2d.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Obstacle.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Obstacles.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceThermalDetections.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RotatedDetection2d.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_FaceDetections.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Gesture.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsAction.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsFeedback.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Detection2d.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsActionResult.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsResult.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_WaveDetection.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/__init__.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_PersonDetections.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_TexturedObjectDetection.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsGoal.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Obstacles.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsActionFeedback.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_PersonDetection.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Obstacle.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizedActions.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizedObject.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_FaceThermalDetections.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsActionGoal.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_LegDetections.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Detections2d.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizedObjectArray.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_FaceDetection.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_PersonDetections.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__init__.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsFeedback.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_PersonDetection.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceDetections.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_TexturedObjectDetection.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionResult.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsAction.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionGoal.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_LegDetections.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedActions.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionFeedback.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_Recognizer.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_AddTexturedObject.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_ChangeObjectRecognizerModel.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_StopEnrollment.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_SelectTexturedObject.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_SetDatabase.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_AddTexturedObject.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_Recognizer.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_SetDatabase.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/__init__.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_ChangeObjectRecognizerModel.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_StartEnrollment.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_SelectTexturedObject.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_StopEnrollment.cpython-38.pyc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__init__.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_StartEnrollment.py
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/pal_detection_msgs.pc
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgs-msg-extras.cmake
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgsConfig.cmake
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgsConfig-version.cmake
--- Up-to-date: /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/package.xml
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Detection2d.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Detections2d.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/FaceDetection.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/FaceDetections.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/FaceThermalDetections.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Gesture.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/LegDetections.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Obstacle.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Obstacles.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/PersonDetection.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/PersonDetections.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizedActions.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RotatedDetection2d.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/TexturedObjectDetection.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/WaveDetection.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizedObject.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizedObjectArray.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/action/RecognizeObjects.action
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/AddTexturedObject.srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/SelectTexturedObject.srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/Recognizer.srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/SetDatabase.srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/StartEnrollment.srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/StopEnrollment.srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/srv/ChangeObjectRecognizerModel.srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgs-msg-paths.cmake
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsResult.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/WaveDetection.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StopEnrollmentResponse.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsAction.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/TexturedObjectDetection.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Detection2d.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsGoal.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SetDatabaseRequest.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizedObjectArray.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsActionGoal.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StopEnrollment.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Recognizer.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizerResponse.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsActionResult.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/LegDetections.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Detections2d.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/ChangeObjectRecognizerModelRequest.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/AddTexturedObjectResponse.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizedActions.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetection.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SetDatabase.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizerRequest.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/ChangeObjectRecognizerModel.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StartEnrollment.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/PersonDetections.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizedObject.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RotatedDetection2d.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetections.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SelectTexturedObjectResponse.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/ChangeObjectRecognizerModelResponse.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StartEnrollmentResponse.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsFeedback.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/AddTexturedObjectRequest.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StopEnrollmentRequest.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/PersonDetection.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SetDatabaseResponse.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SelectTexturedObject.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/SelectTexturedObjectRequest.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/AddTexturedObject.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/StartEnrollmentRequest.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Obstacles.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Obstacle.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/RecognizeObjectsActionFeedback.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/Gesture.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceThermalDetections.h
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/PersonDetections.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizedObject.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/FaceDetections.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RotatedDetection2d.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/PersonDetection.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsFeedback.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Obstacle.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Obstacles.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Gesture.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/FaceThermalDetections.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsResult.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/WaveDetection.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsAction.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/TexturedObjectDetection.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Detection2d.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsGoal.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsActionGoal.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizedObjectArray.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/Detections2d.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizeObjectsActionResult.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/LegDetections.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/RecognizedActions.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/msg/FaceDetection.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/manifest.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/SelectTexturedObject.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/AddTexturedObject.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/StopEnrollment.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/Recognizer.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/SetDatabase.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/ChangeObjectRecognizerModel.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/roseus/ros/pal_detection_msgs/srv/StartEnrollment.l
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Detections2d.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_FaceDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_WaveDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsActionResult.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizedObject.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsFeedback.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Obstacle.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/PersonDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsGoal.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Detection2d.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsGoal.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsActionResult.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizedObjectArray.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Obstacles.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Gesture.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_LegDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/PersonDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Obstacle.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsAction.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/FaceDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Detections2d.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_PersonDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/FaceThermalDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsResult.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_TexturedObjectDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RotatedDetection2d.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_PersonDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/Detection2d.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/pal_detection_msgs-msg.asd
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/LegDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Obstacles.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_FaceDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/TexturedObjectDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/FaceDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_FaceThermalDetections.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsActionFeedback.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/WaveDetection.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsFeedback.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizedActions.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizedObjectArray.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_Gesture.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsResult.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RotatedDetection2d.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsAction.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizedObject.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizeObjectsActionGoal.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizedActions.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/msg/RecognizeObjectsActionGoal.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_StopEnrollment.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/SetDatabase.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_ChangeObjectRecognizerModel.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_SetDatabase.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/StopEnrollment.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_Recognizer.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/AddTexturedObject.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/ChangeObjectRecognizerModel.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_AddTexturedObject.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/SelectTexturedObject.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_SelectTexturedObject.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/StartEnrollment.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/Recognizer.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/pal_detection_msgs-srv.asd
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/common-lisp/ros/pal_detection_msgs/srv/_package_StartEnrollment.lisp
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/_index.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/_index.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsResult.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/LegDetections.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizedObject.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/FaceDetections.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/FaceThermalDetections.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsFeedback.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RotatedDetection2d.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/WaveDetection.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Gesture.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/FaceDetection.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsActionGoal.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Detection2d.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizedActions.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Detections2d.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/PersonDetection.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsActionResult.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsGoal.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Obstacle.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizedObjectArray.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/Obstacles.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/TexturedObjectDetection.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/PersonDetections.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/msg/RecognizeObjectsAction.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/ChangeObjectRecognizerModel.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/_index.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/Recognizer.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/StopEnrollment.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/StartEnrollment.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/AddTexturedObject.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/SelectTexturedObject.js
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/gennodejs/ros/pal_detection_msgs/srv/SetDatabase.js
+Listing '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/__init__.py'...
+Listing '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_Detection2d.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_Detections2d.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceDetection.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceDetections.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceThermalDetections.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_Gesture.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_LegDetections.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_Obstacle.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_Obstacles.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_PersonDetection.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_PersonDetections.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsAction.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionFeedback.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionGoal.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionResult.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsFeedback.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsGoal.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsResult.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedActions.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedObject.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedObjectArray.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_RotatedDetection2d.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_TexturedObjectDetection.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/_WaveDetection.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/msg/__init__.py'...
+Listing '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/_AddTexturedObject.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/_ChangeObjectRecognizerModel.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/_Recognizer.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/_SelectTexturedObject.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/_SetDatabase.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/_StartEnrollment.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/_StopEnrollment.py'...
+Compiling '/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/__init__.py'...
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedObjectArray.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceDetection.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceDetections.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedObject.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionGoal.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Gesture.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionFeedback.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__init__.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsResult.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Detections2d.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_PersonDetection.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsAction.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Obstacle.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizedActions.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_FaceThermalDetections.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_TexturedObjectDetection.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RotatedDetection2d.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_FaceDetections.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsFeedback.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizedObjectArray.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Detection2d.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsGoal.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsActionResult.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsActionGoal.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_PersonDetections.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_WaveDetection.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_FaceDetection.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsResult.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Obstacles.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Detections2d.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizedObject.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_RecognizeObjectsActionFeedback.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_LegDetections.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/__pycache__/_Gesture.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsGoal.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_TexturedObjectDetection.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_FaceThermalDetections.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsAction.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Obstacle.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_LegDetections.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsFeedback.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_PersonDetection.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Obstacles.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RotatedDetection2d.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_Detection2d.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_PersonDetections.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizedActions.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_WaveDetection.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/msg/_RecognizeObjectsActionResult.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/__init__.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/__pycache__
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/__pycache__/__init__.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_Recognizer.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_StopEnrollment.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__init__.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_ChangeObjectRecognizerModel.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_ChangeObjectRecognizerModel.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_SelectTexturedObject.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_Recognizer.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_AddTexturedObject.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_StopEnrollment.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_StartEnrollment.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/__pycache__/_SetDatabase.cpython-38.pyc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_SetDatabase.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_AddTexturedObject.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_SelectTexturedObject.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/python3/dist-packages/pal_detection_msgs/srv/_StartEnrollment.py
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/pal_detection_msgs.pc
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgs-msg-extras.cmake
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgsConfig.cmake
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/cmake/pal_detection_msgsConfig-version.cmake
+-- Installing: /TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/package.xml

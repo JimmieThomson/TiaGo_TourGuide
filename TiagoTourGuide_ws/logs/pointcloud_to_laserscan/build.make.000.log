@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target pointcloud_to_laserscan[0m
+[35m[1mScanning dependencies of target laserscan_to_pointcloud[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_nodelet.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_nodelet.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so[0m
+[ 50%] [32m[1mLinking CXX shared library /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so[0m
+[ 50%] Built target pointcloud_to_laserscan
+[35m[1mScanning dependencies of target pointcloud_to_laserscan_node[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[ 62%] Built target laserscan_to_pointcloud
+[35m[1mScanning dependencies of target laserscan_to_pointcloud_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node[0m
+[ 87%] Built target pointcloud_to_laserscan_node
+[100%] [32m[1mLinking CXX executable /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node[0m
+[100%] Built target laserscan_to_pointcloud_node

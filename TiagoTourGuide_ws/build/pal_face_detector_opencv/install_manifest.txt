@@ -1,0 +1,16 @@
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/pal_face_detector_opencv.pc
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig.cmake
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig-version.cmake
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_face_detector_opencv/package.xml
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pal_face_detector_opencv/pal_face_detector_opencv
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_face_detector_opencv/launch/detector.launch
+/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_face_detector_opencv/config/haarcascade_frontalface_alt.xml

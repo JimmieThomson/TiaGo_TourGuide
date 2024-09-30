@@ -1,0 +1,8 @@
+prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install
+
+Name: pal_face_detector_opencv
+Description: Description of pal_face_detector_opencv
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs pal_detection_msgs

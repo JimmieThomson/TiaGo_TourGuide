@@ -1,8 +1,0 @@
-[  0%] Built target _pal_video_recording_msgs_generate_messages_check_deps_StartRecording
-[  0%] Built target _pal_video_recording_msgs_generate_messages_check_deps_StopRecording
-[ 16%] Built target pal_video_recording_msgs_generate_messages_nodejs
-[ 41%] Built target pal_video_recording_msgs_generate_messages_py
-[ 58%] Built target pal_video_recording_msgs_generate_messages_lisp
-[ 75%] Built target pal_video_recording_msgs_generate_messages_cpp
-[100%] Built target pal_video_recording_msgs_generate_messages_eus
-[100%] Built target pal_video_recording_msgs_generate_messages

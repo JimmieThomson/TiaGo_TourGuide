@@ -1,0 +1,4 @@
+Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/pal_face_detector_opencv.pc
+Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pal_face_detector_opencv/pal_face_detector_opencv
+Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig-version.cmake
+Symlinking /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig.cmake

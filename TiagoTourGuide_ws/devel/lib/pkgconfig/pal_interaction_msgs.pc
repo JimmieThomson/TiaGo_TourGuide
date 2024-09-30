@@ -1,0 +1,1 @@
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/pkgconfig/pal_interaction_msgs.pc

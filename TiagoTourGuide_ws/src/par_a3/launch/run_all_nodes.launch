@@ -18,20 +18,20 @@
   This node is for turning the head scan to a laser scan, provides head collision if any 
 -->
     <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" name="pointcloud_to_laserscan">
-      <remap from="cloud_in" to="/xtion/depth_registered/points"/>
+      <remap from="cloud_in" to="/throttle_filtering_points/filtered_points"/>
       <remap from="scan" to="/camera/scan" />
       <rosparam>
-        target_frame: xtion_depth_frame
+        target_frame: map
         transform_tolerance: 0.01
         min_height: 0.5
-        max_height: 2.0
+        max_height: 1.0
         
-        angle_min: -1.5708
-        angle_max: 1.5708
+        angle_min: -3.14159
+        angle_max: 3.14159
         angle_increment: 0.01
-        scan_time: 0.033
-        range_min: 0.0
-        range_max: 10
+        scan_time: 0.3333
+        range_min: 0.4
+        range_max: 6.0
         use_inf: true
         
         #concurrency_level affects number of pc queued for processing and the number of threadsused
@@ -43,13 +43,4 @@
     </node>
 
     <node pkg="par_a3" type="move_amcl.py" name="move_amcl" output="screen"></node>
-    <!--
-      This node is too publish the laser scan to the 2d cost map
-    -->
-  <rosparam file="$(find par_a3)/params/minimal.yaml" command="load" ns="/costmap_node/costmap" />
-  <group ns="pointcloud_costmap">
-    <node pkg="costmap_2d" type="costmap_2d_node" name="costmap_node" output="screen">
-      <rosparam command="load" file="$(find TiagoTourGuide)/config/costmap_params.yaml"/>
-    </node>
-  </group>
 </launch>

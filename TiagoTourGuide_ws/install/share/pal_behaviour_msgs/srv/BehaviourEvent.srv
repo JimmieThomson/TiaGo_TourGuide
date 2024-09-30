@@ -1,9 +1,0 @@
-## SMC event
-
-#Header header
-
-string                                  name
-pal_behaviour_msgs/BehaviourArgument[]  arguments
----
-string                                  response
-

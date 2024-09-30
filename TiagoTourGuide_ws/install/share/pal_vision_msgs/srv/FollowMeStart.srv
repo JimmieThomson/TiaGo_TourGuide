@@ -1,6 +1,0 @@
-##
-## ROS service to start followMeServer functionality. The service is named /followMeServer/start
-
-float32 maxSecondsTargetLost 
-
----

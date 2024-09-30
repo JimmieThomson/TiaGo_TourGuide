@@ -1,0 +1,6 @@
+pal_face_detector_opencv-hydro-devel
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/cmake.lock /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/lib/pkgconfig/pal_face_detector_opencv.pc /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/pal_face_detector_opencv.pc
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/lib/pal_face_detector_opencv/pal_face_detector_opencv /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pal_face_detector_opencv/pal_face_detector_opencv
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig-version.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig-version.cmake
+/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig.cmake
