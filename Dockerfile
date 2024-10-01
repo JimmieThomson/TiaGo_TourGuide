@@ -57,7 +57,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       && catkin clean -y \
       && catkin build -DCATKIN_ENABLE_TESTING=0 -j $(expr `nproc` / 2) \
       && service apache2 start" 
-      
-  CMD ["apachectl", "-D", "FOREGROUND"]
-  CMD [ "python", "/TiaGo_TourGuide/TiagoTour_Website/app.py"]
+    
+  WORKDIR /TiaGo_TourGuide/
+  CMD ["./start.sh"]
   ENTRYPOINT ["bash"]
