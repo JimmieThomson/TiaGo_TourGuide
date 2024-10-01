@@ -77,7 +77,7 @@
     <!-- Buttons in the Middle -->
     <div class="button-section">
         <div class="text-center">
-            <form action="http://127.0.0.1:5000/" method="post"><button class="btn btn-success mx-2 btn-custom">Start Tiago</button></form>
+            <form action="test.php" method="post"><button class="btn btn-success mx-2 btn-custom" name="letter" value="true">Start Tiago</button></form>
             <button class="btn btn-primary mx-2 btn-custom">Localise</button>
             <!-- Red Button -->
             <button class="btn btn-danger mx-2 btn-custom">Emergency Stop</button>
@@ -86,7 +86,9 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>Tiago Tour Guide 2024</p>
+        <?php 
+        print gethostbyaddr("127.0.0.1");
+        ?>
     </footer>
 
     <!-- Bootstrap JS (Optional) -->

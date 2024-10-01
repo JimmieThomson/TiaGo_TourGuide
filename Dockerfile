@@ -44,6 +44,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-catkin-tools \
     ros-noetic-actionlib-tools \
     ros-noetic-moveit-commander \
+    php libapache2-mod-php \
     && pip install flask \
   && rm -rf /var/lib/apt/lists/* 
 
