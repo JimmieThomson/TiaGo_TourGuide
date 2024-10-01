@@ -44,17 +44,20 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-catkin-tools \
     ros-noetic-actionlib-tools \
     ros-noetic-moveit-commander \
+    && pip install flask \
   && rm -rf /var/lib/apt/lists/* 
 
-  RUN apt-get update && apt-get install -y curl
-  RUN git clone https://github.com/JimmieThomson/TiaGo_TourGuide
-  
+  RUN apt-get update && apt-get install -y \
+    && apt install apache2 -y \
+    && git clone 'https://github.com/JimmieThomson/TiaGo_TourGuide/' \
+    && cp -R /TiaGo_TourGuide/TiagoTour_Website/. /var/www/html/
+
   WORKDIR /TiaGo_TourGuide/TiagoTourGuide_ws/
   RUN bash -c "source /opt/ros/noetic/setup.bash \
-      && catkin build \
-      && echo 'source /TiagoTourGuide_ws/devel/setup.bash' >> ~/.bashrc"
-  
-  WORKDIR /TiaGo_TourGuide/TiagoTourGuide_ws
-  RUN catkin build
-  
+      && catkin clean -y \
+      && catkin build -DCATKIN_ENABLE_TESTING=0 -j $(expr `nproc` / 2) \
+      && service apache2 start" 
+      
+  CMD ["apachectl", "-D", "FOREGROUND"]
+  CMD [ "python", "/TiaGo_TourGuide/TiagoTour_Website/app.py"]
   ENTRYPOINT ["bash"]
