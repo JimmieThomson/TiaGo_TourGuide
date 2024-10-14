@@ -37,7 +37,7 @@ class STT:
     def __init__(self) -> None:
         self.isPlaying = False
         self.isNavigating = None
-        audio_state_topic = "/audio_player/state"
+        audio_state_topic = "/navigation/audio/"
         nav_state = "/navigation/state"
         rospy.Subscriber(audio_state_topic, Bool, self.audio_callback)
         rospy.Subscriber(nav_state, Bool, self.navigation_callback)
@@ -47,10 +47,11 @@ class STT:
         self._open_ai_util.speechTest("Ok, I'm ready to respond, please stand infront of me and speak clearly into my microphone, some times I can't hear things so you might need to repeat yourself!")
 
     def audio_callback(self, data):
+        print(f"Callback_state: {data.data}")
         self.isPlaying = data.data
 
     def navigation_callback(self, data):
-        print(f"Callback: {data.data}")
+        print(f"Callback_audio: {data.data}")
         self.isNavigating = data.data
 
     def send_tts(self, text):
@@ -63,7 +64,7 @@ class STT:
     def speech_recognize(self):
         print(self.isPlaying)
         if not self.isPlaying:
-            keyword = ["hey bandit", "hey bended", "hey thiago", "hey tiago", "hey tioga", "hi thiago", "hi bandit", "Hi, Bennett", "A bandit", "Hey Ben", "Hey Tiger", ""]  # Replace with your desired keyword
+            keyword = ["hey bandit", "hey bended", "hey thiago", "hey tiago", "hey tioga", "hi thiago", "hi bandit", "Hi, Bennett", "A bandit", "Hey Ben", "Hey Tiger"]  # Replace with your desired keyword
             
             print("Speak into your microphone.")
             result = self._speech_recognizer.recognize_once_async().get()
@@ -79,32 +80,32 @@ class STT:
                         self._open_ai_util.speechTest("hmmmmm")
                         response = self._open_ai_util.chat_completion(result.text)
                         res_txt = response.choices[0].message.content
-                try:
-                    json_res = json.loads(res_txt)
-                    print(json_res)
-                    res_type = json_res["type"]
-                    content = json_res["content"]
-                    print(f"res_type: {res_type}\n content: {content}")
-                    if res_type == "navigation":
-                        if "soccer lab" in content:
-                            self._waitingdoor = True
-                        if content == "complete":
-                            self._open_ai_util.speechTest(f"Please move out of my way")
-                        else:
-                            self._open_ai_util.speechTest(f"Heading to {content}, Please move out of my way")
-                        self.nav_com.publish(content)
-                        self.isNavigating = True
-                        print(f"isNavigating: {self.isNavigating}")
-                        while self.isNavigating:
-                            time.sleep(1)
-                    elif res_type == "chat":
-                        self._open_ai_util.speechTest(content)
-                except Exception as e:
-                    print("Error while parsing the response: " + str(e))
-                except Exception:
-                    print("Keywords weren't found")
-        elif result.reason == speechsdk.ResultReason.NoMatch:
-            print("No speech could be recognized: {}".format(result.no_match_details))
+                    try:
+                        json_res = json.loads(res_txt)
+                        print(json_res)
+                        res_type = json_res["type"]
+                        content = json_res["content"]
+                        print(f"res_type: {res_type}\n content: {content}")
+                        if res_type == "navigation":
+                            if "soccer lab" in content:
+                                self._waitingdoor = True
+                            if content == "complete":
+                                self._open_ai_util.speechTest(f"Please move out of my way")
+                            else:
+                                self._open_ai_util.speechTest(f"Heading to {content}, Please move out of my way")
+                            self.nav_com.publish(content)
+                            self.isNavigating = True
+                            print(f"isNavigating: {self.isNavigating}")
+                            while self.isNavigating:
+                                time.sleep(1)
+                        elif res_type == "chat":
+                            self._open_ai_util.speechTest(content)
+                    except Exception as e:
+                        print("Error while parsing the response: " + str(e))
+                    except Exception:
+                        print("Keywords weren't found")
+            elif result.reason == speechsdk.ResultReason.NoMatch:
+                print("No speech could be recognized: {}".format(result.no_match_details))
                     
 
 # FOR TIAGO

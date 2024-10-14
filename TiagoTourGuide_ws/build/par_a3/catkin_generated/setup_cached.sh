@@ -8,7 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/par_a3:$CMAKE_PREFIX_PATH"
-export LUA_PATH=';;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua'
+export LUA_PATH=';;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua'
 export PWD='/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/par_a3/share/common-lisp'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/par_a3/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/par_a3:$ROS_PACKAGE_PATH"

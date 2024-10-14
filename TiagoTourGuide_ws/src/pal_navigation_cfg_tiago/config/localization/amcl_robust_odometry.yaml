@@ -1,0 +1,4 @@
+odom_alpha1: 0.002
+odom_alpha3: 0.008
+update_min_d: 0.1
+update_min_a: 0.83

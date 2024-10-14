@@ -1,0 +1,129 @@
+# Independent settings for the local costmap
+local_costmap:
+  global_frame    : odom
+  robot_base_frame: base_footprint
+  transform_tolerance: 0.3
+
+  update_frequency : 5.0
+  publish_frequency: 1.0
+
+  rolling_window: true
+  width         : 4.0
+  height        : 4.0
+  resolution    : 0.025
+
+  footprint: [[ 0.35, 0.24], [-0.35, 0.24], [-0.35, -0.24], [ 0.35, -0.24]]
+
+  #plugins are loaded in a separate yaml file
+
+
+  front_obstacle_laser_layer:
+    enabled: true
+    observation_sources: base_scan
+    combination_method: 1 # cannot erase static layer
+
+    base_scan:
+      sensor_frame: base_front_laser_link
+      data_type: LaserScan
+      topic: scan_front_raw
+      expected_update_rate: 0.3
+      observation_persistence: 0.0
+      inf_is_valid: true
+      marking: true
+      clearing: true
+      raytrace_range: 6.0
+      obstacle_range: 5.5
+    
+  pointcloud_layer:
+    enabled: true
+    observation_sources: pointcloud
+    combination_method: 1 # cannot erase static layer
+    pointcloud:
+      sensor_frame: xtion_rgb_optical_frame
+      data_type: LaserScan
+      topic: /camera/scan
+      expected_update_rate: 1
+      observation_persistence: 0.0
+      inf_is_valid: false
+      marking: true
+      clearing: true
+
+  rear_obstacle_laser_layer:
+    enabled: true
+    observation_sources: base_scan
+    combination_method: 1 # cannot erase static layer
+
+    base_scan:
+      sensor_frame: base_rear_laser_link
+      data_type: LaserScan
+      topic: scan_rear_raw
+      expected_update_rate: 0.3
+      observation_persistence: 0.0
+      inf_is_valid: true
+      marking: true
+      clearing: true
+      raytrace_range: 6.0
+      obstacle_range: 5.5
+
+  ramp_layer:
+    enabled : true
+    fill_polygons: true
+    enable_invert: true
+
+  static_vo_layer:
+    enabled  : true
+    map_topic: vo_map
+    first_map_only: false
+    use_maximum: true
+    track_unknown_space: false
+
+  obstacle_rgbd_layer:
+    enabled:               true
+    voxel_decay:           20       # seconds if linear, e^n if exponential
+    decay_model:           0        # 0=linear, 1=exponential, -1=persistent
+    voxel_size:            0.02     # meters
+    track_unknown_space:   true     # keeps info on unknown
+    observation_persistence: 0.0    # seconds
+    max_obstacle_height:   2.0      # meters
+    unknown_threshold:     0        # voxel height
+    mark_threshold:        0        # voxel height
+    update_footprint_enabled: false
+    combination_method:    1        # 1=max, 0=override
+    obstacle_range:        4.0      # meters
+    origin_z:              0.0      # meters
+    publish_voxel_map:     false    # default off
+    transform_tolerance:   0.2      # seconds
+    mapping_mode:          false    # default off, saves map not for navigation
+    map_save_duration:     60       #default 60s, how often to autosave
+    observation_sources:   rgbd_base_clear rgbd_base_mark
+    rgbd_base_mark:
+      data_type: PointCloud2
+      topic: /throttle_filtering_points/filtered_points
+      sensor_frame: xtion_rgb_optical_frame
+      marking: true
+      clearing: false
+      min_obstacle_height: 0.0      # default 0, meters
+      max_obstacle_height: 3.0      # default 3, meters
+      expected_update_rate: 0.4     # default 0, if not updating at this rate at least, remove from buffer
+      observation_persistence: 0.0  # default 0, use all measurements taken during now-value, 0=latest
+      inf_is_valid: false           # default false, for laser scans
+      clear_after_reading: true     # default false, clear the buffer after the layer gets readings from it
+      #voxel_filter: true           # default off, apply voxel filter to sensor, recommend on
+    rgbd_base_clear:
+      data_type: PointCloud2
+      topic: /throttle_filtering_points/filtered_points
+      sensor_frame: xtion_rgb_optical_frame
+      marking: false
+      clearing: true
+      min_z: 0.50                   # default 0, meters
+      max_z: 4.5                    # default 10, meters
+      vertical_fov_angle: 0.82      # default 0.7, radians
+      horizontal_fov_angle: 1.01    # default 1.04, radians
+      decay_acceleration: 100000    # default 0, 1/s^2. If laser scanner MUST be 0
+      #voxel_filter: true           # default off, apply voxel filter to sensor, recommend on
+
+  inflation_layer:
+    enabled            : true # not used for pal_local_planner
+    inflation_radius   : 1.5
+    cost_scaling_factor: 25.0
+

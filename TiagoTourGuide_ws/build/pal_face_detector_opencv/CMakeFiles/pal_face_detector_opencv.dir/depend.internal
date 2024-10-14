@@ -83,6 +83,7 @@ CMakeFiles/pal_face_detector_opencv.dir/src/face_detector.cpp.o
  /opt/ros/noetic/include/sensor_msgs/Image.h
  /opt/ros/noetic/include/sensor_msgs/RegionOfInterest.h
  /opt/ros/noetic/include/sensor_msgs/image_encodings.h
+ /opt/ros/noetic/include/std_msgs/Bool.h
  /opt/ros/noetic/include/std_msgs/Header.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h

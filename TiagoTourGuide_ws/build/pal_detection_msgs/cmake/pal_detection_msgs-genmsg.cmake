@@ -24,7 +24,7 @@ add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:std_msgs/Header:pal_detection_msgs/Detection2d:geometry_msgs/Vector3:geometry_msgs/TransformStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg" "std_msgs/Header:pal_detection_msgs/Detection2d:geometry_msgs/Vector3:geometry_msgs/TransformStamped:geometry_msgs/Transform:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg" NAME_WE)
@@ -34,22 +34,22 @@ add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/Point32:std_msgs/Header:pal_detection_msgs/FaceDetection:geometry_msgs/Vector3:geometry_msgs/TransformStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg" "std_msgs/Header:geometry_msgs/Vector3:pal_detection_msgs/FaceDetection:geometry_msgs/Point32:geometry_msgs/TransformStamped:geometry_msgs/Transform:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg" "std_msgs/Header:sensor_msgs/RegionOfInterest"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg" "sensor_msgs/RegionOfInterest:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg" "std_msgs/Header:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg" "geometry_msgs/Point:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:std_msgs/Header:geometry_msgs/Vector3:geometry_msgs/TransformStamped:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg" "std_msgs/Header:geometry_msgs/Vector3:geometry_msgs/Point:geometry_msgs/TransformStamped:geometry_msgs/Transform:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg" NAME_WE)
@@ -59,17 +59,17 @@ add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg" "std_msgs/Header:geometry_msgs/Point:pal_detection_msgs/Obstacle"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg" "pal_detection_msgs/Obstacle:geometry_msgs/Point:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/Point32:pal_detection_msgs/LegDetections:std_msgs/Header:pal_detection_msgs/Detection2d:pal_detection_msgs/FaceDetection:geometry_msgs/Vector3:geometry_msgs/TransformStamped:geometry_msgs/Point:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg" "geometry_msgs/PointStamped:std_msgs/Header:pal_detection_msgs/Detection2d:geometry_msgs/Vector3:pal_detection_msgs/FaceDetection:pal_detection_msgs/LegDetections:geometry_msgs/Point:geometry_msgs/TransformStamped:geometry_msgs/Transform:geometry_msgs/Point32:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/Point32:pal_detection_msgs/LegDetections:std_msgs/Header:pal_detection_msgs/Detection2d:pal_detection_msgs/FaceDetection:geometry_msgs/Vector3:pal_detection_msgs/PersonDetection:geometry_msgs/TransformStamped:geometry_msgs/Point:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg" "geometry_msgs/PointStamped:pal_detection_msgs/PersonDetection:std_msgs/Header:pal_detection_msgs/Detection2d:geometry_msgs/Vector3:pal_detection_msgs/FaceDetection:pal_detection_msgs/LegDetections:geometry_msgs/Point:geometry_msgs/TransformStamped:geometry_msgs/Transform:geometry_msgs/Point32:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedActions.msg" NAME_WE)
@@ -84,7 +84,7 @@ add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg" "pal_detection_msgs/RotatedDetection2d:std_msgs/Header:sensor_msgs/CompressedImage"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg" "pal_detection_msgs/RotatedDetection2d:sensor_msgs/CompressedImage:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/WaveDetection.msg" NAME_WE)
@@ -99,37 +99,37 @@ add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg" "std_msgs/Header:sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizedObject"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg" "sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizedObject:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg" "pal_detection_msgs/RecognizeObjectsActionResult:std_msgs/Header:pal_detection_msgs/RecognizeObjectsActionGoal:sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizedObject:pal_detection_msgs/RecognizeObjectsGoal:actionlib_msgs/GoalStatus:pal_detection_msgs/RecognizedObjectArray:pal_detection_msgs/RecognizeObjectsActionFeedback:pal_detection_msgs/RecognizeObjectsResult:sensor_msgs/CompressedImage:actionlib_msgs/GoalID:pal_detection_msgs/RecognizeObjectsFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg" "sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizeObjectsActionFeedback:pal_detection_msgs/RecognizedObjectArray:pal_detection_msgs/RecognizedObject:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_detection_msgs/RecognizeObjectsResult:pal_detection_msgs/RecognizeObjectsActionGoal:pal_detection_msgs/RecognizeObjectsActionResult:pal_detection_msgs/RecognizeObjectsFeedback:pal_detection_msgs/RecognizeObjectsGoal:sensor_msgs/CompressedImage"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg" "std_msgs/Header:sensor_msgs/CompressedImage:actionlib_msgs/GoalID:pal_detection_msgs/RecognizeObjectsGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg" "actionlib_msgs/GoalID:pal_detection_msgs/RecognizeObjectsGoal:sensor_msgs/CompressedImage:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg" "std_msgs/Header:sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizedObject:actionlib_msgs/GoalStatus:pal_detection_msgs/RecognizedObjectArray:pal_detection_msgs/RecognizeObjectsResult:sensor_msgs/CompressedImage:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg" "sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizedObjectArray:pal_detection_msgs/RecognizedObject:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_detection_msgs/RecognizeObjectsResult:sensor_msgs/CompressedImage"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_detection_msgs/RecognizeObjectsFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg" "pal_detection_msgs/RecognizeObjectsFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg" "std_msgs/Header:sensor_msgs/CompressedImage"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg" "sensor_msgs/CompressedImage:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg" NAME_WE)
 add_custom_target(_pal_detection_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg" "std_msgs/Header:sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizedObject:pal_detection_msgs/RecognizedObjectArray:sensor_msgs/CompressedImage"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_detection_msgs" "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg" "sensor_msgs/RegionOfInterest:pal_detection_msgs/RecognizedObjectArray:pal_detection_msgs/RecognizedObject:std_msgs/Header:sensor_msgs/CompressedImage"
 )
 
 get_filename_component(_filename "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg" NAME_WE)
@@ -187,7 +187,7 @@ _generate_msg_cpp(pal_detection_msgs
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
@@ -199,25 +199,25 @@ _generate_msg_cpp(pal_detection_msgs
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
@@ -229,19 +229,19 @@ _generate_msg_cpp(pal_detection_msgs
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
@@ -259,7 +259,7 @@ _generate_msg_cpp(pal_detection_msgs
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
@@ -277,43 +277,43 @@ _generate_msg_cpp(pal_detection_msgs
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_cpp(pal_detection_msgs
@@ -460,7 +460,7 @@ _generate_msg_eus(pal_detection_msgs
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
@@ -472,25 +472,25 @@ _generate_msg_eus(pal_detection_msgs
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
@@ -502,19 +502,19 @@ _generate_msg_eus(pal_detection_msgs
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
@@ -532,7 +532,7 @@ _generate_msg_eus(pal_detection_msgs
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
@@ -550,43 +550,43 @@ _generate_msg_eus(pal_detection_msgs
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_eus(pal_detection_msgs
@@ -733,7 +733,7 @@ _generate_msg_lisp(pal_detection_msgs
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
@@ -745,25 +745,25 @@ _generate_msg_lisp(pal_detection_msgs
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
@@ -775,19 +775,19 @@ _generate_msg_lisp(pal_detection_msgs
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
@@ -805,7 +805,7 @@ _generate_msg_lisp(pal_detection_msgs
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
@@ -823,43 +823,43 @@ _generate_msg_lisp(pal_detection_msgs
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_lisp(pal_detection_msgs
@@ -1006,7 +1006,7 @@ _generate_msg_nodejs(pal_detection_msgs
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
@@ -1018,25 +1018,25 @@ _generate_msg_nodejs(pal_detection_msgs
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
@@ -1048,19 +1048,19 @@ _generate_msg_nodejs(pal_detection_msgs
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
@@ -1078,7 +1078,7 @@ _generate_msg_nodejs(pal_detection_msgs
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
@@ -1096,43 +1096,43 @@ _generate_msg_nodejs(pal_detection_msgs
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_nodejs(pal_detection_msgs
@@ -1279,7 +1279,7 @@ _generate_msg_py(pal_detection_msgs
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detections2d.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
@@ -1291,25 +1291,25 @@ _generate_msg_py(pal_detection_msgs
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceThermalDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Gesture.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
@@ -1321,19 +1321,19 @@ _generate_msg_py(pal_detection_msgs
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacles.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Obstacle.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/PersonDetection.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/Detection2d.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/FaceDetection.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/LegDetections.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
@@ -1351,7 +1351,7 @@ _generate_msg_py(pal_detection_msgs
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/TexturedObjectDetection.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RotatedDetection2d.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
@@ -1369,43 +1369,43 @@ _generate_msg_py(pal_detection_msgs
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg"
+  "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs
   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/RegionOfInterest.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObjectArray.msg;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/msg/RecognizedObject.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_detection_msgs
 )
 _generate_msg_py(pal_detection_msgs

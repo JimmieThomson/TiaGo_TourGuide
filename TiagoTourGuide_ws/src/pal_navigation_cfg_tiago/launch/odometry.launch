@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+      <node pkg="direct_laser_odometry" type="dlo_node" name="direct_laser_odometry">
+      <rosparam command="load" file="$(find direct_laser_odometry)/config/params.yaml" />
+      <param name="~/dlo/enable_publish_odom_tf" type="bool" value="true"/>
+      <remap from="~/dlo/mf/max_vel_trans" to="/mobile_base_controller/linear/x/max_velocity"/>
+      <remap from="~/dlo/mf/max_vel_rot" to="/mobile_base_controller/angular/z/max_velocity"/>
+    </node>
+  
+</launch>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pal_navigation_cfg_tiago</name>
+  <version>2.2.9</version>
+  <description>Robot specific config and launch files needed to run
+    navigation on the tiago robot.</description>
+  <maintainer email="yue.erro@pal-robotics.com">Yue Erro</maintainer>
+  <license>Proprietary</license>
+  <author email="jose.garcia@pal-robotics.com">Jose Carlos</author>
+  <author email="sai.kishor@pal-robotics.com">Sai Kishor Kothakota</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>amcl</exec_depend>
+  <exec_depend>fake_localization</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <exec_depend>gmapping</exec_depend>
+  <exec_depend>spatio_temporal_voxel_layer</exec_depend>
+  <exec_depend>pal_local_planner</exec_depend>
+  <exec_depend>dwa_local_planner</exec_depend>
+  <exec_depend>navfn</exec_depend>
+  <exec_depend>carrot_planner</exec_depend>
+  <exec_depend>global_planner</exec_depend>
+  <exec_depend>pal_navigation_sm</exec_depend>
+  <exec_depend>teb_local_planner</exec_depend>
+  <exec_depend>octomap_server</exec_depend>
+  <exec_depend>direct_laser_odometry</exec_depend>
+  <exec_depend>pal_karto</exec_depend>
+  <exec_depend>pal_vo_server</exec_depend>
+  <exec_depend>pal_pcl</exec_depend>
+  <exec_depend>highways_server</exec_depend>
+  <exec_depend>polycost_layer</exec_depend>
+  <exec_depend>rviz_plugin_covariance</exec_depend>
+  <exec_depend>range_sensor_layer</exec_depend>
+
+  <export>
+    <pal_debian_scripts>
+      install_scripts
+    </pal_debian_scripts>
+  </export>
+
+</package>

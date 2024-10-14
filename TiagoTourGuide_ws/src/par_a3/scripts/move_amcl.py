@@ -23,7 +23,7 @@ class MoveAmcl:
         nav_state = ('/navigation/state/')
         self.depth_sub = rospy.Subscriber('/navigation/command', String, self.command_callback)
         self.navigation_state = rospy.Publisher('/navigation/state/', Bool, queue_size=1)
-        self.navigation_state = rospy.Publisher('/navigation/audio/', Bool, queue_size=1)
+        self.navigation_audio = rospy.Publisher('/navigation/audio/', Bool, queue_size=1)
 
         self.way_points ={
             'tiago': (-0.9690887667535986, 4.491719290018725, 0.8905017709427894, -0.4549797753172726),
@@ -67,10 +67,10 @@ class MoveAmcl:
     def speak(self, tts):
         state = Bool()
         state.data = True
-        self.navigation_state.publish(state)
+        self.navigation_audio.publish(state)
         self._open_ai_util.speechTest(tts)
         state.data = False
-        self.navigation_state.publish(state)
+        self.navigation_audio.publish(state)
 
     def command_callback(self, data):
         destination = str(data).split(":")[1].strip().strip('"').lower()
@@ -110,6 +110,7 @@ class MoveAmcl:
         if wait:
             rospy.loginfo("Goal reached")
             costmaps = rospy.ServiceProxy('move_base/clear_costmaps', Empty)
+            self.update_nav_state(False)
             return client.get_result()
 
     def send_tts(self, text, tts_client):
@@ -170,6 +171,7 @@ class MoveAmcl:
                 self.speak(f"With existing supercomputing infrastructure in high demand and complexity hindering the use of cloud services, the RACE Hub will allow researchers to be to access a self-serve portal and very high speed connectivity to meet demand across the organisation and the ability to simulate their supercomputing in a cost effective, accessible platform. By offering pre-configured options with cost estimates in a browsable service catalogue, cloud computing will be simpler and easier for researchers. It will transform collaborative and research opportunities for academic, industry partners.")
                 self.speak(f"Lets head back to the lab, I'm going to head to the door, so please watch out")
                 self._iswaitingforcommand == True
+                self.update_nav_state(True)
                 self.go_to_door()
                 self.speak("Please tell me when the door is open")
                 print(self._iswaitingforcommand)
@@ -180,11 +182,7 @@ class MoveAmcl:
                 self.speak("Thanks everyone, It's been a pleasure to guide you around today, please make sure to give us your feedback about todays tour through our QR code, Thanks again!")
                 wave_obj = sa.WaveObject.from_wave_file('/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/par_a3/sound/trumpet.wav').play().wait_done()
                 
-                
-                
-            #TODO: elif str(destination) == "inside vx lab":
-            #TODO: elif str(destination) == "outside vx lab":
-            self.update_nav_state(False)
+            
     
 if __name__ == "__main__":
     try:

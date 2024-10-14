@@ -1,0 +1,15 @@
+<launch>
+    <arg name="plugin" default="frontier_exploration::FrontierPlugin"/>
+    <arg name="blacklist_box_size" default="0.5"/>
+
+    <param name="plugin_name" value="$(arg plugin)"/>
+    <param name="blacklist_box_size" value="$(arg blacklist_box_size)"/>
+
+    <node pkg="exploration_server" type="plugin_client" name="plugin_client" output="screen"/>
+
+    <node pkg="exploration_server" type="exploration_server_node" name="exploration_server_node" output="screen">
+        <param name="frequency" type="double" value="2.0"/>
+        <rosparam file="$(find pal_navigation_cfg_tiago)/config/base/common/exploration_costmap.yaml" command="load"/>
+    </node>
+
+</launch>

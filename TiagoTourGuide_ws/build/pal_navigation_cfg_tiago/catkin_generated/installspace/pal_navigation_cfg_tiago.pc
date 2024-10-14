@@ -1,0 +1,8 @@
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install
+
+Name: pal_navigation_cfg_tiago
+Description: Description of pal_navigation_cfg_tiago
+Version: 2.2.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

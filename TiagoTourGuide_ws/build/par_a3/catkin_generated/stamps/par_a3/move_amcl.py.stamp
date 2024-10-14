@@ -8,10 +8,11 @@ from std_srvs.srv import Empty
 import subprocess
 from tiago_common.open_ai_utils import OpenAIUtils
 import simpleaudio as sa
+import os
 
 class MoveAmcl:
     _open_ai_util = OpenAIUtils(
-        api_key="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"
+        api_key=os.environ.get('openAPI')
     )
     _inlab = True
     _iswaitingforcommand = True
@@ -21,7 +22,8 @@ class MoveAmcl:
     def __init__(self) -> None:
         nav_state = ('/navigation/state/')
         self.depth_sub = rospy.Subscriber('/navigation/command', String, self.command_callback)
-        self.navigation_state = rospy.Publisher(nav_state, Bool, queue_size=1)
+        self.navigation_state = rospy.Publisher('/navigation/state/', Bool, queue_size=1)
+        self.navigation_audio = rospy.Publisher('/navigation/audio/', Bool, queue_size=1)
 
         self.way_points ={
             'tiago': (-0.9690887667535986, 4.491719290018725, 0.8905017709427894, -0.4549797753172726),
@@ -61,6 +63,14 @@ class MoveAmcl:
         state = Bool()
         state.data = nav_state
         self.navigation_state.publish(state)
+    
+    def speak(self, tts):
+        state = Bool()
+        state.data = True
+        self.navigation_audio.publish(state)
+        self._open_ai_util.speechTest(tts)
+        state.data = False
+        self.navigation_audio.publish(state)
 
     def command_callback(self, data):
         destination = str(data).split(":")[1].strip().strip('"').lower()
@@ -100,6 +110,7 @@ class MoveAmcl:
         if wait:
             rospy.loginfo("Goal reached")
             costmaps = rospy.ServiceProxy('move_base/clear_costmaps', Empty)
+            self.update_nav_state(False)
             return client.get_result()
 
     def send_tts(self, text, tts_client):
@@ -141,40 +152,37 @@ class MoveAmcl:
                 print(result)
             
             if str(destination) == "rosie":
-                self._open_ai_util.speechTest(f"Hey everyone meet rosie, rosie was created in the Virtual Experiences Laboratory in 2017. She is an integration of two-armed Baxter robot from rethink robotics and an omnidirectional dataspeed mobility base. Thank you.")
+                self.speak(f"Hey everyone meet rosie, rosie was created in the Virtual Experiences Laboratory in 2017. She is an integration of two-armed Baxter robot from rethink robotics and an omnidirectional dataspeed mobility base. Thank you.")
             elif str(destination) == "hologram":
-                self._open_ai_util.speechTest(f"Meet {str(destination)} a high resolution display that enables multiple users to view and interact with 3D content simultaneously. Thank you.")
+                self.speak(f"Meet {str(destination)} a high resolution display that enables multiple users to view and interact with 3D content simultaneously. Thank you.")
             elif str(destination) == "cobot arm":
-                self._open_ai_util.speechTest(f"Hey everyone, meet {str(destination)} designed to work alonside humans in shared workspaces. With a payload capaciy of 5 kg, a reach of 850 mm and 6 degrees of freedom. This robot offers verstaility, precision and user-friendly programing for various industrial applications.  Thank you.")
+                self.speak(f"Hey everyone, meet {str(destination)} designed to work alonside humans in shared workspaces. With a payload capaciy of 5 kg, a reach of 850 mm and 6 degrees of freedom. This robot offers verstaility, precision and user-friendly programing for various industrial applications.  Thank you.")
             elif str(destination) == "space lab":
-                self._open_ai_util.speechTest(f"TO INFIINITY AND BEYOND!! Hey everyone, meet {str(destination)}, designed and developed in R. M. I. T. University, this facility provides immersive introduction to space weather and it impact to technology. The lab gives students a hands-on experience in analysing and interpreting space weather data. Thank you.")
+                self.speak(f"TO INFIINITY AND BEYOND!! Hey everyone, meet {str(destination)}, designed and developed in R. M. I. T. University, this facility provides immersive introduction to space weather and it impact to technology. The lab gives students a hands-on experience in analysing and interpreting space weather data. Thank you.")
             elif str(destination) == "tiago":
-                self._open_ai_util.speechTest(f"Sit back and enjoy the video!")
+                self.speak(f"Sit back and enjoy the video!")
             elif str(destination) == "nova sphere":
-                self._open_ai_util.speechTest(f"The NOVA Simulator is the first of its kind at a Victorian university and only the second in Australia. The two metre wide sphere simulator is operated by a single person in a VR headset. It tricks the brain with its ability to quickly rotate in any direction, while audio, visual and physical sensations make it feel truly real. With its unique 360 motion replication capability, it goes step beyond other simulators to provide a much closer simulation of real life. It also captures biometric data, such as eye-tracking that can be used in conjunction with flight data from RMIT’s physical fleet to conduct deeper research and analysis. The simulator will allow RMIT researchers to conduct more detailed scenario testing and investigation around pilot performance and open up a range of new possibilities for aviation research that drives innovation and improved safety and performance.")
+                self.speak(f"The NOVA Simulator is the first of its kind at a Victorian university and only the second in Australia. The two metre wide sphere simulator is operated by a single person in a VR headset. It tricks the brain with its ability to quickly rotate in any direction, while audio, visual and physical sensations make it feel truly real. With its unique 360 motion replication capability, it goes step beyond other simulators to provide a much closer simulation of real life. It also captures biometric data, such as eye-tracking that can be used in conjunction with flight data from RMIT’s physical fleet to conduct deeper research and analysis. The simulator will allow RMIT researchers to conduct more detailed scenario testing and investigation around pilot performance and open up a range of new possibilities for aviation research that drives innovation and improved safety and performance.")
             elif str(destination) == "rosie light saber video":
-                self._open_ai_util.speechTest(f"Sit back and enjoy the video!")
+                self.speak(f"Sit back and enjoy the video!")
                 subprocess.call(['sh', '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/shellcom/rosie.sh'])
             elif str(destination) == "race lab" and self._iswaitingforcommand == False:
                 result = self.send_goal(x, y, z, w, client)
-                self._open_ai_util.speechTest(f"With existing supercomputing infrastructure in high demand and complexity hindering the use of cloud services, the RACE Hub will allow researchers to be to access a self-serve portal and very high speed connectivity to meet demand across the organisation and the ability to simulate their supercomputing in a cost effective, accessible platform. By offering pre-configured options with cost estimates in a browsable service catalogue, cloud computing will be simpler and easier for researchers. It will transform collaborative and research opportunities for academic, industry partners.")
-                self._open_ai_util.speechTest(f"Lets head back to the lab, I'm going to head to the door, so please watch out")
+                self.speak(f"With existing supercomputing infrastructure in high demand and complexity hindering the use of cloud services, the RACE Hub will allow researchers to be to access a self-serve portal and very high speed connectivity to meet demand across the organisation and the ability to simulate their supercomputing in a cost effective, accessible platform. By offering pre-configured options with cost estimates in a browsable service catalogue, cloud computing will be simpler and easier for researchers. It will transform collaborative and research opportunities for academic, industry partners.")
+                self.speak(f"Lets head back to the lab, I'm going to head to the door, so please watch out")
                 self._iswaitingforcommand == True
+                self.update_nav_state(True)
                 self.go_to_door()
-                self._open_ai_util.speechTest("Please tell me when the door is open")
+                self.speak("Please tell me when the door is open")
                 print(self._iswaitingforcommand)
             elif str(destination) == 'inside lab' and self._iswaitingforcommand == False:
                 x,y,z,w = self.way_points.get('rosie')
                 result = self.send_goal(x, y, z, w, client)
             elif str(destination) == "complete":
-                self._open_ai_util.speechTest("Thanks everyone, It's been a pleasure to guide you around today, please make sure to give us your feedback about todays tour through our QR code, Thanks again!")
+                self.speak("Thanks everyone, It's been a pleasure to guide you around today, please make sure to give us your feedback about todays tour through our QR code, Thanks again!")
                 wave_obj = sa.WaveObject.from_wave_file('/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/par_a3/sound/trumpet.wav').play().wait_done()
                 
-                
-                
-            #TODO: elif str(destination) == "inside vx lab":
-            #TODO: elif str(destination) == "outside vx lab":
-            self.update_nav_state(False)
+            
     
 if __name__ == "__main__":
     try:

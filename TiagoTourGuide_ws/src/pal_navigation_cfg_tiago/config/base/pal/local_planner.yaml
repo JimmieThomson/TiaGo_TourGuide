@@ -1,0 +1,28 @@
+base_local_planner: pal_local_planner/PalLocalPlanner
+
+PalLocalPlanner:
+
+  # main params
+  max_vel_x : &max_vel_x 0.5
+  max_vel_theta: !degrees 60.0
+  acc_lim_x    : 0.2
+  acc_lim_theta: !degrees 60.0
+  xy_goal_tolerance : 0.2
+  yaw_goal_tolerance: 0.2
+
+  # mcc params
+  travel_speed_sfl   : *max_vel_x
+  point_b_sfl        : 0.26
+  decay              : 0.85
+  max_dist_plan_ahead: 5.0
+  min_dist_plan_ahead: 0.3
+  dist_to_final_speed: 1.0
+  allow_backwards    : true
+
+  # oa params
+  robot_width             : 0.55
+  target_direction_infl   : 0.6
+  wheel_orientation_infl  : 0.0
+  previous_direction_infl : 0.6
+  max_threshold           : 1.0
+  security_dist           : 0.025

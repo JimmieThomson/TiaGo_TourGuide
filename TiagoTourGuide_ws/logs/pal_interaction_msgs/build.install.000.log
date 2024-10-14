@@ -1,4 +1,4 @@
-[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileResult
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileGoal
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_I18nArgument
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRStatus
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRSrvRequest
@@ -16,6 +16,7 @@
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundGoal
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayerState
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_asrupdate
+[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileResult
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_SoundLocalisationService
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionFeedback
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_GetSpeechDuration
@@ -55,7 +56,6 @@
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRSrvResponse
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_VoiceActivity
 [  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_Input
-[  0%] Built target _pal_interaction_msgs_generate_messages_check_deps_ASRFileGoal
 [ 19%] Built target pal_interaction_msgs_generate_messages_cpp
 [ 19%] Built target std_msgs_generate_messages_py
 [ 19%] Built target actionlib_msgs_generate_messages_py
@@ -72,15 +72,15 @@
 [100%] Built target pal_interaction_msgs_generate_messages
 [36mInstall the project...[0m
 -- Install configuration: ""
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
 -- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/actiontag.msg
 -- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASRActivation.msg
 -- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_interaction_msgs/msg/ASREvent.msg

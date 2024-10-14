@@ -1,11 +1,4 @@
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Detection2d
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Detections2d
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizedObject
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_AddTexturedObject
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsGoal
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Obstacle
-[  0%] Built target actionlib_msgs_generate_messages_cpp
-[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsAction
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizedActions
 [  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_PersonDetection
@@ -16,6 +9,13 @@
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RotatedDetection2d
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_PersonDetections
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_FaceDetection
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Obstacle
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsAction
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Detections2d
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizedObject
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_AddTexturedObject
+[  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsGoal
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_Obstacles
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_WaveDetection
@@ -33,34 +33,34 @@
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_StartEnrollment
 [  0%] Built target _pal_detection_msgs_generate_messages_check_deps_FaceDetections
 [ 19%] Built target pal_detection_msgs_generate_messages_cpp
-[ 19%] Built target geometry_msgs_generate_messages_eus
-[ 19%] Built target actionlib_msgs_generate_messages_eus
-[ 19%] Built target sensor_msgs_generate_messages_eus
-[ 39%] Built target pal_detection_msgs_generate_messages_eus
-[ 39%] Built target geometry_msgs_generate_messages_py
-[ 39%] Built target actionlib_msgs_generate_messages_py
-[ 39%] Built target sensor_msgs_generate_messages_py
-[ 60%] Built target pal_detection_msgs_generate_messages_py
-[ 60%] Built target actionlib_msgs_generate_messages_nodejs
-[ 60%] Built target sensor_msgs_generate_messages_nodejs
-[ 60%] Built target geometry_msgs_generate_messages_nodejs
-[ 80%] Built target pal_detection_msgs_generate_messages_nodejs
-[ 80%] Built target actionlib_msgs_generate_messages_lisp
+[ 19%] Built target geometry_msgs_generate_messages_py
+[ 19%] Built target sensor_msgs_generate_messages_py
+[ 19%] Built target actionlib_msgs_generate_messages_py
+[ 40%] Built target pal_detection_msgs_generate_messages_py
+[ 40%] Built target geometry_msgs_generate_messages_nodejs
+[ 40%] Built target sensor_msgs_generate_messages_nodejs
+[ 40%] Built target actionlib_msgs_generate_messages_nodejs
+[ 60%] Built target pal_detection_msgs_generate_messages_nodejs
+[ 60%] Built target actionlib_msgs_generate_messages_eus
+[ 60%] Built target sensor_msgs_generate_messages_eus
+[ 60%] Built target geometry_msgs_generate_messages_eus
+[ 80%] Built target pal_detection_msgs_generate_messages_eus
 [ 80%] Built target sensor_msgs_generate_messages_lisp
+[ 80%] Built target actionlib_msgs_generate_messages_lisp
 [ 80%] Built target geometry_msgs_generate_messages_lisp
 [100%] Built target pal_detection_msgs_generate_messages_lisp
 [100%] Built target pal_detection_msgs_generate_messages
 [36mInstall the project...[0m
 -- Install configuration: ""
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
--- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+-- Up-to-date: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
 -- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Detection2d.msg
 -- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/Detections2d.msg
 -- Installing: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/pal_detection_msgs/msg/FaceDetection.msg

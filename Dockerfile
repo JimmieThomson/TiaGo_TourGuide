@@ -49,20 +49,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && rm -rf /var/lib/apt/lists/* 
 
   RUN apt-get update && apt-get install -y \
-<<<<<<< Updated upstream
-    && apt install apache2 -y \
-    && git clone 'https://github.com/JimmieThomson/TiaGo_TourGuide/' \
-    && cp -R /TiaGo_TourGuide/TiagoTour_Website/. /var/www/html/
-
-  WORKDIR /TiaGo_TourGuide/TiagoTourGuide_ws/
-  RUN bash -c "source /opt/ros/noetic/setup.bash \
-      && catkin clean -y \
-      && catkin build -DCATKIN_ENABLE_TESTING=0 -j $(expr `nproc` / 2) \
-      && service apache2 start" 
-    
-  WORKDIR /TiaGo_TourGuide/
-  CMD ["./start.sh"]
-=======
     && pip install flask \
     && apt-get install ros-noetic-pointcloud-to-laserscan -y \
     && pip install azure-cognitiveservices-speech \
@@ -79,5 +65,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   #RUN bash -c "python setup.py install"
   WORKDIR /
 
->>>>>>> Stashed changes
   ENTRYPOINT ["bash"]

@@ -1,4 +1,4 @@
 /home/james/TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock 28
 /home/james/test/TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock 2
 /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock 73
-/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock 576
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock 644

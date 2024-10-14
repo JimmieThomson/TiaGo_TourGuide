@@ -61,6 +61,8 @@ sensor_msgs/image_encodings.h
 -
 ros/package.h
 -
+std_msgs/Bool.h
+-
 opencv2/objdetect/objdetect.hpp
 -
 opencv2/imgproc/imgproc.hpp
@@ -1004,6 +1006,22 @@ cstdlib
 stdexcept
 -
 string
+-
+
+/opt/ros/noetic/include/std_msgs/Bool.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /opt/ros/noetic/include/std_msgs/Header.h

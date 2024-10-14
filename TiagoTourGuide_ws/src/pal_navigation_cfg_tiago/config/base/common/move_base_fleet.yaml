@@ -1,0 +1,3 @@
+# Disable oscillation, because we may be stopped by the global fleet planner, waiting for a precondition
+oscillation_timeout : 0.0
+oscillation_distance:  0.0
