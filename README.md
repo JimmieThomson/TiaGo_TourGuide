@@ -8,32 +8,13 @@
 
 <h2>🛠️ Installation Steps (source):</h2>
 
-<p>1. Source the tiago public workspace to begin navigation stack</p>
+<p>1. SSH into tiago using the 'pal' username and run this command</p>
 
 ```
-source ./root/tiago_public_ws/devel/setup.sh
+./launch_Tour.sh
 ```
-
-<p>2. Start the par_a3 package</p>
-
-```
-rosrun par_a3 move_amcl
-```
-
-<p>3. Source the tts inside Tiago</p>
-
-```
-source ./par_2024/ros_ws/devel../setup.sh
-```
-
-<p>4. Start the tts</p>
-
-```
-rosrun stt stt_ros
-```
-<h2>🛠️ Installation Steps (Docker):</h2>
-  
-  
+<p>2. Once everything has been build by Tiago, Tiago should announce that he is ready</p>
+<p>3. Say "Hey Tiago" or "Hey Bandit" followed by the question</p>
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
