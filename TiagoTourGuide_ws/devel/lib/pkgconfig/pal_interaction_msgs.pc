@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/pkgconfig/pal_interaction_msgs.pc
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs
+
+Name: pal_interaction_msgs
+Description: Description of pal_interaction_msgs
+Version: 0.16.0
+Cflags: -I/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

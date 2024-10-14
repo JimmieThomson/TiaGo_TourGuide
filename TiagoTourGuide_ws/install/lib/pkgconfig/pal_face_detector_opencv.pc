@@ -1,4 +1,4 @@
-prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install
 
 Name: pal_face_detector_opencv
 Description: Description of pal_face_detector_opencv

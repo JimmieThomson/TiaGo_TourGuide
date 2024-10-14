@@ -1,5 +1,0 @@
-geometry2-noetic-devel/tf2_tools
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_tools/cmake.lock /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_tools/lib/pkgconfig/tf2_tools.pc /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/tf2_tools.pc
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_tools/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_tools/share/tf2_tools/cmake/tf2_toolsConfig.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tf2_tools/cmake/tf2_toolsConfig.cmake

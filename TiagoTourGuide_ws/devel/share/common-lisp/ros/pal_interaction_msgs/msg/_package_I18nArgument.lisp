@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_I18nArgument.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(SECTION-VAL
+          SECTION
+          KEY-VAL
+          KEY
+          EXPANDED-VAL
+          EXPANDED
+))

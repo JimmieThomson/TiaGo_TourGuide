@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/msg/_package_LegDetections.lisp
+(cl:in-package pal_detection_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          POSITION3D-VAL
+          POSITION3D
+          LASER_POSE-VAL
+          LASER_POSE
+))

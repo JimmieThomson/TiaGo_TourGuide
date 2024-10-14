@@ -1,1 +1,6 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/srv/_package_ASRService.lisp
+(cl:in-package pal_interaction_msgs-srv)
+(cl:export '(REQUEST-VAL
+          REQUEST
+          RESPONSE-VAL
+          RESPONSE
+))

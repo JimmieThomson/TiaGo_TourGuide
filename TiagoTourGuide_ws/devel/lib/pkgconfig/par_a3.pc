@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/par_a3/lib/pkgconfig/par_a3.pc
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/par_a3
+
+Name: par_a3
+Description: Description of par_a3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

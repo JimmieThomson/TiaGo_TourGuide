@@ -1,0 +1,5 @@
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/stt.pc
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/stt/cmake.lock
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/stt/stt_ros.py
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/stt/cmake/sttConfig-version.cmake
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/stt/cmake/sttConfig.cmake

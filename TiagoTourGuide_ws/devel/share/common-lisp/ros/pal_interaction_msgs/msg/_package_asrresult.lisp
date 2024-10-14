@@ -1,1 +1,12 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_asrresult.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(TEXT-VAL
+          TEXT
+          CONFIDENCE-VAL
+          CONFIDENCE
+          START-VAL
+          START
+          END-VAL
+          END
+          TAGS-VAL
+          TAGS
+))

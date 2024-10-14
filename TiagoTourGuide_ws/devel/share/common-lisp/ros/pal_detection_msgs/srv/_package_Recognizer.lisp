@@ -1,1 +1,6 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/srv/_package_Recognizer.lisp
+(cl:in-package pal_detection_msgs-srv)
+(cl:export '(ENABLED-VAL
+          ENABLED
+          MINCONFIDENCE-VAL
+          MINCONFIDENCE
+))

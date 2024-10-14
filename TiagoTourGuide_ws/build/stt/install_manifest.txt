@@ -1,0 +1,14 @@
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/pkgconfig/stt.pc
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/stt/cmake/sttConfig.cmake
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/stt/cmake/sttConfig-version.cmake
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/share/stt/package.xml
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib/stt/stt_ros.py

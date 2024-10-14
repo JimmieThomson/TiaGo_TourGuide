@@ -1,1 +1,4 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/lib/python3/dist-packages/pal_interaction_msgs/srv/__init__.py
+from ._ASRService import *
+from ._GetSpeechDuration import *
+from ._SoundLocalisationService import *
+from ._recognizerService import *

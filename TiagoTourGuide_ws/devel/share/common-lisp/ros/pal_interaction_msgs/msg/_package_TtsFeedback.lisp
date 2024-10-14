@@ -1,1 +1,14 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsFeedback.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(EVENT_TYPE-VAL
+          EVENT_TYPE
+          TIMESTAMP-VAL
+          TIMESTAMP
+          TEXT_SAID-VAL
+          TEXT_SAID
+          NEXT_WORD-VAL
+          NEXT_WORD
+          VISEME_ID-VAL
+          VISEME_ID
+          MARKS-VAL
+          MARKS
+))

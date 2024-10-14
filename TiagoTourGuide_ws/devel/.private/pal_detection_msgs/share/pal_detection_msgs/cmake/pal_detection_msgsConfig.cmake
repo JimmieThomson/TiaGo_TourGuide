@@ -67,14 +67,14 @@ set(pal_detection_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(pal_detection_msgs_SOURCE_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs)
-  set(pal_detection_msgs_DEVEL_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs)
+  set(pal_detection_msgs_SOURCE_PREFIX /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs)
+  set(pal_detection_msgs_DEVEL_PREFIX /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs)
   set(pal_detection_msgs_INSTALL_PREFIX "")
   set(pal_detection_msgs_PREFIX ${pal_detection_msgs_DEVEL_PREFIX})
 else()
   set(pal_detection_msgs_SOURCE_PREFIX "")
   set(pal_detection_msgs_DEVEL_PREFIX "")
-  set(pal_detection_msgs_INSTALL_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/install)
+  set(pal_detection_msgs_INSTALL_PREFIX /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install)
   set(pal_detection_msgs_PREFIX ${pal_detection_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(pal_detection_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/include " STREQUAL " ")
+if(NOT "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/include " STREQUAL " ")
   set(pal_detection_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/include")
+  set(_include_dirs "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/inc
         message(FATAL_ERROR "Project 'pal_detection_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'pal_detection_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'pal_detection_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(pal_detection_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib;/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/pal/deployed_ws/lib;/home/pal/install_pal_deploy/home/pal/deployed_ws/lib;/opt/pal/gallium/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

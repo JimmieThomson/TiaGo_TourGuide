@@ -49,6 +49,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && rm -rf /var/lib/apt/lists/* 
 
   RUN apt-get update && apt-get install -y \
+<<<<<<< Updated upstream
     && apt install apache2 -y \
     && git clone 'https://github.com/JimmieThomson/TiaGo_TourGuide/' \
     && cp -R /TiaGo_TourGuide/TiagoTour_Website/. /var/www/html/
@@ -61,4 +62,22 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     
   WORKDIR /TiaGo_TourGuide/
   CMD ["./start.sh"]
+=======
+    && pip install flask \
+    && apt-get install ros-noetic-pointcloud-to-laserscan -y \
+    && pip install azure-cognitiveservices-speech \
+    && pip install python-dotenv \
+    && pip install openai \
+    && pip install playsound
+
+  RUN bash -c "source /opt/ros/noetic/setup.bash"
+
+  WORKDIR /
+  RUN git clone https://github.com/RonSilverman/TiaGo.git 
+  WORKDIR /TiaGo/tiago_common/
+  RUN python setup.py install
+  #RUN bash -c "python setup.py install"
+  WORKDIR /
+
+>>>>>>> Stashed changes
   ENTRYPOINT ["bash"]

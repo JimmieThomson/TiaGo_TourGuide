@@ -41,4 +41,6 @@
         concurrency_level: 1
       </rosparam>
     </node>
+    <node name="stt" pkg="stt" type="stt_ros.py"/>
+    <node name="move_amcl" pkg="par_a3" type="move_amcl.py"/>
 </launch>

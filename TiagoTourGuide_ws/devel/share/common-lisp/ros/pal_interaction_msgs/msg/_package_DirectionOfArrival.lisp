@@ -1,1 +1,10 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_DirectionOfArrival.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(DOA-VAL
+          DOA
+          PROB-VAL
+          PROB
+          POWER-VAL
+          POWER
+          METADOA-VAL
+          METADOA
+))

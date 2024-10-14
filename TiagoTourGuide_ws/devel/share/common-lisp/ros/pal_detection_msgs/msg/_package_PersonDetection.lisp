@@ -1,1 +1,10 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/msg/_package_PersonDetection.lisp
+(cl:in-package pal_detection_msgs-msg)
+(cl:export '(FULL_BODY-VAL
+          FULL_BODY
+          FACE-VAL
+          FACE
+          LEGS-VAL
+          LEGS
+          POSITION3D-VAL
+          POSITION3D
+))

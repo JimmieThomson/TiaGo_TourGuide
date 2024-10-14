@@ -1,1 +1,10 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASREvent.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(EVENT_ID-VAL
+          EVENT_ID
+          LISTEN_STATE-VAL
+          LISTEN_STATE
+          RECOGNIZED_UTTERANCE-VAL
+          RECOGNIZED_UTTERANCE
+          ACTIVE-VAL
+          ACTIVE
+))

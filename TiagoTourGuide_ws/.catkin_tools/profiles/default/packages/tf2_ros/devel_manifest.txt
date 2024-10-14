@@ -1,9 +1,0 @@
-geometry2-noetic-devel/tf2_ros
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/cmake.lock /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/lib/libtf2_ros.so /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/libtf2_ros.so
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/lib/pkgconfig/tf2_ros.pc /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/tf2_ros.pc
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/lib/python3/dist-packages/tf2_ros/__init__.py /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/python3/dist-packages/tf2_ros/__init__.py
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/lib/tf2_ros/static_transform_publisher /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/tf2_ros/static_transform_publisher
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/lib/tf2_ros/buffer_server /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/tf2_ros/buffer_server
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tf2_ros/cmake/tf2_rosConfig.cmake
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tf2_ros/cmake/tf2_rosConfig-version.cmake

@@ -1,1 +1,12 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/srv/_package_GetSpeechDuration.lisp
+(cl:in-package pal_interaction_msgs-srv)
+(cl:export '(TEXT-VAL
+          TEXT
+          RAWTEXT-VAL
+          RAWTEXT
+          OK-VAL
+          OK
+          WORDS-VAL
+          WORDS
+          WORD_DURATIONS-VAL
+          WORD_DURATIONS
+))

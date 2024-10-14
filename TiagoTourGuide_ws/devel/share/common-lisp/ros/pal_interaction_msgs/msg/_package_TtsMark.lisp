@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsMark.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(ID-VAL
+          ID
+          KEYS-VAL
+          KEYS
+          VALUE-VAL
+          VALUE
+))

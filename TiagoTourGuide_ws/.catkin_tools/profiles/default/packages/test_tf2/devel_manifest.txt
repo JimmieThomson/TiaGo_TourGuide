@@ -1,5 +1,0 @@
-geometry2-noetic-devel/test_tf2
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/test_tf2/cmake.lock /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/test_tf2/lib/pkgconfig/test_tf2.pc /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/test_tf2.pc
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/test_tf2/share/test_tf2/cmake/test_tf2Config.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/test_tf2/cmake/test_tf2Config.cmake
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/test_tf2/share/test_tf2/cmake/test_tf2Config-version.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/test_tf2/cmake/test_tf2Config-version.cmake

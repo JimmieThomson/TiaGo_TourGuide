@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

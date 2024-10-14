@@ -2,5 +2,5 @@
 [  0%] Built target pal_detection_msgs_generate_messages_cpp
 [35m[1mScanning dependencies of target pal_face_detector_opencv[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/pal_face_detector_opencv.dir/src/face_detector.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/lib/pal_face_detector_opencv/pal_face_detector_opencv[0m
+[100%] [32m[1mLinking CXX executable /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/lib/pal_face_detector_opencv/pal_face_detector_opencv[0m
 [100%] Built target pal_face_detector_opencv

@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/srv/_package_ChangeObjectRecognizerModel.lisp
+(cl:in-package pal_detection_msgs-srv)
+(cl:export '(MODEL_NAME-VAL
+          MODEL_NAME
+          RESET_DESIRED_CLASSES_PARAM-VAL
+          RESET_DESIRED_CLASSES_PARAM
+          STATUS-VAL
+          STATUS
+))

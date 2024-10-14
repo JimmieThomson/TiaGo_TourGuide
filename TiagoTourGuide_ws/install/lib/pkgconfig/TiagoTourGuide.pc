@@ -1,8 +1,0 @@
-prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install
-
-Name: TiagoTourGuide
-Description: Description of TiagoTourGuide
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

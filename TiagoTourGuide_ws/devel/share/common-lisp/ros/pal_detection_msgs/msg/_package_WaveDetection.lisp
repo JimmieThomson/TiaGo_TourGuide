@@ -1,1 +1,10 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/msg/_package_WaveDetection.lisp
+(cl:in-package pal_detection_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          WAVE-VAL
+          WAVE
+          U-VAL
+          U
+          V-VAL
+          V
+))

@@ -1,0 +1,8 @@
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt
+
+Name: stt
+Description: Description of stt
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

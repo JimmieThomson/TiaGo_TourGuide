@@ -1,4 +1,4 @@
-prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install
 
 Name: pal_detection_msgs
 Description: Description of pal_detection_msgs

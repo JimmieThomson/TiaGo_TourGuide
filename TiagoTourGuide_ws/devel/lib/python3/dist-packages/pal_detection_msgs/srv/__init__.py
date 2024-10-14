@@ -1,1 +1,7 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/lib/python3/dist-packages/pal_detection_msgs/srv/__init__.py
+from ._AddTexturedObject import *
+from ._ChangeObjectRecognizerModel import *
+from ._Recognizer import *
+from ._SelectTexturedObject import *
+from ._SetDatabase import *
+from ._StartEnrollment import *
+from ._StopEnrollment import *

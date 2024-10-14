@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileResult.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(FILE-VAL
+          FILE
+          MSG-VAL
+          MSG
+          RECOGNISED_UTTERANCES-VAL
+          RECOGNISED_UTTERANCES
+))

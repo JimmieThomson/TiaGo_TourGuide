@@ -207,26 +207,6 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-catkin_install_python(PROGRAMS scripts/audio.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/depth_to_laserscan.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
 catkin_install_python(PROGRAMS scripts/move_amcl.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/webcam_pub.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/cv_sub.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/head_controller.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )

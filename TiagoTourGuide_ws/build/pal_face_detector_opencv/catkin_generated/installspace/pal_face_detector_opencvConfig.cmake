@@ -67,14 +67,14 @@ set(pal_face_detector_opencv_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pal_face_detector_opencv_SOURCE_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel)
-  set(pal_face_detector_opencv_DEVEL_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv)
+  set(pal_face_detector_opencv_SOURCE_PREFIX /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv)
+  set(pal_face_detector_opencv_DEVEL_PREFIX /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv)
   set(pal_face_detector_opencv_INSTALL_PREFIX "")
   set(pal_face_detector_opencv_PREFIX ${pal_face_detector_opencv_DEVEL_PREFIX})
 else()
   set(pal_face_detector_opencv_SOURCE_PREFIX "")
   set(pal_face_detector_opencv_DEVEL_PREFIX "")
-  set(pal_face_detector_opencv_INSTALL_PREFIX /TiaGo_TourGuide/TiagoTourGuide_ws/install)
+  set(pal_face_detector_opencv_INSTALL_PREFIX /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install)
   set(pal_face_detector_opencv_PREFIX ${pal_face_detector_opencv_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/pal/deployed_ws/lib;/home/pal/install_pal_deploy/home/pal/deployed_ws/lib;/opt/pal/gallium/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

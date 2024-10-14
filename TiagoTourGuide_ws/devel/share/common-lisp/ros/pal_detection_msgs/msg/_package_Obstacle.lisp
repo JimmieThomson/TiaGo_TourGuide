@@ -1,1 +1,12 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/msg/_package_Obstacle.lisp
+(cl:in-package pal_detection_msgs-msg)
+(cl:export '(ID-VAL
+          ID
+          POSITION-VAL
+          POSITION
+          POSITION_COVARIANCE-VAL
+          POSITION_COVARIANCE
+          WIDTH-VAL
+          WIDTH
+          HEIGHT-VAL
+          HEIGHT
+))

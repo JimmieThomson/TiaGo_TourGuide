@@ -1,8 +1,0 @@
-prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install
-
-Name: tf2_geometry_msgs
-Description: Description of tf2_geometry_msgs
-Version: 0.7.7
-Cflags: -I${prefix}/include -I/usr/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3
-Libs: -L${prefix}/lib /usr/lib/liborocos-kdl.so -lorocos-kdl
-Requires: geometry_msgs tf2_ros tf2

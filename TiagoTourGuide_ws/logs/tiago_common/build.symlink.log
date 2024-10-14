@@ -1,0 +1,4 @@
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/tiago_common.pc
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/python3/dist-packages/tiago_common/__init__.py
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tiago_common/cmake/tiago_commonConfig.cmake
+Symlinking /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tiago_common/cmake/tiago_commonConfig-version.cmake

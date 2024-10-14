@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetection.h
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetection.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 geometry_msgs/Point32.h
 -
 
-/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetections.h
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/include/pal_detection_msgs/FaceDetections.h
 string
 -
 vector
@@ -46,7 +46,7 @@ pal_detection_msgs/FaceDetection.h
 geometry_msgs/TransformStamped.h
 -
 
-/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel/src/face_detector.cpp
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv/src/face_detector.cpp
 pal_detection_msgs/FaceDetections.h
 -
 ros/ros.h
@@ -672,8 +672,6 @@ ros/datatypes.h
 vector
 -
 map
--
-memory
 -
 boost/array.hpp
 -

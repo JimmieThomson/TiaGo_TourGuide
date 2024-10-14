@@ -1,0 +1,7 @@
+set(tiago_common_SETUP_PY_SETUP_MODULE "distutils.core")
+set(tiago_common_SETUP_PY_VERSION "0.0.0")
+set(tiago_common_SETUP_PY_SCRIPTS "")
+set(tiago_common_SETUP_PY_PACKAGES "tiago_common")
+set(tiago_common_SETUP_PY_PACKAGE_DIRS "src/tiago_common")
+set(tiago_common_SETUP_PY_MODULES "")
+set(tiago_common_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,7 @@
+stt
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/cmake.lock /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/lib/pkgconfig/stt.pc /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/stt.pc
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/lib/stt/cmake.lock /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/stt/cmake.lock
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/lib/stt/stt_ros.py /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/stt/stt_ros.py
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/share/stt/cmake/sttConfig-version.cmake /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/stt/cmake/sttConfig-version.cmake
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/share/stt/cmake/sttConfig.cmake /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/stt/cmake/sttConfig.cmake

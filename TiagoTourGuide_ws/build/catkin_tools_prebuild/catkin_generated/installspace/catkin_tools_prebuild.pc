@@ -1,4 +1,4 @@
-prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/install
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

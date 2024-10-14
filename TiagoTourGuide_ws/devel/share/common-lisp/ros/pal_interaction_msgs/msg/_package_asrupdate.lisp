@@ -1,1 +1,12 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_asrupdate.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(LANGUAGE-VAL
+          LANGUAGE
+          ENABLE_GRAMMAR-VAL
+          ENABLE_GRAMMAR
+          DISABLE_GRAMMAR-VAL
+          DISABLE_GRAMMAR
+          ACOUSTICENV-VAL
+          ACOUSTICENV
+          ACTIVE-VAL
+          ACTIVE
+))

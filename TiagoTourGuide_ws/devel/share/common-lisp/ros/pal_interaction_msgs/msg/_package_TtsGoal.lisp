@@ -1,1 +1,10 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TtsGoal.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(TEXT-VAL
+          TEXT
+          RAWTEXT-VAL
+          RAWTEXT
+          SPEAKERNAME-VAL
+          SPEAKERNAME
+          WAIT_BEFORE_SPEAKING-VAL
+          WAIT_BEFORE_SPEAKING
+))

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/setup.sh
+    local-name: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/setup.sh

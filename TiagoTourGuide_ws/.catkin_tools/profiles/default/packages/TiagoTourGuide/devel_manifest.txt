@@ -1,5 +1,0 @@
-TiagoTourGuide
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/cmake.lock /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/lib/pkgconfig/TiagoTourGuide.pc /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/TiagoTourGuide.pc
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/share/TiagoTourGuide/cmake/TiagoTourGuideConfig.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/TiagoTourGuide/cmake/TiagoTourGuideConfig.cmake
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/share/TiagoTourGuide/cmake/TiagoTourGuideConfig-version.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/TiagoTourGuide/cmake/TiagoTourGuideConfig-version.cmake

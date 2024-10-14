@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_ASRFileGoal.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(FILE-VAL
+          FILE
+          LANG_ID-VAL
+          LANG_ID
+          GRAMMAR-VAL
+          GRAMMAR
+))

@@ -1,0 +1,8 @@
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tiago_common
+
+Name: tiago_common
+Description: Description of tiago_common
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

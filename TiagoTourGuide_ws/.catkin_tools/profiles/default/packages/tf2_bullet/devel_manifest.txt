@@ -1,5 +1,0 @@
-geometry2-noetic-devel/tf2_bullet
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_bullet/cmake.lock /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_bullet/lib/pkgconfig/tf2_bullet.pc /TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib/pkgconfig/tf2_bullet.pc
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_bullet/share/tf2_bullet/cmake/tf2_bulletConfig-version.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tf2_bullet/cmake/tf2_bulletConfig-version.cmake
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tf2_bullet/share/tf2_bullet/cmake/tf2_bulletConfig.cmake /TiaGo_TourGuide/TiagoTourGuide_ws/devel/share/tf2_bullet/cmake/tf2_bulletConfig.cmake

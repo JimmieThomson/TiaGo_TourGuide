@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs
+CMAKE_SOURCE_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs
+CMAKE_BINARY_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs
 
 # Utility rule file for pal_detection_msgs_gencpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/pal_detection_msgs_gencpp.dir/clean:
 .PHONY : CMakeFiles/pal_detection_msgs_gencpp.dir/clean
 
 CMakeFiles/pal_detection_msgs_gencpp.dir/depend:
-	cd /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs/CMakeFiles/pal_detection_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_detection_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_detection_msgs/CMakeFiles/pal_detection_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pal_detection_msgs_gencpp.dir/depend
 

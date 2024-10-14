@@ -1,1 +1,7 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/gennodejs/ros/pal_interaction_msgs/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+  srv: require('./srv/_index.js')
+};

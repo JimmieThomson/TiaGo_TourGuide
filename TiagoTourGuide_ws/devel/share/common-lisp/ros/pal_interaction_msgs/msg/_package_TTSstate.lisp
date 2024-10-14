@@ -1,1 +1,6 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_TTSstate.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(ISSPEAKING-VAL
+          ISSPEAKING
+          TEXT-VAL
+          TEXT
+))

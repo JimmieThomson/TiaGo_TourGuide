@@ -1,6 +1,6 @@
-devel_space: /TiaGo_TourGuide/TiagoTourGuide_ws/devel
+devel_space: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel
 install: true
-install_space: /TiaGo_TourGuide/TiagoTourGuide_ws/install
+install_space: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install
 profile: default
-source_space: /TiaGo_TourGuide/TiagoTourGuide_ws/src
-workspace: /TiaGo_TourGuide/TiagoTourGuide_ws
+source_space: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src
+workspace: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws

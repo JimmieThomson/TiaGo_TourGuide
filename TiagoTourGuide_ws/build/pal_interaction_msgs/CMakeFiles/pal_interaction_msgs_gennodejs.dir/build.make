@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs
+CMAKE_SOURCE_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs
+CMAKE_BINARY_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs
 
 # Utility rule file for pal_interaction_msgs_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/pal_interaction_msgs_gennodejs.dir/clean:
 .PHONY : CMakeFiles/pal_interaction_msgs_gennodejs.dir/clean
 
 CMakeFiles/pal_interaction_msgs_gennodejs.dir/depend:
-	cd /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pal_interaction_msgs_gennodejs.dir/depend
 

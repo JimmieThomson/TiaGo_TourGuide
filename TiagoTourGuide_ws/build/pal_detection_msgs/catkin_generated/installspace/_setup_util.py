@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/TiaGo_TourGuide/TiagoTourGuide_ws/install;/TiaGo_TourGuide/TiagoTourGuide_ws/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install;/home/pal/deployed_ws;/home/pal/install_pal_deploy/home/pal/deployed_ws;/opt/pal/gallium;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

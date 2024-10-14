@@ -1,8 +1,8 @@
-# Install script for directory: /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel
+# Install script for directory: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/TiaGo_TourGuide/TiagoTourGuide_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py")
+   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE PROGRAM FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE PROGRAM FILES "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh")
+   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE PROGRAM FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE PROGRAM FILES "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash;/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash")
+   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.bash;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/setup.bash"
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/setup.bash"
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh;/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh")
+   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.sh;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/setup.sh"
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/setup.sh"
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh;/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh")
+   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/setup.zsh;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/setup.zsh"
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/setup.zsh"
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall")
+   "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install" TYPE FILE FILES "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/pal_face_detector_opencv.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/pal_face_detector_opencv.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_face_detector_opencv/cmake" TYPE FILE FILES
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/pal_face_detector_opencvConfig.cmake"
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/pal_face_detector_opencvConfig-version.cmake"
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/pal_face_detector_opencvConfig.cmake"
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/catkin_generated/installspace/pal_face_detector_opencvConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_face_detector_opencv" TYPE FILE FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_face_detector_opencv" TYPE FILE FILES "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,7 +150,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pal_face_detector_opencv/pal_face_detector_opencv"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pal_face_detector_opencv" TYPE EXECUTABLE FILES "/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/lib/pal_face_detector_opencv/pal_face_detector_opencv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pal_face_detector_opencv" TYPE EXECUTABLE FILES "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/lib/pal_face_detector_opencv/pal_face_detector_opencv")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pal_face_detector_opencv/pal_face_detector_opencv" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pal_face_detector_opencv/pal_face_detector_opencv")
     file(RPATH_CHANGE
@@ -165,14 +165,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_face_detector_opencv" TYPE DIRECTORY FILES
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel/launch"
-    "/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel/config"
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv/launch"
+    "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv/config"
     USE_SOURCE_PERMISSIONS)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/gtest/cmake_install.cmake")
+  include("/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/gtest/cmake_install.cmake")
 
 endif()
 
@@ -184,5 +184,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

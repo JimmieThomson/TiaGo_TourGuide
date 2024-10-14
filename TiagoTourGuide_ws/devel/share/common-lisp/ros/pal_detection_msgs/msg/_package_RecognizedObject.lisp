@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/msg/_package_RecognizedObject.lisp
+(cl:in-package pal_detection_msgs-msg)
+(cl:export '(OBJECT_CLASS-VAL
+          OBJECT_CLASS
+          CONFIDENCE-VAL
+          CONFIDENCE
+          BOUNDING_BOX-VAL
+          BOUNDING_BOX
+))

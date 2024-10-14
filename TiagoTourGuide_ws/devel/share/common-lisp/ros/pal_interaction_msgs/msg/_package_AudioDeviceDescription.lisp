@@ -1,1 +1,14 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_AudioDeviceDescription.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(DEVICE_NAME-VAL
+          DEVICE_NAME
+          SAMPLE_RATE-VAL
+          SAMPLE_RATE
+          SAMPLE_SIZE-VAL
+          SAMPLE_SIZE
+          FORMAT-VAL
+          FORMAT
+          BUFFER_SIZE-VAL
+          BUFFER_SIZE
+          NUMBER_OF_CHANNELS-VAL
+          NUMBER_OF_CHANNELS
+))

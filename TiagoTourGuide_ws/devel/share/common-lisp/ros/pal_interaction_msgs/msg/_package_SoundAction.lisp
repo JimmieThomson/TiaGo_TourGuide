@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/msg/_package_SoundAction.lisp
+(cl:in-package pal_interaction_msgs-msg)
+(cl:export '(ACTION_GOAL-VAL
+          ACTION_GOAL
+          ACTION_RESULT-VAL
+          ACTION_RESULT
+          ACTION_FEEDBACK-VAL
+          ACTION_FEEDBACK
+))

@@ -57,7 +57,10 @@
   <exec_depend>rospy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>OpenCV</exec_depend>
-  
+  <depend>pointcloud_to_laserscan</depend>
+  <depend>pal_detection_msgs</depend>
+  <depend>pal_face_detector_opencv</depend>
+  <depend>pal_interaction_msgs</depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

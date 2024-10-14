@@ -1,1 +1,8 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_detection_msgs/share/common-lisp/ros/pal_detection_msgs/srv/_package_StopEnrollment.lisp
+(cl:in-package pal_detection_msgs-srv)
+(cl:export '(ENROLLMENT_OK-VAL
+          ENROLLMENT_OK
+          NUMFACESENROLLED-VAL
+          NUMFACESENROLLED
+          ERROR_MSG-VAL
+          ERROR_MSG
+))

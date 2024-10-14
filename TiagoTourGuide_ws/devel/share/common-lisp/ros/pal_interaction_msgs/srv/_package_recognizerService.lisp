@@ -1,1 +1,4 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/share/common-lisp/ros/pal_interaction_msgs/srv/_package_recognizerService.lisp
+(cl:in-package pal_interaction_msgs-srv)
+(cl:export '(ASRUPDATE-VAL
+          ASRUPDATE
+))
