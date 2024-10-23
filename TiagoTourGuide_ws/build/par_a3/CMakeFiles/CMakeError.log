@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b8328/fast && /usr/bin/make -f CMakeFiles/cmTC_b8328.dir/build.make CMakeFiles/cmTC_b8328.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cead4/fast && /usr/bin/make -f CMakeFiles/cmTC_cead4.dir/build.make CMakeFiles/cmTC_cead4.dir/build
 make[1]: Entering directory '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b8328.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b8328.dir/src.c.o   -c /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_b8328
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8328.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_b8328.dir/src.c.o  -o cmTC_b8328 
-/usr/bin/ld: CMakeFiles/cmTC_b8328.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_cead4.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cead4.dir/src.c.o   -c /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cead4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cead4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_cead4.dir/src.c.o  -o cmTC_cead4 
+/usr/bin/ld: CMakeFiles/cmTC_cead4.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_b8328.dir/build.make:87: cmTC_b8328] Error 1
+make[1]: *** [CMakeFiles/cmTC_cead4.dir/build.make:87: cmTC_cead4] Error 1
 make[1]: Leaving directory '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_b8328/fast] Error 2
+make: *** [Makefile:121: cmTC_cead4/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1a0d4/fast && /usr/bin/make -f CMakeFiles/cmTC_1a0d4.dir/build.make CMakeFiles/cmTC_1a0d4.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cfbac/fast && /usr/bin/make -f CMakeFiles/cmTC_cfbac.dir/build.make CMakeFiles/cmTC_cfbac.dir/build
 make[1]: Entering directory '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a0d4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1a0d4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1a0d4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a0d4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1a0d4.dir/CheckFunctionExists.c.o  -o cmTC_1a0d4  -lpthreads 
+Building C object CMakeFiles/cmTC_cfbac.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cfbac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cfbac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfbac.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cfbac.dir/CheckFunctionExists.c.o  -o cmTC_cfbac  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_1a0d4.dir/build.make:87: cmTC_1a0d4] Error 1
+make[1]: *** [CMakeFiles/cmTC_cfbac.dir/build.make:87: cmTC_cfbac] Error 1
 make[1]: Leaving directory '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/par_a3/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_1a0d4/fast] Error 2
+make: *** [Makefile:121: cmTC_cfbac/fast] Error 2
 
 
 

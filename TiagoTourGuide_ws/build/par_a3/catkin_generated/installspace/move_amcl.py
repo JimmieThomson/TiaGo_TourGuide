@@ -9,17 +9,22 @@ import subprocess
 from tiago_common.open_ai_utils import OpenAIUtils
 import simpleaudio as sa
 import os
+# Author: Tiago Team
+# Description: This Node is for Tiago's movement. It will keep POI's in the lab and call them to allow Tiago to navigate throughout
+# The lab. Please read the docs to get a better understanding :)
 
 class MoveAmcl:
+    # Calling Environment Variable openAPI 
     _open_ai_util = OpenAIUtils(
         api_key=os.environ.get('openAPI')
     )
-    _inlab = True
-    _iswaitingforcommand = True
-    _headingintolab = False
+    _in_lab = True
+    _is_waiting_for_command = True
+    _heading_into_lab = False
     _insideGov = False
 
     def __init__(self) -> None:
+        """Init will start up what Tiago needs to navigate like subscribers and open AI's speech"""
         nav_state = ('/navigation/state/')
         self.depth_sub = rospy.Subscriber('/navigation/command', String, self.command_callback)
         self.navigation_state = rospy.Publisher('/navigation/state/', Bool, queue_size=1)
@@ -40,8 +45,10 @@ class MoveAmcl:
         }
     
     def go_to_door(self):
+        """Method when called will force Tiago to head towards the lab Doors
+        """
         client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
-        if self._inlab == True:
+        if self._in_lab == True:
             x,y,z,w = self.way_points['inside lab']
             result = self.send_goal(x,y,z,w, client)
         else:
@@ -49,22 +56,35 @@ class MoveAmcl:
             result = self.send_goal(x,y,-0.4035080992474188,0.9149760728247134, client)
     
     def go_through_door(self):
+        """Method when called will force Tiago to go through the door, wether it's open or not!
+        """
         client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
-        if self._inlab == False:
+        if self._in_lab == False:
             x,y,z,w = self.way_points['inside lab']
             result = self.send_goal(x,y,-0.4035080992474188,0.9149760728247134, client)
-            self._inlab = True
+            self._in_lab = True
         else:
             x,y,z,w = self.way_points['outside lab']
             result = self.send_goal(x,y,z,w, client)
-            self._inlab = False
+            self._in_lab = False
 
     def update_nav_state(self, nav_state: Bool):
+        """Method is a publisher, it will publish the state wether Tiago is moving or not
+
+        Args:
+            nav_state (Bool): _description_
+        """
         state = Bool()
         state.data = nav_state
+        # Publishing the state
         self.navigation_state.publish(state)
     
     def speak(self, tts):
+        """Method is used to make Tiago speak using TTS
+
+        Args:
+            tts (string): tts is the text Tiago will speak
+        """
         state = Bool()
         state.data = True
         self.navigation_audio.publish(state)
@@ -77,10 +97,10 @@ class MoveAmcl:
         print(data)
         if destination == 'go through door':
             self.go_through_door()
-            self._iswaitingforcommand = False
-            if self._inlab == False:
+            self._is_waiting_for_command = False
+            if self._in_lab == False:
                 self.navigate('race lab')
-            if self._inlab == True:
+            if self._in_lab == True:
                 self.navigate('inside lab')
         else:
             self.navigate(destination)
@@ -101,15 +121,15 @@ class MoveAmcl:
         goal.target_pose.pose.orientation.z = z
         goal.target_pose.pose.orientation.w = w
         
-        costmaps = rospy.ServiceProxy('move_base/clear_costmaps', Empty)
-        costResponse = costmaps()
+        cost_maps = rospy.ServiceProxy('move_base/clear_costmaps', Empty)
+        costResponse = cost_maps()
         
         client.send_goal(goal)
 
         wait = client.wait_for_result()
         if wait:
             rospy.loginfo("Goal reached")
-            costmaps = rospy.ServiceProxy('move_base/clear_costmaps', Empty)
+            cost_maps = rospy.ServiceProxy('move_base/clear_costmaps', Empty)
             self.update_nav_state(False)
             return client.get_result()
 
@@ -132,11 +152,11 @@ class MoveAmcl:
             tts_client.wait_for_server()
             x, y, z, w = cords
             
-            if str(destination) == "race lab" and self._iswaitingforcommand == True and self._inlab == True:
+            if str(destination) == "race lab" and self._is_waiting_for_command == True and self._in_lab == True:
                 x,y,z,w = self.way_points.get('inside lab')
                 self.go_to_door()
                 self._open_ai_util.speechTest("Please tell me when the door is open")
-                print(self._iswaitingforcommand)
+                print(self._is_waiting_for_command)
             elif "space lab" == str(destination) and self._insideGov == False:
                 result = self.send_goal(-1.5864529001816754, 3.6419035337185486, 0.4080311711544541, 0.9129679969014931, client)
                 result = self.send_goal(x, y, z, w, client)
@@ -166,16 +186,16 @@ class MoveAmcl:
             elif str(destination) == "rosie light saber video":
                 self.speak(f"Sit back and enjoy the video!")
                 subprocess.call(['sh', '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/shellcom/rosie.sh'])
-            elif str(destination) == "race lab" and self._iswaitingforcommand == False:
+            elif str(destination) == "race lab" and self._is_waiting_for_command == False:
                 result = self.send_goal(x, y, z, w, client)
                 self.speak(f"With existing supercomputing infrastructure in high demand and complexity hindering the use of cloud services, the RACE Hub will allow researchers to be to access a self-serve portal and very high speed connectivity to meet demand across the organisation and the ability to simulate their supercomputing in a cost effective, accessible platform. By offering pre-configured options with cost estimates in a browsable service catalogue, cloud computing will be simpler and easier for researchers. It will transform collaborative and research opportunities for academic, industry partners.")
                 self.speak(f"Lets head back to the lab, I'm going to head to the door, so please watch out")
-                self._iswaitingforcommand == True
+                self._is_waiting_for_command == True
                 self.update_nav_state(True)
                 self.go_to_door()
                 self.speak("Please tell me when the door is open")
-                print(self._iswaitingforcommand)
-            elif str(destination) == 'inside lab' and self._iswaitingforcommand == False:
+                print(self._is_waiting_for_command)
+            elif str(destination) == 'inside lab' and self._is_waiting_for_command == False:
                 x,y,z,w = self.way_points.get('rosie')
                 result = self.send_goal(x, y, z, w, client)
             elif str(destination) == "complete":

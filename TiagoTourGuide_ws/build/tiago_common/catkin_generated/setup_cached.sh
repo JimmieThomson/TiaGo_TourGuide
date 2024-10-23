@@ -9,8 +9,8 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tiago_common:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tiago_common/lib:$LD_LIBRARY_PATH"
-export LUA_PATH=';;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua'
+export LUA_PATH=';;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua;/opt/pal/gallium/share/lua/5.1/?.lua'
 export PWD='/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/tiago_common'
 export PYTHONPATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tiago_common/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tiago_common/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/tiago_common/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/tiago_common:$ROS_PACKAGE_PATH"

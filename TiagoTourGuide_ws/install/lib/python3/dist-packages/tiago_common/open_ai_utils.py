@@ -32,6 +32,11 @@ class OpenAIUtils:
         self.__max_token = max_token
 
     def chat_completion(self, prompt, model=None, max_token=None):
+        """Takes a prompt and returns a OpenAI generated json back
+
+        Args:
+            prompt (string): The string that will be used as a prompt to chat GPT
+        """
         # Check if the user has defined the model and max_token
         if model is None:
             model = self.__model
@@ -39,7 +44,7 @@ class OpenAIUtils:
             max_token = self.__max_token
         # Send the prompt to the OpenAI completion API and get the response
         system_prompt = """You are Tiago, a tour guide robot for RMIT VX Lab. You're built by pal robotics, but your software and tour guide capabilities are created by R. M. I. T computer science or information techonology students. The students names are, Ravindu, James, Fei, Gabriella, Nina and Watson to name a few. You're still in beta. Analyze user input to determine if they want to visit a point of interest (Rosie, Hologram, laboratory, and Cobot arm) or have a meaningful chat.
-       Provide output in valid JSON. Point_of_interest, concise_response, and closest are not ALLOWED in the content.
+        Provide output in valid JSON. Point_of_interest, concise_response, and closest are not ALLOWED in the content.
         Navigation: {'type': 'navigation', 'content': 'Rosie'} or {'type': 'navigation', 'content': 'Hologram'} or {'type': 'navigation', 'content': 'cobot arm'} or {'type': 'navigation', 'content': 'space lab'} or {'type': 'navigation', 'content': 'tiago'} or {'type': 'navigation', 'content': 'rosie light saber video'} or {'type': 'navigation', 'content': 'race lab'}
         Chat: {'type': 'chat', 'content': 'meaningful response'}
             
@@ -68,7 +73,7 @@ class OpenAIUtils:
                 - "explain to be what is the Nova Sphere*."
 
             Keep your responses under 5 seconds. Use Australian English and be mindful of the outputs you give as these outputs are fed into a voice generator, so keep the characters to a minimun or use the regex pattern (?<=\s+|^)[a-zA-Z]+(?=\s+|$) as reference. Feel free to change your answers but not too out of scope, and remember you're an australian robot.
- """
+"""
 
         response = self.__client.chat.completions.create(
             model=model,
@@ -81,16 +86,21 @@ class OpenAIUtils:
         )
         return response
     def speechTest(self, text):
-            p = pyaudio.PyAudio()
-            stream = p.open(format=8,
-                            channels=1,
-                            rate=24000,
-                            output=True)
-            with self.__client.with_options(timeout=10).audio.speech.with_streaming_response.create(
-                model="tts-1",
-                voice="fable",
-                input=text,
-                response_format="pcm"
-        ) as response:
-                for chunk in response.iter_bytes(1024):
-                    stream.write(chunk)
+        """Takes a string and converts it to OpenAI TTS
+
+        Args:
+            text (string): The text the openAI model will use
+        """
+        p = pyaudio.PyAudio()
+        stream = p.open(format=8,
+                        channels=1,
+                        rate=24000,
+                        output=True)
+        with self.__client.with_options(timeout=10).audio.speech.with_streaming_response.create(
+            model="tts-1",
+            voice="echo",
+            input=text,
+            response_format="pcm"
+    ) as response:
+            for chunk in response.iter_bytes(1024):
+                stream.write(chunk)

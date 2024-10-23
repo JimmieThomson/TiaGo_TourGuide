@@ -1,3 +1,4 @@
+<!-- Launch file for launching just the pointcloud for testing -->
 <launch>    
     <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" name="pointcloud_to_laserscan">
       <remap from="cloud_in" to="/throttle_filtering_points/filtered_points"/>

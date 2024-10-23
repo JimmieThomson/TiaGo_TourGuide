@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/lib;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/lib;/home/pal/deployed_ws/lib;/home/pal/install_pal_deploy/home/pal/deployed_ws/lib;/opt/pal/gallium/lib;/opt/ros/noetic/lib)
+    foreach(path /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/stt/lib;/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/install/lib;/home/pal/deployed_ws/lib;/home/pal/install_pal_deploy/home/pal/deployed_ws/lib;/opt/pal/gallium/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

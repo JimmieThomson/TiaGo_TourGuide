@@ -1,9 +1,12 @@
+<!-- The launch file is the main launch file to be run, If the start script is missing please run this to begin Tiago
+    Please note that for this to run correctly the costmap files will need to be replaced!!! -->
 <launch>
 
   <arg name="verbose_publishing" default="true"/> <!-- If false the node will only publish when there is some face detected -->
   <arg name="rate"               default="5"/>    <!-- Rate at which the node will look for faces and publish -->
   <arg name="image_topic"        default="/xtion/rgb/image_raw"/>
 
+  <!-- Makes Tiago look at you! please note that this can kill Tiago is a person moves to fast. USE WITH CAUSION!!!! -->
   <node name="pal_face" pkg="pal_face_detector_opencv" type="pal_face_detector_opencv" args="$(arg verbose_publishing) $(arg rate)" output="screen">
     <remap from="/pal_face/image" to="$(arg image_topic)"/>
     <rosparam>
@@ -41,6 +44,8 @@
         concurrency_level: 1
       </rosparam>
     </node>
+
+    <!-- Starting the speaking script and the move scripts -->
     <node name="stt" pkg="stt" type="stt_ros.py"/>
     <node name="move_amcl" pkg="par_a3" type="move_amcl.py"/>
 </launch>
