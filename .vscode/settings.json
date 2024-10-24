@@ -1,3 +1,27 @@
 {
-    "cmake.sourceDirectory": "/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide"
+    "cmake.sourceDirectory": "/home/james/TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide",
+    "cSpell.ignoreWords": [
+        "Tiago",
+        "thiago",
+        "tioga"
+    ],
+    "cSpell.words": [
+        "actionlib",
+        "Amcl",
+        "browsable",
+        "cobot",
+        "costmaps",
+        "dotenv",
+        "eastus",
+        "hmmmmm",
+        "loginfo",
+        "logwarn",
+        "plughw",
+        "rospy",
+        "shellcom",
+        "simpleaudio",
+        "speechsdk",
+        "srvs",
+        "waitingdoor"
+    ]
 }

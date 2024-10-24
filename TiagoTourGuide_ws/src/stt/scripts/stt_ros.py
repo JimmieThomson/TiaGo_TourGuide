@@ -40,11 +40,15 @@ class STT:
         self.isNavigating = None
         audio_state_topic = "/navigation/audio/"
         nav_state = "/navigation/state"
+
+        # Setting Subscribers and publishers
         rospy.Subscriber(audio_state_topic, Bool, self.audio_callback)
         rospy.Subscriber(nav_state, Bool, self.navigation_callback)
         self.tts_client = actionlib.SimpleActionClient("/tts", TtsAction)
         self.tts_client.wait_for_server()
         self.nav_com = rospy.Publisher(nav_topic, String, queue_size=1)
+
+        # Announcement when the Init stage is done
         self._open_ai_util.speechTest(
             "Ok, I'm ready to respond, please stand infront of me and speak clearly into my microphone, some times I can't hear things so you might need to repeat yourself!")
 
@@ -54,7 +58,7 @@ class STT:
         Args:
             data (data): data returned by the topic
         """
-        print(f"Callback_state: {data.data}")
+        rospy.loginfo(f"Callback_state: {data.data}")
         self.isPlaying = data.data
 
     def navigation_callback(self, data):
@@ -63,7 +67,7 @@ class STT:
         Args:
             data (data): data returned by the topic
         """
-        print(f"Callback_audio: {data.data}")
+        rospy.loginfo(f"Callback_audio: {data.data}")
         self.isNavigating = data.data
 
     def send_tts(self, text):
@@ -80,32 +84,41 @@ class STT:
 
     def speech_recognize(self):
         """Method is repeated to listen to a users voice and create a action"""
-        print(self.isPlaying)
+        rospy.loginfo(self.isPlaying)
+        # Set the statement to pass if Tiago is speaker to stop echo replying
         if not self.isPlaying:
+            # Set of key words to look for in an array, 
+            # TODO: Remake this so Tiago listens for the key word, waits and then responds to whatever he hears next, like Siri
             keyword = ["hey bandit", "hey bended", "hey thiago", "hey tiago", "hey tioga", "hi thiago",
-                       "hi bandit", "Hi, Bennett", "A bandit", "Hey Ben", "Hey Tiger"]  # Replace with your desired keyword
+                       "hi bandit", "Hi, Bennett", "A bandit", "Hey Ben", "Hey Tiger"] 
 
-            print("Speak into your microphone.")
+            rospy.loginfo("Speak into your microphone.")
+            # Sending API get request whilst listening for recognizable words
             result = self._speech_recognizer.recognize_once_async().get()
             if result.reason == speechsdk.ResultReason.RecognizedSpeech:
-                print("RECOGNIZED: {}".format(result.text))
+                rospy.loginfo("RECOGNIZED: {}".format(result.text))
                 if any(word.lower() in result.text.lower() for word in keyword):
+                    # TODO: Fix this, so Tiago doesn't respond unless at door
                     if "the door is open" in result.text and self._waitingdoor:
                         self._open_ai_util.speechTest(
                             "OK, thank you! I am going through the door now")
                         self.nav_com.publish('go through door')
                         self._waitingdoor == False
                     else:
+                        # Verbal response when Tiago hears a valid response
+                        # TODO: Make this a file to play on a speaker, it takes to long to get a request from OpenAI
                         self._open_ai_util.speechTest("hmmmmm")
                         response = self._open_ai_util.chat_completion(
                             result.text)
                         res_txt = response.choices[0].message.content
                     try:
+                        # Taking Response from OpenAI and setting it as json file
                         json_res = json.loads(res_txt)
-                        print(json_res)
+                        rospy.loginfo(json_res)
                         res_type = json_res["type"]
                         content = json_res["content"]
-                        print(f"res_type: {res_type}\n content: {content}")
+                        rospy.loginfo(f"res_type: {res_type}\n content: {content}")
+                        # When a navigation call has been sent this statement will be called
                         if res_type == "navigation":
                             if "soccer lab" in content:
                                 self._waitingdoor = True
@@ -117,17 +130,16 @@ class STT:
                                     f"Heading to {content}, Please move out of my way")
                             self.nav_com.publish(content)
                             self.isNavigating = True
-                            print(f"isNavigating: {self.isNavigating}")
+                            rospy.loginfo(f"isNavigating: {self.isNavigating}")
                             while self.isNavigating:
                                 time.sleep(1)
+                        # Sends the chat request to chat GPT to generate response
                         elif res_type == "chat":
                             self._open_ai_util.speechTest(content)
                     except Exception as e:
-                        print("Error while parsing the response: " + str(e))
-                    except Exception:
-                        print("Keywords weren't found")
+                        rospy.logwarn("Error while parsing the response: " + str(e))
             elif result.reason == speechsdk.ResultReason.NoMatch:
-                print("No speech could be recognized: {}".format(
+                rospy.logwarn("No speech could be recognized: {}".format(
                     result.no_match_details))
 
 

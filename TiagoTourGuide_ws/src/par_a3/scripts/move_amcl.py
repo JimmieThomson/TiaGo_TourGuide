@@ -30,6 +30,7 @@ class MoveAmcl:
         self.navigation_state = rospy.Publisher('/navigation/state/', Bool, queue_size=1)
         self.navigation_audio = rospy.Publisher('/navigation/audio/', Bool, queue_size=1)
 
+        # Place the coordinates in here for navigation, use robot_pose for the topic
         self.way_points ={
             'tiago': (-0.9690887667535986, 4.491719290018725, 0.8905017709427894, -0.4549797753172726),
             'rosie light saber video': (-0.9690887667535986, 4.491719290018725, 0.8905017709427894, -0.4549797753172726),
@@ -204,13 +205,13 @@ class MoveAmcl:
                 print(result)
             
             if str(destination) == "rosie":
-                self.speak(f"Hey everyone meet rosie, rosie was created in the Virtual Experiences Laboratory in 2017. She is an integration of two-armed Baxter robot from rethink robotics and an omnidirectional dataspeed mobility base. Thank you.")
+                self.speak(f"Hey everyone meet rosie, rosie was created in the Virtual Experiences Laboratory in 2017. She is an integration of two-armed Baxter robot from rethink robotics and an omnidirectional data speed mobility base. Thank you.")
             elif str(destination) == "hologram":
                 self.speak(f"Meet {str(destination)} a high resolution display that enables multiple users to view and interact with 3D content simultaneously. Thank you.")
             elif str(destination) == "cobot arm":
-                self.speak(f"Hey everyone, meet {str(destination)} designed to work alonside humans in shared workspaces. With a payload capaciy of 5 kg, a reach of 850 mm and 6 degrees of freedom. This robot offers verstaility, precision and user-friendly programing for various industrial applications.  Thank you.")
+                self.speak(f"Hey everyone, meet {str(destination)} designed to work alongside humans in shared workspaces. With a payload capacity of 5 kg, a reach of 850 mm and 6 degrees of freedom. This robot offers versatility, precision and user-friendly programming for various industrial applications.  Thank you.")
             elif str(destination) == "space lab":
-                self.speak(f"TO INFIINITY AND BEYOND!! Hey everyone, meet {str(destination)}, designed and developed in R. M. I. T. University, this facility provides immersive introduction to space weather and it impact to technology. The lab gives students a hands-on experience in analysing and interpreting space weather data. Thank you.")
+                self.speak(f"TO INFINITY AND BEYOND!! Hey everyone, meet {str(destination)}, designed and developed in R. M. I. T. University, this facility provides immersive introduction to space weather and it impact to technology. The lab gives students a hands-on experience in analyzing and interpreting space weather data. Thank you.")
             elif str(destination) == "tiago":
                 self.speak(f"Sit back and enjoy the video!")
             elif str(destination) == "nova sphere":
@@ -220,7 +221,7 @@ class MoveAmcl:
                 subprocess.call(['sh', '/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/shellcom/rosie.sh'])
             elif str(destination) == "race lab" and self._is_waiting_for_command == False:
                 result = self.send_goal(x, y, z, w, client)
-                self.speak(f"With existing supercomputing infrastructure in high demand and complexity hindering the use of cloud services, the RACE Hub will allow researchers to be to access a self-serve portal and very high speed connectivity to meet demand across the organisation and the ability to simulate their supercomputing in a cost effective, accessible platform. By offering pre-configured options with cost estimates in a browsable service catalogue, cloud computing will be simpler and easier for researchers. It will transform collaborative and research opportunities for academic, industry partners.")
+                self.speak(f"With existing supercomputing infrastructure in high demand and complexity hindering the use of cloud services, the RACE Hub will allow researchers to be to access a self-serve portal and very high speed connectivity to meet demand across the organization and the ability to simulate their supercomputing in a cost effective, accessible platform. By offering pre-configured options with cost estimates in a browsable service catalogue, cloud computing will be simpler and easier for researchers. It will transform collaborative and research opportunities for academic, industry partners.")
                 self.speak(f"Lets head back to the lab, I'm going to head to the door, so please watch out")
                 self._is_waiting_for_command == True
                 self.update_nav_state(True)

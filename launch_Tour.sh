@@ -9,6 +9,7 @@ pal-stop move_base
 sudo rm -rf /opt/pal/gallium/share/pal_navigation_cfg_tiago/
 # Copy the new directory
 sudo cp -r /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_navigation_cfg_tiago /opt/pal/gallium/share/
+# TODO: Please change this file to represent the local files stored in this repo. Otherwise if there is an error later Tiago will not have the ability to see object infront
 sudo cp ~/.pal/pal_navigation_cfg_tiago/config/base/common/local_costmap_omni.yaml /opt/pal/gallium/share/pal_navigation_cfg_tiago/config/base/common/local_costmap.yaml
 sudo cp ~/.pal/pal_navigation_cfg_tiago/config/base/common/local_costmap_plugins_omni.yaml /opt/pal/gallium/share/pal_navigation_cfg_tiago/config/base/common/local_costmap_plugins.yaml 
 sudo cp ~/.pal/pal_navigation_cfg_tiago/config/base/common/local_costmap_omni.yaml /opt/pal/gallium/share/pal_navigation_cfg_tiago/config/base/common/local_costmap_omni.yaml
