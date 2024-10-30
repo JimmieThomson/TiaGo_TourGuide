@@ -6,7 +6,7 @@
   <arg name="rate"               default="5"/>    <!-- Rate at which the node will look for faces and publish -->
   <arg name="image_topic"        default="/xtion/rgb/image_raw"/>
 
-  <!-- Makes Tiago look at you! please note that this can kill Tiago is a person moves to fast. USE WITH CAUSION!!!! -->
+  <!-- Makes Tiago look at you! please note that this can kill Tiago if a person moves too fast. USE WITH CAUTION!!!! -->
   <node name="pal_face" pkg="pal_face_detector_opencv" type="pal_face_detector_opencv" args="$(arg verbose_publishing) $(arg rate)" output="screen">
     <remap from="/pal_face/image" to="$(arg image_topic)"/>
     <rosparam>
