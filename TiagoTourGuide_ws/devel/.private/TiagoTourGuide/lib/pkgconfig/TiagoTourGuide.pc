@@ -1,4 +1,4 @@
-prefix=/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide
+prefix=/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide
 
 Name: TiagoTourGuide
 Description: Description of TiagoTourGuide

@@ -1,0 +1,33 @@
+dlo: # Direct Laser Odometry
+  enable_publish_odom_tf: true # enable/disable broadcast the odom to base tf
+  min_cloud_quality: 0.05 # minimum quality to be taken into account
+  kf: # KeyFraming
+    distance: 2.0 # distance at which to try to take a keyframe
+    rotation: 1.0 # rotation at which to try to take a keyframe
+    num_candidates: 5 # number of key frames candidates
+    quality_discount_by_distance: 0.8 # maximum discound applied to the keyframe quality based on distance
+  tdf: # Truncate Distance Field
+    size: 20.0 # tdf height and width
+    resolution: 0.02 # tdf resolution
+  mf: # Motion Filter
+    enable: true # enable/disable motion filter
+    min_motion: 0.001 # minimum distance to consider movement
+  solver: # Solver
+    max_iterations: 50 # maximum iterations used by solver
+    max_threads: 1 # maximum number of thread used by solver
+sqe: # Scan Quality Estimator
+  weights: # weights for quality estimation
+    corners: 0.5
+    lines: 0.4
+    unclassified: 0.1
+  distance_discount: 0.9 # distance discount for quality estimation
+  feature_extractor: # Feature Extractor
+    alpha: 0.07 # coordinate interception of the maximum range increment
+    beta: 0.04 # slope of the maximum range increment
+    line: # line characterisation
+      min_points: 5
+      min_lenght: 0.05
+      max_distance: 0.05
+    corner: # corner characterisation
+      max_distance: 0.5
+      max_angle_corner: 0.78539816339 # pi/4 rads

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel
+CMAKE_SOURCE_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv
+CMAKE_BINARY_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

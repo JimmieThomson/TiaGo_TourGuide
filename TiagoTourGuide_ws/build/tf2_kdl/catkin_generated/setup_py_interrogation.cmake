@@ -1,7 +1,0 @@
-set(tf2_kdl_SETUP_PY_SETUP_MODULE "setuptools")
-set(tf2_kdl_SETUP_PY_VERSION "0.7.7")
-set(tf2_kdl_SETUP_PY_SCRIPTS "")
-set(tf2_kdl_SETUP_PY_PACKAGES "tf2_kdl")
-set(tf2_kdl_SETUP_PY_PACKAGE_DIRS "src/tf2_kdl")
-set(tf2_kdl_SETUP_PY_MODULES "")
-set(tf2_kdl_SETUP_PY_MODULE_DIRS "")

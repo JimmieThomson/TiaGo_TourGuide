@@ -1,0 +1,6 @@
+robot: tiago
+
+mapping: karto
+
+localization: amcl
+

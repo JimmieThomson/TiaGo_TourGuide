@@ -1,3 +1,0 @@
-setup.py
-src/tf2_geometry_msgs/__init__.py
-src/tf2_geometry_msgs/tf2_geometry_msgs.py

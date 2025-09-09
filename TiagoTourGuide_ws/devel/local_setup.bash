@@ -1,1 +1,1 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/catkin_tools_prebuild/local_setup.bash
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/catkin_tools_prebuild/local_setup.bash

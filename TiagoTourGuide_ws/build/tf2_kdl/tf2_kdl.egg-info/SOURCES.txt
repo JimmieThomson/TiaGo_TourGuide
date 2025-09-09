@@ -1,3 +1,0 @@
-setup.py
-src/tf2_kdl/__init__.py
-src/tf2_kdl/tf2_kdl.py

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/setup.sh
+    local-name: /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_face_detector_opencv/setup.sh

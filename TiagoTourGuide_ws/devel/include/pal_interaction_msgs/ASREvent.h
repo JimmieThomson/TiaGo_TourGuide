@@ -1,1 +1,1 @@
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/include/pal_interaction_msgs/ASREvent.h
+/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/pal_interaction_msgs/include/pal_interaction_msgs/ASREvent.h

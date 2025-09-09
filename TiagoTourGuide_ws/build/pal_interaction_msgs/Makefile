@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs
+CMAKE_SOURCE_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_interaction_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs
+CMAKE_BINARY_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_interaction_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

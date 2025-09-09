@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel
+CMAKE_SOURCE_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv
+CMAKE_BINARY_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_op
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel /TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv-hydro-devel /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/pal_face_detector_opencv/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 
