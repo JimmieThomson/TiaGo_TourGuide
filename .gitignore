@@ -1,0 +1,21 @@
+TiagoTourGuide_ws/build/
+TiagoTourGuide_ws/devel/
+TiagoTourGuide_ws/install/
+TiagoTourGuide_ws/logs/
+TiagoTourGuide_ws/.catkin_tools/
+# Python
+*.py[cod]
+__pycache__/
+*.so
+# ROS/catkin
+.catkin_workspace
+.catkin_tools/
+build/
+devel/
+install/
+logs/
+# VS Code
+.vscode/
+# OS
+.DS_Store
+Thumbs.db

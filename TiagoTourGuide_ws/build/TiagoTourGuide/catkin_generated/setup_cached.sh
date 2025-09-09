@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide:$CMAKE_PREFIX_PATH"
-export PWD='/TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide'
-export ROSLISP_PACKAGE_DIRECTORIES="/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide:$CMAKE_PREFIX_PATH"
+export PWD='/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/TiagoTourGuide/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide:$ROS_PACKAGE_PATH"

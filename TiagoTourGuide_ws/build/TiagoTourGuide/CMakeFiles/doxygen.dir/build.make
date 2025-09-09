@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide
+CMAKE_SOURCE_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide
+CMAKE_BINARY_DIR = /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide /TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide /TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide /TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide /TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/src/TiagoTourGuide /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide /home/pal/TiaGo_TourGuide/TiagoTourGuide_ws/build/TiagoTourGuide/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

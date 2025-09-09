@@ -1,2 +1,0 @@
-geometry2-noetic-devel/geometry2
-/TiaGo_TourGuide/TiagoTourGuide_ws/devel/.private/geometry2/cmake.lock /TiaGo_TourGuide/TiagoTourGuide_ws/devel/./cmake.lock
